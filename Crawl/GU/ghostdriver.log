@@ -1,0 +1,17 @@
+[INFO  - 2018-08-01T12:14:30.084Z] GhostDriver - Main - running on port 58770
+[INFO  - 2018-08-01T12:14:30.914Z] Session [719c71e0-9584-11e8-b4e1-8dbbc29ee935] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-08-01T12:14:30.914Z] Session [719c71e0-9584-11e8-b4e1-8dbbc29ee935] - page.customHeaders:  - {}
+[INFO  - 2018-08-01T12:14:30.914Z] Session [719c71e0-9584-11e8-b4e1-8dbbc29ee935] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-08-01T12:14:30.914Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 719c71e0-9584-11e8-b4e1-8dbbc29ee935
+[ERROR - 2018-08-01T12:14:35.464Z] Session [719c71e0-9584-11e8-b4e1-8dbbc29ee935] - page.onError - msg: TypeError: undefined is not an object (evaluating '$('#lookbookArea').offset().top')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-08-01T12:14:35.465Z] Session [719c71e0-9584-11e8-b4e1-8dbbc29ee935] - page.onError - stack:
+  lookbookLazyload (http://www.gu-global.com/tw/store/feature/material_gu/common/js/lookbook.js:422)
+  (anonymous function) (http://www.gu-global.com/tw/store/feature/material_gu/common/js/lookbook.js:243)
+  dispatch (http://www.gu-global.com/tw/store/feature/material_gu/common/js/jquery-1.11.3.min.js:4)
+  handle (http://www.gu-global.com/tw/store/feature/material_gu/common/js/jquery-1.11.3.min.js:4)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-08-01T12:19:30.900Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-08-01T12:19:30.902Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '719c71e0-9584-11e8-b4e1-8dbbc29ee935', because windowless
