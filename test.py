@@ -3,7 +3,7 @@ import MySQLdb
 
 SQLdb_id = 'root'
 SQLdb_pwd = 'aj851226'
-db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'CLOTHES_PRICE_COMPARE', charset='utf8' )
+db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
 cursor = db.cursor()
 
 gender = 'male'
