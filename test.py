@@ -1,8 +1,8 @@
 # coding=utf-8
 import MySQLdb
 
-SQLdb_id = 'python_crawl'
-SQLdb_pwd = 'U8teriWxe0ozp0rf'
+SQLdb_id = 'root'
+SQLdb_pwd = 'aj851226'
 db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'CLOTHES_PRICE_COMPARE', charset='utf8' )
 cursor = db.cursor()
 
