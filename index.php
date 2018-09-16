@@ -222,9 +222,9 @@
 
   }
   else {
-    $select =$connect -> prepare("SELECT  sex,  category  , brand,item_name, original_price,sale_price,link,photo
-        FROM test1 WHERE
-        sex Like '{$_GET["keywords"]}%' or
+    $select =$connect -> prepare("SELECT  gender,  category  , brand,item_name, original_price,sale_price,link,photo
+        FROM product WHERE
+        gender Like '{$_GET["keywords"]}%' or
         category Like '%{$_GET["keywords"]}%' or item_name Like '%{$_GET["keywords"]}%'
         or brand  Like '%{$_GET["keywords"]}%'");
     $select -> execute();

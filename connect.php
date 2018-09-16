@@ -2,9 +2,9 @@
 $link = array (
                 'host' => "127.0.0.1",
                 'port' =>"3306",
-                'account' =>"jerry",
+                'account' =>"root",
                 'password' =>"aj851226",
-                'dbname' =>"database"
+                'dbname' =>"clothespricecompare"
 );
 $dbconnect='mysql:host='.$link['host'].';port='.$link['port'].
     ';dbname='.$link['dbname'].';charset=utf8';
