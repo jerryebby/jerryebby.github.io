@@ -321,7 +321,7 @@ if($result["sale_price"]==0)
 <br>
 <span>
 <?php echo $result["sale_price"]==0?NULL :$result["sale_price"]; ?>
-</sapn>
+</span>
     <?}
 ?>
                   
