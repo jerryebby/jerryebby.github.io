@@ -4,7 +4,7 @@ $link = array (
                 'port' =>"3306",
                 'account' =>"root",
                 'password' =>"aj851226",
-                'dbname' =>"clothespricecompare"
+                'dbname' =>"CLOTHES_PRICE_COMPARE"
 );
 $dbconnect='mysql:host='.$link['host'].';port='.$link['port'].
     ';dbname='.$link['dbname'].';charset=utf8';
