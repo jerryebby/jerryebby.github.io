@@ -298,7 +298,7 @@ if((($count-3)<=0)&&($count%3>0))
                             <a  href=<?php echo $result["link"]; ?>>
               <img class="card-img-top" src=<?php echo $result["photo"]; ?> alt="Card image cap">
             </a>
-                           <div class="card-body" align="center" >
+                           <div class="card-body"  >
                 <h5 class="card-title"></h5>
                 <p class="card-text" >
                   <?php echo $result["item_name"]; ?>
@@ -311,9 +311,11 @@ if($result["sale_price"]==0)
     <span >
     <?php echo $result["original_price"]; ?>
   </span> 
-<?}
+  <?php
+}
  else
-    {?>
+    {
+        ?>
 <span style="text-decoration:line-through;">
 <?php echo $result["original_price"]; ?>
 </span>
@@ -322,7 +324,8 @@ if($result["sale_price"]==0)
 <span>
 <?php echo $result["sale_price"]==0?NULL :$result["sale_price"]; ?>
 </span>
-    <?}
+<?php
+    }
 ?>
                   
 
