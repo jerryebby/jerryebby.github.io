@@ -15,7 +15,7 @@ sale_price = 3
 link = 'https://www.lativ.com.tw/Detail/34930041'
 photo = 'https://s1.lativ.com.tw/i/34930/34930_D_21_n.jpg'
 
-sql = ("INSERT INTO `PRODUCT`(`gender`, `category`, `brand`, `product_name`, `original_price`, `sale_price`, `link`, `photo`) VALUES ('%s', '%s', '%s', '%s', %f, %f, '%s', '%s')" % (gender,category,brand,product_name,original_price,sale_price,link,photo))
+sql = ("INSERT INTO `product`(`gender`, `category`, `brand`, `product_name`, `original_price`, `sale_price`, `link`, `photo`) VALUES ('%s', '%s', '%s', '%s', %f, %f, '%s', '%s')" % (gender,category,brand,product_name,original_price,sale_price,link,photo))
 cursor.execute(sql)
 db.commit()
 db.close()
