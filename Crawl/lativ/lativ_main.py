@@ -58,7 +58,7 @@ def insertToDB(data_list):
 	for index in data_list:
 		sql = ("INSERT INTO `PRODUCT`(`brand`, `product_name`, `original_price`, `sale_price`, `link`, `photo`)\
 		 VALUES ('%s', '%s', %f, %f, '%s', '%s')" % \
-		(index.brand, index.product_name, index.original_price, index.sale_price, index.link,photo))
+		(index.brand, index.product_name, index.original_price, index.sale_price, index.link, index.photo))
 		cursor.execute(sql)
 		db.commit()
 	db.close()
