@@ -36,7 +36,7 @@ def lativ_categorySearch(url):
 		id = t['name']
 		if id not in id_list:
 			id_list.append(id)
-			link = t.find('a')['href']
+			link = 'https://www.lativ.com.tw/' + t.find('a')['href']
 			photo = t.find('img')['data-prodpic']
 			product_name = t.find('div', class_='productname').text.strip()
 			sale = t.find('span', class_='activities')
@@ -60,7 +60,7 @@ def insertToDB(data_list):
 		 VALUES ('%s', '%s', %f, %f, '%s', '%s')" % \
 		(index.brand, index.product_name, index.original_price, index.sale_price, index.link, index.photo))
 		cursor.execute(sql)
-		db.commit()
+	db.commit()
 	db.close()
 
 
