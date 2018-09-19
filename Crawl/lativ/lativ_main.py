@@ -16,7 +16,7 @@ def lativ_hrefSearch(url):
 
 def lativ_categorySearch(url):
 	product_data = namedtuple('product_data',['gender','category','brand','product_name','original_price','sale_price','link','photo'])
-	driver = webdriver.PhantomJS(executable_path='/Users/1anmiao/Downloads/phantomjs-2.1.1-macosx/bin/phantomjs')
+	driver = webdriver.PhantomJS(executable_path='/home/clothespricecompare/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
 	wholeUrl = 'https://www.lativ.com.tw/' + url
 	driver.get(wholeUrl)
 	pageSource = driver.page_source
