@@ -16,7 +16,7 @@ def lativ_hrefSearch(url):
 
 def lativ_categorySearch(url):
 	product_data = namedtuple('product_data',['gender','category','brand','product_name','original_price','sale_price','link','photo'])
-	driver = webdriver.PhantomJS(executable_path='/home/clothespricecompare/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
+	driver = webdriver.PhantomJS(executable_path='/Users/1anmiao/Downloads/phantomjs-2.1.1-macosx/bin/phantomjs')
 	wholeUrl = 'https://www.lativ.com.tw/' + url
 	driver.get(wholeUrl)
 	pageSource = driver.page_source
@@ -47,7 +47,7 @@ def lativ_categorySearch(url):
 			else:
 				original_price = int(t.find('span', class_='currency symbol').text)
 				sale_price = -1
-			data_list.append(product_data(NULL, NULL, 'lativ', product_name, original_price, sale_price, link, photo))
+			data_list.append(product_data(, , 'lativ', product_name, original_price, sale_price, link, photo))
 	insertToDB(data_list)
 
 def insertToDB(data_list):
@@ -56,9 +56,9 @@ def insertToDB(data_list):
 	db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
 	cursor = db.cursor()
 	for index in data_list:
-		sql = ("INSERT INTO `PRODUCT`(`gender`, `category`, `brand`, `product_name`, `original_price`, `sale_price`, `link`, `photo`)\
-		 VALUES ('%s', '%s', '%s', '%s', %f, %f, '%s', '%s')" % \
-		(index.gender, index.category, index.brand, index.product_name, index.original_price, index.sale_price, index.link,photo))
+		sql = ("INSERT INTO `PRODUCT`(`brand`, `product_name`, `original_price`, `sale_price`, `link`, `photo`)\
+		 VALUES ('%s', '%s', %f, %f, '%s', '%s')" % \
+		(index.brand, index.product_name, index.original_price, index.sale_price, index.link,photo))
 		cursor.execute(sql)
 		db.commit()
 	db.close()
