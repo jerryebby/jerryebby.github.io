@@ -28,4 +28,3 @@ for index in data_list:
 	(index.brand, index.product_name, index.original_price, index.sale_price, index.link, index.photo))
 	cursor.execute(sql)
 	db.commit()
-db.close()
