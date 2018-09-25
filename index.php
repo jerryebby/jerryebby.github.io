@@ -9,16 +9,33 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css
 " integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel=stylesheet href="alink.css" type="text/css">
 
     <title>衣比呀,衣服比價網</title>
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container" style="display:flow-root;">
+                      <?php
+  require_once "connect.php";
 
-            <a class="navbar-brand" href="index.html">衣比呀</a>
+
+  if(!isset($_GET["keywords"]))
+  {
+    echo "Search失敗!";
+
+  }
+  else {
+    $select =$connect -> prepare("SELECT  GENDER,  CATEGORY  , BRAND,PRODUCT_NAME, ORIGINAL_PRICE,SALE_PRICE,LINK,PHOTO
+        FROM PRODUCT WHERE
+        GENDER Like '{$_GET["keywords"]}%' or
+        CATEGORY Like '%{$_GET["keywords"]}%' or PRODUCT_NAME Like '%{$_GET["keywords"]}%'
+        or BRAND  Like '%{$_GET["keywords"]}%'");
+    $select -> execute();
+    $count = $select->rowCount();
+   }?>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:＃fffff;">
+
+            <a class="navbar-brand" href="index.php">衣比呀</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon" ></span>
   </button>
@@ -46,7 +63,7 @@
                                     <div class="dropdown-divider"></div>
                                     <div class="card items" style="border:0; ">
                                         <ul class="list-group list-group-flush">
-                                            <a class="dropdown-item" href="#">短Ｔ</a>
+                                            <a class="dropdown-item" href="http://localhost/index.php?keywords=shirt">短Ｔ</a>
                                             <a class="dropdown-item" href="#">短袖/背心</a>
                                             <a class="dropdown-item" href="#">七分/長袖</a>
                                             <a class="dropdown-item" href="#">POLO衫</a>
@@ -95,7 +112,7 @@
                         </li>
                 </ul>
                 <div class="col">
-                    <form class="form-inline my-2 my-lg-0" Action="index.php" Method="Get" enctype="text/plain" style="float:right;">
+                    <form class="form-inline " Action="index.php" Method="Get" enctype="text/plain" style="float:right;">
                         <div class="row-sm-12">
                             <div class="col" style="margin-left: 15%;">
                                 <Input Type="text" class="col-sm-9" name="keywords" style="display: inline-block; height: 40px; overflow: auto;">
@@ -115,7 +132,7 @@
         <div class="row">
            
            <div class="col-sm-3">
-           
+           <!--
                 <div style="margin-top: 35%;"><span>進階搜尋</span></div>
                 <form style="background-color:darkgray; padding: 20px; overflow: auto; background-color: white; border-style:double;
 ">
@@ -198,11 +215,11 @@
                     <button type="submit" class="btn" style="float:right; border:1px solid;">確定</button>
                 </form>
 
-
+-->
             </div>
             
             <div class="col-sm-9">
-
+<!--
                 <form Action="index.php" Method="Get" enctype="text/plain">
                     <div class="row-sm-12">
                         <div class="col" style="margin-left: 15%;">
@@ -211,32 +228,18 @@
                         </div>
                     </div>
                 </form>
-                  <?php
-  ini_set("display_errors","On");
-  require_once "connect.php";
-
-
-  if(!isset($_GET["keywords"]))
-  {
-    echo "Search失敗!";
-
-  }
-  else {
-    $select =$connect -> prepare("SELECT  GENDER,  CAREGORY  , BRAND,PRODUCT_NAME, ORIGINAL_PRICE,SALE_PRICE,LINK,PHOTO
-        FROM PRODUCT WHERE
-        GENDER Like '{$_GET["keywords"]}%' or
-        CATEGORY Like '%{$_GET["keywords"]}%' or PRODUCT_NAME Like '%{$_GET["keywords"]}%'
-        or BRAND  Like '%{$_GET["keywords"]}%'");
-    $select -> execute();
-    $count = $select->rowCount();
-?>
-                <div class="row" style="margin-left: 15%; ">
-                    <div class="col" style="padding-top:30px; padding-bottom: 20px; ">
-                        <nav aria-label="breadcrumb" >
-                            <ol class="breadcrumb" style="background-color:white;">
-                                <li class=" active" aria-current="page">
+-->  
+<div class="row-sm-12" >
+    <nav  aria-label="breadcrumb " >
+  <ol class="breadcrumb col-sm-6" style="float:left; background-color:white; font-size:16px;" >
+    <li class="breadcrumb-item"><a href="index.php" style="color:black; text-decoration:none;">衣比呀</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><?php $_GET["keywords"]==NULL?:$_GET["keywords"] ?></li>
+  </ol>
+  
+  <ol class="breadcrumb col-sm-3" style="float:right; background-color:white;">
+                                <li class=" active" aria-current="page" style="vertical-align:bottom;">
 <?php
-if($count!=0)
+if($count!=0 && $_GET["keywords"]!=NULL)
 {?>
   <span>搜尋商品
   共 <?php echo $count; ?>
@@ -249,32 +252,32 @@ else {
    ?>
                                 </li>
                             </ol>
-                        </nav>
+</nav>
+            
+</div>
+      
+       <div style="clear:both"></div>
 
-                    </div>
-          
-                    <div class="row" style="margin-top: 10px;">
-                                  <div class="col">
+    <div class="form-group " style="float:right; margin-right:5%;">
 
-                    </div>
-                                                          <div class="col">
-                            <label for="exampleFormControlSelect1">排序：</label>
+    <select class="form-control" id="exampleFormControlSelect1" style="width: 150px; margin:0px auto;
 
-                         <div class="form-group">
-    <select class="form-control" id="exampleFormControlSelect1" style="width: 150px;">
+">
       <option>相關度</option>
       <option>價格由低至高</option>
       <option>價格由高至低</option>
 
     </select>
   </div>
-              
+                
+    <div style="clear:both"></div>
 
-                          </div>
-       
+                     
+                        
+                
+                
+                
 
-
-                </div>
 <div class="jumbotron" style="background-color:white;">
 
 <!--page-->
@@ -294,35 +297,39 @@ if((($count-3)<=0)&&($count%3>0))
     $i--;
     $result = $select->fetch();
     ?>
-                <div class="card" style="border-style:none;">
-                            <a  href=<?php echo $result["link"]; ?>>
-              <img class="card-img-top" src=<?php echo $result["photo"]; ?> alt="Card image cap">
+                <div class="card" >
+                            <a  href=<?php echo $result["LINK"]; ?>>
+              <img class="card-img-top" src=<?php echo $result["PHOTO"]; ?> alt="Card image cap" style="    max-width: 100%;
+    height: auto;">
             </a>
                            <div class="card-body"  >
-                <h5 class="card-title"></h5>
-                <p class="card-text" >
-                  <?php echo $result["item_name"]; ?>
+                <h5 class="card-title" style="font-size:14px; position:relative;">
+                    <?php echo $result["BRAND"]==NULL? :$result["BRAND"];?>
+                </h5>
+                <hr style="padding:0;">
+                <p class="card-text" style="font-size: 16px;">
+                  <?php echo $result["PRODUCT_NAME"]; ?>
                 </p>
-                <p class="card-text">
-                 <small class="text-muted">
+                <p class="card-text" align="right" style="font-style:italic;">
+                 <small class="text-muted" >
 <?php
-if($result["sale_price"]==0)
+if($result["SALE_PRICE"]==0)
 {?>
     <span >
-    <?php echo $result["original_price"]; ?>
+    <?php echo '$'.$result["ORIGINAL_PRICE"]; ?>
   </span> 
   <?php
 }
  else
     {
         ?>
-<span style="text-decoration:line-through;">
-<?php echo $result["original_price"]; ?>
+<span style="text-decoration:line-through;" >
+<?php echo '$'.$result["ORIGINAL_PRICE"]; ?>
 </span>
 
-<br>
-<span>
-<?php echo $result["sale_price"]==0?NULL :$result["sale_price"]; ?>
+
+<span style="font-size:18px;">
+<?php echo $result["SALE_PRICE"]==0?NULL :'$'.$result["SALE_PRICE"]; ?>
 </span>
 <?php
     }
@@ -350,15 +357,14 @@ if($result["sale_price"]==0)
 }
   ?>
 </div>
-<?php  }?>
 
 
 
-            </div>
+
         </div>
     </div>
 
-
+            </div>
 
 
 
