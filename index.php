@@ -25,11 +25,11 @@
 
   }
   else {
-    $select =$connect -> prepare("SELECT  GENDER,  CATEGORY  , BRAND,PRODUCT_NAME, ORIGINAL_PRICE,SALE_PRICE,LINK,PHOTO
+    $select =$connect -> prepare("SELECT  gender,  category  , brand,product_name, original_price,sale_price,link,photo
         FROM PRODUCT WHERE
-        GENDER Like '{$_GET["keywords"]}%' or
-        CATEGORY Like '%{$_GET["keywords"]}%' or PRODUCT_NAME Like '%{$_GET["keywords"]}%'
-        or BRAND  Like '%{$_GET["keywords"]}%'");
+        gender Like '{$_GET["keywords"]}%' or
+        category Like '%{$_GET["keywords"]}%' or product_name Like '%{$_GET["keywords"]}%'
+        or brand  Like '%{$_GET["keywords"]}%'");
     $select -> execute();
     $count = $select->rowCount();
    }?>
@@ -298,25 +298,25 @@ if((($count-3)<=0)&&($count%3>0))
     $result = $select->fetch();
     ?>
                 <div class="card" >
-                            <a  href=<?php echo $result["LINK"]; ?>>
-              <img class="card-img-top" src=<?php echo $result["PHOTO"]; ?> alt="Card image cap" style="    max-width: 100%;
+                            <a  href=<?php echo $result["link"]; ?>>
+              <img class="card-img-top" src=<?php echo $result["photo"]; ?> alt="Card image cap" style="    max-width: 100%;
     height: auto;">
             </a>
                            <div class="card-body"  >
                 <h5 class="card-title" style="font-size:14px; position:relative;">
-                    <?php echo $result["BRAND"]==NULL? :$result["BRAND"];?>
+                    <?php echo $result["brand"]==NULL? :$result["brand"];?>
                 </h5>
                 <hr style="padding:0;">
                 <p class="card-text" style="font-size: 16px;">
-                  <?php echo $result["PRODUCT_NAME"]; ?>
+                  <?php echo $result["product_name"]; ?>
                 </p>
                 <p class="card-text" align="right" style="font-style:italic;">
                  <small class="text-muted" >
 <?php
-if($result["SALE_PRICE"]==0)
+if($result["sale_price"]==0)
 {?>
     <span >
-    <?php echo '$'.$result["ORIGINAL_PRICE"]; ?>
+    <?php echo '$'.$result["original_price"]; ?>
   </span> 
   <?php
 }
@@ -324,12 +324,12 @@ if($result["SALE_PRICE"]==0)
     {
         ?>
 <span style="text-decoration:line-through;" >
-<?php echo '$'.$result["ORIGINAL_PRICE"]; ?>
+<?php echo '$'.$result["original_price"]; ?>
 </span>
 
 
 <span style="font-size:18px;">
-<?php echo $result["SALE_PRICE"]==0?NULL :'$'.$result["SALE_PRICE"]; ?>
+<?php echo $result["sale_price"]==0?NULL :'$'.$result["sale_price"]; ?>
 </span>
 <?php
     }
