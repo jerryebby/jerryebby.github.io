@@ -50,10 +50,7 @@ def lativ_categorySearch(url, gender):
 				original_price = int(t.find('span', class_='currency symbol').text)
 				sale_price = -1
 			data_list.append(product_data(gender, 'lativ', product_name, original_price, sale_price, link, photo))
-	for index in data_list:
-		print(type(index.gender))
-		print(index.gender)
-	#insertToDB(data_list)
+	insertToDB(data_list)
 
 def insertToDB(data_list):
 	SQLdb_id = 'python_crawl'
