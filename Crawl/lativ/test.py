@@ -53,19 +53,19 @@ def lativ_categorySearch(url, gender):
 	insertToDB(data_list)
 
 def insertToDB(data_list):
-	for index in data_list:
-		print(type(index.gender))
-		print(index.gender)
 	"""
 	SQLdb_id = 'python_crawl'
 	SQLdb_pwd = 'U8teriWxe0ozp0rf'
 	db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
 	cursor = db.cursor()
+	"""
 	for index in data_list:
 		sql = ("INSERT INTO `PRODUCT`(`gender`, `brand`, `product_name`, `original_price`, `sale_price`, `link`, `photo`)\
 		 VALUES ('%s', '%s', '%s', %f, %f, '%s', '%s')" % \
 		(index.gender, index.brand, index.product_name, index.original_price, index.sale_price, index.link, index.photo))
-		cursor.execute(sql)
+		print(sql)
+		#cursor.execute(sql)
+	"""
 	db.commit()
 	db.close()
 	"""

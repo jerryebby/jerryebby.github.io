@@ -17,18 +17,21 @@ def lativ_hrefSearch(url):
 def lativ_categorySearch(url, gender):
 	if gender == 'BABY':
 		gender = 'KIDS'
+	elif gender == 'SPORTS':
+		if url.find('SPORT_WOMEN') != -1:
+			gender = 'WOMEN'
+		elif url.find('SPORT_MEN') != -1:
+			gender = 'MEN'
+		elif url.find('SPORT_KIDS') != -1:
+			gender = 'KIDS'
+		else:
+			gender = ''
 	product_data = namedtuple('product_data',['gender','brand','product_name','original_price','sale_price','link','photo'])
 	driver = webdriver.PhantomJS(executable_path='/home/clothespricecompare/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
 	wholeUrl = 'https://www.lativ.com.tw/' + url
 	driver.get(wholeUrl)
 	pageSource = driver.page_source
 	driver.close()
-	"""
-	fileName = 'HTML/laitv' + url.replace('/', '_') + '.html'
-	file = open(fileName, "w")
-	file.write(pageSource.encode('utf8'))
-	file.close()
-	"""
 	fileName = 'TXT/lativ' + url.replace('/', '_') + '.txt'
 	soup = BeautifulSoup(pageSource, 'lxml')
 	tmp = soup.find_all(class_=re.compile('product-info'))
