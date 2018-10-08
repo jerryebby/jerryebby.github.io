@@ -151,7 +151,7 @@ def getCategoryByPName(product_name):
 		return category('UPPER', 'SHORT_SLEEVES')
 	elif '褲' in product_name: 
 		return category('BOTTOM', 'TROUSERS')
-	else return category('OTHER', '')
+	else: return category('OTHER', '')
 	
 	
 def insertToDB(data_list):
