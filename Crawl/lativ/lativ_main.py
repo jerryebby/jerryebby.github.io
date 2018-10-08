@@ -161,7 +161,7 @@ def insertToDB(data_list):
 	cursor = db.cursor()
 	for index in data_list:
 		sql = ("INSERT INTO `PRODUCT`(`gender`, `primary_category`, `minor_category`, `brand`, `product_name`, `original_price`, `sale_price`, `link`, `photo`)\
-		 VALUES ('%s', '%s', '%s', '%s', %f, %f, '%s', '%s')" % \
+		 VALUES ('%s', '%s', '%s', '%s', '%s', %f, %f, '%s', '%s')" % \
 		(index.gender, index.category.primary, index.category.minor, index.brand, index.product_name, index.original_price, index.sale_price, index.link, index.photo))
 		cursor.execute(sql)
 		print(sql)
