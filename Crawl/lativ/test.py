@@ -29,7 +29,6 @@ def lativ_categorySearch(url, gender):
 	file.write(pageSource.encode('utf8'))
 	file.close()
 	"""
-	fileName = 'TXT/lativ' + url.replace('/', '_') + '.txt'
 	soup = BeautifulSoup(pageSource, 'lxml')
 	tmp = soup.find_all(class_=re.compile('product-info'))
 	id_list = []
@@ -51,6 +50,8 @@ def lativ_categorySearch(url, gender):
 				sale_price = -1
 			data_list.append(product_data(gender, 'lativ', product_name, original_price, sale_price, link, photo))
 	insertToDB(data_list)
+
+def gender_adjust()
 
 def insertToDB(data_list):
 	"""
