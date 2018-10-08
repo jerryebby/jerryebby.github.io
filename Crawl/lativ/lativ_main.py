@@ -93,7 +93,7 @@ def getCategory(url, product_name):
 				else: 
 					return ret
 			elif '/POLO' in url:
-				if '長袖' in product_name:
+				if u'長袖' in product_name:
 					return category('UPPER', 'LONG_SLEEVES')
 				else:
 					return category('UPPER', 'SHORT_SLEEVES')
