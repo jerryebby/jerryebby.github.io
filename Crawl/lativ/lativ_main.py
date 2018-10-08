@@ -12,15 +12,15 @@ def lativ_hrefSearch(url):
 	soup = BeautifulSoup(res.text, 'lxml')
 	tmp = soup.select('ul[class="sale_category"] a')
 	for t in tmp:
-		lativ_categorySearch(t.get('href'), url)
+		lativ_categorySearch(t.get('href'))
 
-def lativ_categorySearch(url, gender):
+def lativ_categorySearch(url):
 	banned_list = ['/sweatshirt', '/FLEECE', '/pima', '/Chiffon', '/COOL', '/Heatup', '/heatup', '/room-wear']
 	url = 'https://www.lativ.com.tw/' + url
 	for i in banned_list:
 		if i in url:
 			return
-	gender = getGender(url, gender)
+	gender = getGender(url)
 	product_data = namedtuple('product_data',['gender','category','brand','product_name','original_price','sale_price','link','photo'])
 	driver = webdriver.PhantomJS(executable_path='/home/clothespricecompare/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
 	driver.get(url)
@@ -49,18 +49,15 @@ def lativ_categorySearch(url, gender):
 			data_list.append(product_data(gender, category, 'lativ', product_name, original_price, sale_price, link, photo))
 	insertToDB(data_list)
 
-def getGender(url, gender):
-	if gender == 'BABY':
+def getGender(url):
+	if '/BABY/' in url or '/KIDS/' in url or '/SPORT_KIDS/' in url:
 		return 'KIDS'
-	elif gender == 'SPORTS':
-		if '/SPORT_WOMEN/' in url:
-			return 'WOMEN'
-		elif '/SPORT_MEN/' in url:
-			return 'MEN'
-		elif '/SPORT_KIDS/' in url:
-			return 'KIDS'
-		else:
-			return ''
+	elif '/WOMEN/' in url or '/SPORT_WOMEN/' in url:
+		return 'WOMEN'
+	elif '/MEN/' in url or '/SPORT_MEN/' in url:
+		return 'MEN'
+	else: 
+		return ''
 
 """
 上衣 UPPER
@@ -107,7 +104,8 @@ def getCategory(url, product_name):
 			ret = getCategoryByPName(product_name)
 			if ret == category('OTHER', ''):
 				return category('UPPER', 'LONG_SLEEVES')
-			else: return ret
+			else: 
+				return ret
 		elif '/Coat_category/' in url:
 			return category('UPPER', 'OUTERWEAR')
 		elif '/bottoms/' in url:
@@ -119,7 +117,8 @@ def getCategory(url, product_name):
 				return category('BOTTOM', 'SHORTS')
 			elif '/Skirt' in url or '/Dress' in url:
 				return category('BOTTOM', 'SKIRT')
-			else: return category('BOTTOM', '')
+			else: 
+				return category('BOTTOM', '')
 		elif '/underwear/' in url:
 			if '/brassiere' in url or '/T-Bra' in url or '/T-Bra' in url or '/inner-wear' in url:
 				return category('OTHER', 'UNDERWEAR')
@@ -139,19 +138,20 @@ def getCategory(url, product_name):
 
 def getCategoryByPName(product_name):
 	category = namedtuple('category',['primary','minor'])
-	if '外套' in product_name:
+	if u'外套' in product_name:
 		return category('UPPER', 'OUTERWEAR')
-	elif '襯衫' in product_name:
+	elif u'襯衫' in product_name:
 		return category('UPPER', 'SHIRT')
-	elif '裙' in product_name or '洋裝' in product_name:
+	elif u'裙' in product_name or u'洋裝' in product_name:
 		return category('BOTTOM', 'SKIRT')
-	elif '短褲' in product_name:
+	elif u'短褲' in product_name:
 		return category('BOTTOM', 'SHORTS')
-	elif '背心' in product_name or '短袖' in product_name:
+	elif u'背心' in product_name or u'短袖' in product_name:
 		return category('UPPER', 'SHORT_SLEEVES')
-	elif '褲' in product_name: 
+	elif u'褲' in product_name: 
 		return category('BOTTOM', 'TROUSERS')
-	else: return category('OTHER', '')
+	else: 
+		return category('OTHER', '')
 	
 	
 def insertToDB(data_list):
