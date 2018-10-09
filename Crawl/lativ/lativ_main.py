@@ -126,7 +126,7 @@ def getCategory(url, product_name):
 		# 家居、內著
 		elif '/underwear/' in url:
 			if '/brassiere' in url or '/T-Bra' in url or '/T-Bra' in url or '/inner-wear' in url \
-			or '/Girls%20bras' in url:
+			or '/Girls%20bras' in url or '/inner' in url:
 				return category('OTHER', 'UNDERWEAR')
 			elif '/Leggings' in url or '/leggings' in url:
 				return category('BOTTOM', 'TROUSERS')
@@ -134,6 +134,8 @@ def getCategory(url, product_name):
 				return category('OTHER', 'UNDERPANTS')
 			elif '/socks' in url:
 				return category('OTHER', 'ACCESSORIES')
+			else:
+				return category('OTHER', '')
 		# 配件
 		elif '/accessories/' in url:
 			return category('OTHER', 'ACCESSORIES')
