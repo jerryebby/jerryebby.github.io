@@ -15,13 +15,15 @@ def lativ_hrefSearch(url):
 		lativ_categorySearch(t.get('href'))
 
 def lativ_categorySearch(url):
-	banned_list = ['/sweatshirt', '/FLEECE', '/pima', '/Chiffon', '/COOL', '/Heatup', '/heatup', '/room-wear']
+	banned_list = ['/sweatshirt', '/FLEECE', '/pima', '/Chiffon', '/COOL', '/Heatup', '/heatup', \
+	 '/room-wear', '/bodysuit']
 	url = 'https://www.lativ.com.tw/' + url
 	for i in banned_list:
 		if i in url:
 			return
 	gender = getGender(url)
-	product_data = namedtuple('product_data',['gender','category','brand','product_name','original_price','sale_price','link','photo'])
+	product_data = namedtuple('product_data',['gender','category','brand','product_name', \
+	'original_price','sale_price','link','photo'])
 	driver = webdriver.PhantomJS(executable_path='/home/clothespricecompare/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
 	driver.get(url)
 	pageSource = driver.page_source
@@ -46,7 +48,8 @@ def lativ_categorySearch(url):
 			else:
 				original_price = int(t.find('span', class_='currency symbol').text)
 				sale_price = -1
-			data_list.append(product_data(gender, category, 'lativ', product_name, original_price, sale_price, link, photo))
+			data_list.append(product_data(gender, category, 'lativ', product_name, \
+			original_price, sale_price, link, photo))
 	insertToDB(data_list)
 
 def getGender(url):
@@ -80,34 +83,32 @@ def getGender(url):
 
 def getCategory(url, product_name):
 	category = namedtuple('category',['primary','minor'])
-	if '/WOMEN/' in url or '/MEN/' in url or '/KIDS/' in url or '/BABY/' in url:
+	# women, men, kids
+	if '/WOMEN/' in url or '/MEN/' in url or '/KIDS/' in url:
+		# 上身
 		if '/Tshirt-POLO/' in url: 
 			if '/Short-Graphic-TEE' in url or '/short-sleeves' in url:
 				return category('UPPER', 'SHORT_SLEEVES')
 			elif '/LONG-Graphic-TEE' in url or '/long-sleeves' in url:
 				return category('UPPER', 'LONG_SLEEVES')
 			elif '/LV-sleeve' in url:
-				ret = getCategoryByPName(product_name)
-				if ret == category('OTHER', ''):
-					return category('UPPER', '')
-				else: 
-					return ret
+				return getCategoryByPName(product_name, 'UPPER', '')
 			elif '/POLO' in url:
 				if u'長袖' in product_name:
 					return category('UPPER', 'LONG_SLEEVES')
 				else:
 					return category('UPPER', 'SHORT_SLEEVES')
 			else: return category('UPPER', '')
+		# 襯衫
 		elif '/shirts/' in url:
 			return category('UPPER', 'SHIRT')
+		# 針織衫
 		elif '/KNIT/' in url: 
-			ret = getCategoryByPName(product_name)
-			if ret == category('OTHER', ''):
-				return category('UPPER', 'LONG_SLEEVES')
-			else: 
-				return ret
+			return getCategoryByPName(product_name, 'UPPER', 'LONG_SLEEVES')
+		# 外套
 		elif '/Coat_category/' in url:
 			return category('UPPER', 'OUTERWEAR')
+		# 下身
 		elif '/bottoms/' in url:
 			if '/LongPants2' in url or '/Widepants' in url or '/joggers' in url:
 				return category('BOTTOM', 'TROUSERS')
@@ -118,11 +119,8 @@ def getCategory(url, product_name):
 			elif '/Skirt' in url or '/Dress' in url:
 				return category('BOTTOM', 'SKIRT')
 			else: 
-				ret = getCategoryByPName(product_name)
-				if ret == category('OTHER', ''):
-					return category('BOTTOM', '')
-				else: 
-					return ret
+				return getCategoryByPName(product_name, 'BOTTOM', '')
+		# 家居、內著
 		elif '/underwear/' in url:
 			if '/brassiere' in url or '/T-Bra' in url or '/T-Bra' in url or '/inner-wear' in url:
 				return category('OTHER', 'UNDERWEAR')
@@ -132,15 +130,53 @@ def getCategory(url, product_name):
 				return category('OTHER', 'UNDERPANTS')
 			elif '/socks' in url:
 				return category('OTHER', 'ACCESSORIES')
+		# 配件
 		elif '/accessories/' in url:
 			return category('OTHER', 'ACCESSORIES')
-		return category('OTHER', '')
+		# 無法判斷
+		else:
+			return category('OTHER', '')
+	# baby
+	elif '/BABY/' in url:
+		# 上身
+		if '/tops/' in url:
+			if '/Short-Graphic-TEE' in url or '/Short-sleeved' in url:
+				return category('UPPER', 'SHORT_SLEEVES')
+			elif '/LONG-Graphic-TEE' in url or '/long-sleeves' in url:
+				return category('UPPER', 'LONG_SLEEVES')
+			else: return category('UPPER', '')
+		# 襯衫
+		elif '/shirts/' in url:
+			return category('UPPER', 'SHIRT')
+		# 外套
+		elif '/Coat_category/' in url:
+			return category('UPPER', 'OUTERWEAR')
+		# 下身
+		elif '/bottoms/' in url:
+			if '/pants' in url:
+				return category('BOTTOM', 'TROUSERS')
+			elif '/Jeans' in url:
+				return category('BOTTOM', 'JEANS')
+			elif '/Shorts' in url:
+				return category('BOTTOM', 'SHORTS')
+			elif '/skirts' in url or '/Dress' in url:
+				return category('BOTTOM', 'SKIRT')
+			else: 
+				return getCategoryByPName(product_name, 'BOTTOM', '')
+		# 家居、配件
+		elif '/Home-Set/' in url or '/accessories/' in url:
+			return category('OTHER', 'ACCESSORIES')
+		# 無法判斷
+		else:
+			return category('OTHER', '')
+	# sport
 	elif '/SPORTS/' in url:
 		return category('OTHER', 'SPORTS')
+	# 無法判斷
 	else:
 		return category('OTHER', '')
 
-def getCategoryByPName(product_name):
+def getCategoryByPName(product_name, p, m):
 	category = namedtuple('category',['primary','minor'])
 	if u'外套' in product_name:
 		return category('UPPER', 'OUTERWEAR')
@@ -155,7 +191,7 @@ def getCategoryByPName(product_name):
 	elif u'褲' in product_name: 
 		return category('BOTTOM', 'TROUSERS')
 	else: 
-		return category('OTHER', '')
+		return category(p, m)
 	
 	
 def insertToDB(data_list):
@@ -164,9 +200,11 @@ def insertToDB(data_list):
 	db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
 	cursor = db.cursor()
 	for index in data_list:
-		sql = ("INSERT INTO `PRODUCT`(`gender`, `primary_category`, `minor_category`, `brand`, `product_name`, `original_price`, `sale_price`, `link`, `photo`)\
+		sql = ("INSERT INTO `PRODUCT`(`gender`, `primary_category`, `minor_category`, `brand`, \
+		`product_name`, `original_price`, `sale_price`, `link`, `photo`)\
 		 VALUES ('%s', '%s', '%s', '%s', '%s', %f, %f, '%s', '%s')" % \
-		(index.gender, index.category.primary, index.category.minor, index.brand, index.product_name, index.original_price, index.sale_price, index.link, index.photo))
+		(index.gender, index.category.primary, index.category.minor, index.brand, \
+		index.product_name, index.original_price, index.sale_price, index.link, index.photo))
 		cursor.execute(sql)
 		print(sql)
 	db.commit()
