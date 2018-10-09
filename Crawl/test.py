@@ -1,5 +1,6 @@
 # coding=utf-8
-import re
+import time
 
-i = '(\S*)foo'
-print(re.match(i, 'http://.ildjiwo/foojh'))
+date = time.strftime("%Y-%m-%d", time.localtime())
+datetime = date + ' 00:00:00'
+print datetime

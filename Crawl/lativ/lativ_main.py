@@ -5,6 +5,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import MySQLdb
 from collections import namedtuple
+from time import localtime, strftime
 
 # 進入男、女、童裝總頁面取得各商品別url
 def lativ_hrefSearch(url):
@@ -217,7 +218,23 @@ def insertToDB(data_list):
 	db.commit()
 	db.close()
 
+# 清除前一批資料
+def cleanOldData():
+	SQLdb_id = 'python_crawl'
+	SQLdb_pwd = 'U8teriWxe0ozp0rf'
+	db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
+	cursor = db.cursor()
+	date = strftime("%Y-%m-%d", localtime())
+	datetime = date + ' 00:00:00'
+	sql = ("SELECT * FROM `PRODUCT` WHERE time < '%s'" % (datetime))
+	cursor.execute(sql)
+	result = cursor.fetchall()
+	for index in result:
+  		print(index)
+
+
 # 程式執行起點
 urls = ['WOMEN', 'MEN', 'KIDS', 'BABY', 'SPORTS']
 for url in urls:
 	lativ_hrefSearch(url)
+cleanOldData()
