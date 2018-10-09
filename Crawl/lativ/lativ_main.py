@@ -118,7 +118,11 @@ def getCategory(url, product_name):
 			elif '/Skirt' in url or '/Dress' in url:
 				return category('BOTTOM', 'SKIRT')
 			else: 
-				return category('BOTTOM', '')
+				ret = getCategoryByPName(product_name)
+				if ret == category('OTHER', ''):
+					return category('BOTTOM', '')
+				else: 
+					return ret
 		elif '/underwear/' in url:
 			if '/brassiere' in url or '/T-Bra' in url or '/T-Bra' in url or '/inner-wear' in url:
 				return category('OTHER', 'UNDERWEAR')
