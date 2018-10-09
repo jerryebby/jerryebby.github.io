@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 import MySQLdb
 from collections import namedtuple
 
+# 進入男、女、童裝總頁面取得各商品別url
 def lativ_hrefSearch(url):
 	res = requests.get('https://www.lativ.com.tw/' + url)
 	
@@ -14,10 +15,11 @@ def lativ_hrefSearch(url):
 	for t in tmp:
 		lativ_categorySearch(t.get('href'))
 
+# 進入各商品別頁面取得產品資訊
 def lativ_categorySearch(url):
+	url = 'https://www.lativ.com.tw/' + url
 	banned_list = ['/sweatshirt', '/FLEECE', '/pima', '/Chiffon', '/COOL', '/Heatup', '/heatup', \
 	 '/room-wear', '/bodysuit']
-	url = 'https://www.lativ.com.tw/' + url
 	for i in banned_list:
 		if i in url:
 			return
@@ -36,7 +38,7 @@ def lativ_categorySearch(url):
 		id = t['name']
 		if id not in id_list:
 			id_list.append(id)
-			link = 'https://www.lativ.com.tw/' + t.find('a')['href']
+			link = 'https://www.lativ.com.tw' + t.find('a')['href']
 			photo = t.find('img')['data-prodpic']
 			product_name = t.find('div', class_='productname').text.strip()
 			category = getCategory(url, product_name)
@@ -52,6 +54,7 @@ def lativ_categorySearch(url):
 			original_price, sale_price, link, photo))
 	insertToDB(data_list)
 
+# 判斷商品性別
 def getGender(url):
 	if '/BABY/' in url or '/KIDS/' in url or '/SPORT_KIDS/' in url:
 		return 'KIDS'
@@ -80,7 +83,7 @@ def getGender(url):
 	內衣 UNDERWEAR
 	內褲 UNDERPANTS
 """
-
+# 由url判斷商品種類，若該頁商品種類繁多則進入 getCategoryByPName
 def getCategory(url, product_name):
 	category = namedtuple('category',['primary','minor'])
 	# women, men, kids
@@ -122,9 +125,10 @@ def getCategory(url, product_name):
 				return getCategoryByPName(product_name, 'BOTTOM', '')
 		# 家居、內著
 		elif '/underwear/' in url:
-			if '/brassiere' in url or '/T-Bra' in url or '/T-Bra' in url or '/inner-wear' in url:
+			if '/brassiere' in url or '/T-Bra' in url or '/T-Bra' in url or '/inner-wear' in url \
+			or '/Girls%20bras' in url:
 				return category('OTHER', 'UNDERWEAR')
-			elif '/Leggings' in url:
+			elif '/Leggings' in url or '/leggings' in url:
 				return category('BOTTOM', 'TROUSERS')
 			elif '/Briefs' in url:
 				return category('OTHER', 'UNDERPANTS')
@@ -176,6 +180,7 @@ def getCategory(url, product_name):
 	else:
 		return category('OTHER', '')
 
+# 由品名判斷商品種類
 def getCategoryByPName(product_name, p, m):
 	category = namedtuple('category',['primary','minor'])
 	if u'外套' in product_name:
@@ -193,7 +198,7 @@ def getCategoryByPName(product_name, p, m):
 	else: 
 		return category(p, m)
 	
-	
+# 寫入資料庫
 def insertToDB(data_list):
 	SQLdb_id = 'python_crawl'
 	SQLdb_pwd = 'U8teriWxe0ozp0rf'
@@ -210,7 +215,7 @@ def insertToDB(data_list):
 	db.commit()
 	db.close()
 
-
+# 程式執行起點
 urls = ['WOMEN', 'MEN', 'KIDS', 'BABY', 'SPORTS']
 for url in urls:
 	lativ_hrefSearch(url)
