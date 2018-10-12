@@ -226,12 +226,8 @@ def cleanOldData():
 	cursor = db.cursor()
 	date = strftime("%Y-%m-%d", localtime())
 	datetime = date + ' 00:00:00'
-	sql = ("SELECT * FROM `PRODUCT` WHERE time < '%s'" % (datetime))
+	sql = ("DELETE * FROM `PRODUCT` WHERE `brand` = 'lativ' AND time` < '%s'" % (datetime))
 	cursor.execute(sql)
-	result = cursor.fetchall()
-	for index in result:
-  		print(index)
-
 
 # 程式執行起點
 urls = ['WOMEN', 'MEN', 'KIDS', 'BABY', 'SPORTS']
