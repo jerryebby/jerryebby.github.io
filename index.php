@@ -426,7 +426,7 @@ if((($count-3)<=0)&&($count%3>0))
             </a>
                                         <div class="card-body" style="height:140px; margin-botton:0px;">
                                             <h5 class="card-title" style="font-size:14px; position:relative;">
-                                                <?php echo $result["brand"]==NULL? '&nbsp;' :$result["btand"];?>
+                                                <?php echo $result["brand"]==NULL? '&nbsp;' :$result["brand"];?>
                                             </h5>
                                             <hr style="padding:0;">
                                             <p class="card-text" style="font-size: 14px;">
