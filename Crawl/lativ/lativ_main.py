@@ -226,8 +226,8 @@ def cleanOldData():
 	cursor = db.cursor()
 	date = strftime("%Y-%m-%d", localtime())
 	datetime = date + ' 00:00:00'
-	# sql = ("DELETE FROM `PRODUCT` WHERE `brand` = 'lativ' AND `time` < '%s'" % (datetime))
-	sql = ("SELECT * FROM `PRODUCT` WHERE `brand` = 'lativ' AND `time` < '%s'" % (datetime))
+	sql = ("DELETE FROM `PRODUCT` WHERE `brand` = 'lativ' AND `time` < '%s'" % (datetime))
+	# sql = ("SELECT * FROM `PRODUCT` WHERE `brand` = 'lativ' AND `time` < '%s'" % (datetime))
 	try:
 		cursor.execute(sql)
 		print(sql)
