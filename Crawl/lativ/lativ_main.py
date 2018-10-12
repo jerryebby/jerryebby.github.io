@@ -225,8 +225,7 @@ def cleanOldData():
 	db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
 	cursor = db.cursor()
 	date = strftime("%Y-%m-%d", localtime())
-	datetime = date + ' 00:00:00'
-	sql = ("DELETE * FROM `PRODUCT` WHERE `brand` = 'lativ' AND `time` < '%s'" % (datetime))
+	sql = ("DELETE FROM `PRODUCT` WHERE `brand` = 'lativ' AND `time` < '%s'" % (date))
 	cursor.execute(sql)
 
 # 程式執行起點
