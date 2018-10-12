@@ -435,7 +435,7 @@ if((($count-3)<=0)&&($count%3>0))
                                             <p class="card-text" align="right" style="font-style:italic;">
                                                 <small class="text-muted">
 <?php
-if($result["sale_price"]==0)
+if($result["sale_price"]==-1)
 {?>
     <span  >
     <?php echo '$'.$result["original_price"]; ?>
