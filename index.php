@@ -474,6 +474,38 @@ if($result["sale_price"]==-1)
 
 
 
+    <nav aria-label="Page navigation example" style="display:table; margin:0 auto; ">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+            </li>
+
+            <?php
+      $page_count=1;
+      while($page>0)
+      {?>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <?php echo $page_count ?>
+                </a>
+            </li>
+            <?php              $page--;$page_count++;
+}
+      ?>
+
+
+
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+                </li>
+        </ul>
+    </nav>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js
