@@ -38,16 +38,16 @@
         FROM PRODUCT WHERE (minor_category Like '%{$_GET["keywords"]}%' OR product_name Like '%{$_GET["keywords"]}%'
         OR brand  Like '%{$_GET["keywords"]}%')
          AND gender='{$_GET["gender"]}'" );
-      } 
-         
-      
-      
+      }
+
+
+
       $select -> execute();
     $count = $select->rowCount();
       $number=15;
       $page = ceil($count/$number);
-          
-      
+
+
    }?>
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:＃fffff;">
 
@@ -424,7 +424,7 @@ if($result["sale_price"]==-1)
 {?>
     <span  >
     <?php echo '$'.$result["original_price"]; ?>
-  </span> 
+  </span>
   <?php
 }
  else
@@ -441,9 +441,9 @@ if($result["sale_price"]==-1)
 <?php
     }
 ?>
-                  
 
-                  
+
+
                 </small>
                                             </p>
                                         </div>
@@ -474,37 +474,6 @@ if($result["sale_price"]==-1)
 
 
 
-    <nav aria-label="Page navigation example" style="display:table; margin:0 auto; ">
-        <ul class="pagination">
-            <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-        <span class="sr-only">Previous</span>
-      </a>
-            </li>
-            <?php 
-      $page_count=1;
-      while($page>0)
-      {?>
-            <li class="page-item">
-                <a class="page-link" href="#">
-                    <?php echo $page_count ?>
-                </a>
-            </li>
-            <?              $page--;$page_count++;
-}
-      ?>
-
-
-
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-        <span class="sr-only">Next</span>
-      </a>
-                </li>
-        </ul>
-    </nav>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js
