@@ -9,22 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css
 " integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <style>
-        .card-deck.card {
-            border: 1px solid #000;
-            width: 300px;
-            height: 370px;
-            overflow: hidden
-        }
 
-        .card img {
-            max-width: 300px;
-            _width: expression(this.width > 300 ? "300px": this.width);
-            max-height: 230px;
-            _height: expression(this.height>230?"230px": this.height);
-        }
-
-    </style>
     <title>衣比呀,衣服比價網</title>
 </head>
 
@@ -406,7 +391,7 @@ else {
                         <!--page-->
                         <?php
   while($count>0){?>
-                            <div class="card-deck">
+                            <div class="card-columns">
                                 <?php
 $i=3;
 $j=0;
@@ -420,16 +405,20 @@ if((($count-3)<=0)&&($count%3>0))
     $i--;
     $result = $select->fetch();
     ?>
-                                    <div class="card">
-                                        <a href=<?php echo $result[ "link"]; ?>>
+                                    <div class="card" style="position: relative;">
+                                            <a href=<?php echo $result[ "link"]; ?>>
               <img class="card-img-top" src=<?php echo $result["photo"]; ?> alt="Card image cap" >
             </a>
-                                        <div class="card-body" style="height:140px; margin-botton:0px;">
+                                       
+                                        <div class="card-body " style="  bottom:0px;
+
+
+">
                                             <h5 class="card-title" style="font-size:14px; position:relative;">
                                                 <?php echo $result["brand"]==NULL? '&nbsp;' :$result["brand"];?>
                                             </h5>
                                             <hr style="padding:0;">
-                                            <p class="card-text" style="font-size: 14px;">
+                                            <p class="card-text" style="font-size: 14px;vertical-align:bottom;">
                                                 <?php echo $result["product_name"]; ?>
                                             </p>
                                             <p class="card-text" align="right" style="font-style:italic;">
@@ -462,6 +451,8 @@ if($result["sale_price"]==-1)
                 </small>
                                             </p>
                                         </div>
+                                        
+                                        
                                     </div>
                                     <?php
   while($i==0 && $j>0)
@@ -486,6 +477,34 @@ if($result["sale_price"]==-1)
     </div>
 
 
+
+<nav aria-label="Page navigation example" style="display:table; margin:0 auto; ">
+  <ul class="pagination" >
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    <?php 
+      $page_count=1;
+      while($page>0)
+      {?>
+              <li class="page-item"><a class="page-link" href="#"><?php echo $page_count ?></a></li>
+      <?              $page--;$page_count++;
+}
+      ?>
+  
+    
+    
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</nav>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js
