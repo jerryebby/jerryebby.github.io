@@ -219,7 +219,7 @@ def insertToDB(data_list):
 	db.close()
 
 # 清除前一批資料
-def cleanOldData():
+def cleanExpiredData():
 	SQLdb_id = 'python_crawl'
 	SQLdb_pwd = 'U8teriWxe0ozp0rf'
 	db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
@@ -227,7 +227,6 @@ def cleanOldData():
 	date = strftime("%Y-%m-%d", localtime())
 	datetime = date + ' 00:00:00'
 	sql = ("DELETE FROM `PRODUCT` WHERE `brand` = 'lativ' AND `time` < '%s';" % (datetime))
-	# sql = ("SELECT * FROM `PRODUCT` WHERE `brand` = 'lativ' AND `time` < '%s'" % (datetime))
 	cursor.execute(sql)
 	print(sql)
 	db.commit()
@@ -237,4 +236,4 @@ def cleanOldData():
 urls = ['WOMEN', 'MEN', 'KIDS', 'BABY', 'SPORTS']
 for url in urls:
 	lativ_hrefSearch(url)
-cleanOldData()
+cleanExpiredData()
