@@ -9,22 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css
 " integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <style>
-        .card-deck.card {
-            border: 1px solid #000;
-            width: 300px;
-            height: 370px;
-            overflow: hidden
-        }
 
-        .card img {
-            max-width: 300px;
-            _width: expression(this.width > 300 ? "300px": this.width);
-            max-height: 230px;
-            _height: expression(this.height>230?"230px": this.height);
-        }
-
-    </style>
     <title>衣比呀,衣服比價網</title>
 </head>
 
@@ -53,16 +38,16 @@
         FROM PRODUCT WHERE (minor_category Like '%{$_GET["keywords"]}%' OR product_name Like '%{$_GET["keywords"]}%'
         OR brand  Like '%{$_GET["keywords"]}%')
          AND gender='{$_GET["gender"]}'" );
-      } 
-         
-      
-      
+      }
+
+
+
       $select -> execute();
     $count = $select->rowCount();
       $number=15;
       $page = ceil($count/$number);
-          
-      
+
+
    }?>
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:＃fffff;">
 
@@ -77,8 +62,8 @@
           Women
         </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                               
-<div class="card-columns" style="overflow: auto;">
+
+                                <div class="card-columns" style="overflow: auto;">
                                     <div class="dropdown">
                                         <span class="dropdown-item-text" style="text-align: center;">上衣類</span>
                                         <div class="dropdown-divider"></div>
@@ -121,7 +106,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -173,8 +158,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                
-                                
+
+
                             </div>
 
                             <li class="nav-item dropdown">
@@ -182,53 +167,53 @@
           Kids
         </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                   
-                                   
-  <div class="card-columns" style="overflow: auto;">
-                                    <div class="dropdown">
-                                        <span class="dropdown-item-text" style="text-align: center;">上衣類</span>
-                                        <div class="dropdown-divider"></div>
-                                        <div class="card items" style="border:0; ">
-                                            <ul class="list-group list-group-flush" align="center">
-                                                <a class="dropdown-item" href="http://localhost/index.php?keywords=shirt&gender=KIDS">短Ｔ</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SHORT_SLEEVE&gender=KIDS">短袖</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=LONG_SLEEVE&gender=KIDS">長袖</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=POLO&gender=KIDS">POLO衫</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SHIRT&gender=KIDS">襯衫</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=OUTERWEAR&gender=KIDS">外套</a>
-                                            </ul>
+
+
+                                    <div class="card-columns" style="overflow: auto;">
+                                        <div class="dropdown">
+                                            <span class="dropdown-item-text" style="text-align: center;">上衣類</span>
+                                            <div class="dropdown-divider"></div>
+                                            <div class="card items" style="border:0; ">
+                                                <ul class="list-group list-group-flush" align="center">
+                                                    <a class="dropdown-item" href="http://localhost/index.php?keywords=shirt&gender=KIDS">短Ｔ</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SHORT_SLEEVE&gender=KIDS">短袖</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=LONG_SLEEVE&gender=KIDS">長袖</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=POLO&gender=KIDS">POLO衫</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SHIRT&gender=KIDS">襯衫</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=OUTERWEAR&gender=KIDS">外套</a>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <span class="dropdown-item-text" style="text-align: center;">下身類</span>
+                                            <div class="dropdown-divider"></div>
+                                            <div class="card items" style="border:0; ">
+                                                <ul class="list-group list-group-flush" align="center">
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SHORTS&gender=KIDS">短褲</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=TROUSERS&gender=KIDS">長褲</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=JEANS&gender=KIDS">牛仔褲</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=JEANS&gender=KIDS">七分褲</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SKIRT&gender=KIDS">裙裝</a>
+                                                    <br>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <span class="dropdown-item-text" style="text-align: center;">其他</span>
+                                            <div class="dropdown-divider"></div>
+                                            <div class="card items" style="border:0; ">
+                                                <ul class="list-group list-group-flush" align="center">
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SPORTS&gender=">運動</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=ACCESSORIES&gender=KIDS">配件</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=UNDERWEAR&gender=KIDS">內衣</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=UNDERPANTS&gender=KIDS">內褲</a>
+                                                    <br>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="dropdown">
-                                        <span class="dropdown-item-text" style="text-align: center;">下身類</span>
-                                        <div class="dropdown-divider"></div>
-                                        <div class="card items" style="border:0; ">
-                                            <ul class="list-group list-group-flush" align="center">
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SHORTS&gender=KIDS">短褲</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=TROUSERS&gender=KIDS">長褲</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=JEANS&gender=KIDS">牛仔褲</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=JEANS&gender=KIDS">七分褲</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SKIRT&gender=KIDS">裙裝</a>
-                                                <br>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown">
-                                        <span class="dropdown-item-text" style="text-align: center;">其他</span>
-                                        <div class="dropdown-divider"></div>
-                                        <div class="card items" style="border:0; ">
-                                            <ul class="list-group list-group-flush" align="center">
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SPORTS&gender=">運動</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=ACCESSORIES&gender=KIDS">配件</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=UNDERWEAR&gender=KIDS">內衣</a>
-                                                <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=UNDERPANTS&gender=KIDS">內褲</a>
-                                                <br>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                    
-                                    
+
+
                                 </div>
                             </li>
                     </ul>
@@ -237,7 +222,7 @@
                             <div class="row-sm-12">
                                 <div class="col" style="margin-left: 15%;">
                                     <Input Type="text" class="col-sm-9" name="keywords" style="display: inline-block; height: 40px; overflow: auto;">
-                                    <Input Type="submit" value=" S "style="overflow: auto; height: 40px; width: 40px;">
+                                    <Input Type="submit" value=" S " style="overflow: auto; height: 40px; width: 40px;">
                                 </div>
                             </div>
                         </form>
@@ -406,7 +391,7 @@ else {
                         <!--page-->
                         <?php
   while($count>0){?>
-                            <div class="card-deck">
+                            <div class="card-columns" style="margin-bottom:3px;">
                                 <?php
 $i=3;
 $j=0;
@@ -420,16 +405,16 @@ if((($count-3)<=0)&&($count%3>0))
     $i--;
     $result = $select->fetch();
     ?>
-                                    <div class="card">
-                                        <a href=<?php echo $result[ "link"]; ?>>
+                                    <div class="card" style="position: relative;">
+                                        <a href=<?php echo $result["link"]; ?>>
               <img class="card-img-top" src=<?php echo $result["photo"]; ?> alt="Card image cap" >
             </a>
-                                        <div class="card-body" style="height:140px; margin-botton:0px;">
-                                            <h5 class="card-title" style="font-size:14px; position:relative;">
+                                        <div class="card-body" style="bottom:0px;">
+                                            <h5 class="card-title" style="font-size:12px; ">
                                                 <?php echo $result["brand"]==NULL? '&nbsp;' :$result["brand"];?>
                                             </h5>
                                             <hr style="padding:0;">
-                                            <p class="card-text" style="font-size: 14px;">
+                                            <p class="card-text" style="font-size: 12px;">
                                                 <?php echo $result["product_name"]; ?>
                                             </p>
                                             <p class="card-text" align="right" style="font-style:italic;">
@@ -439,7 +424,7 @@ if($result["sale_price"]==-1)
 {?>
     <span  >
     <?php echo '$'.$result["original_price"]; ?>
-  </span> 
+  </span>
   <?php
 }
  else
@@ -456,12 +441,14 @@ if($result["sale_price"]==-1)
 <?php
     }
 ?>
-                  
 
-                  
+
+
                 </small>
                                             </p>
                                         </div>
+
+
                                     </div>
                                     <?php
   while($i==0 && $j>0)
@@ -486,6 +473,39 @@ if($result["sale_price"]==-1)
     </div>
 
 
+
+    <nav aria-label="Page navigation example" style="display:table; margin:0 auto; ">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+            </li>
+
+            <?php
+      $page_count=1;
+      while($page>0)
+      {?>
+            <li class="page-item">
+                <a class="page-link" href="#">
+                    <?php echo $page_count ?>
+                </a>
+            </li>
+            <?php              $page--;$page_count++;
+}
+      ?>
+
+
+
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+                </li>
+        </ul>
+    </nav>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js
