@@ -30,6 +30,8 @@
         exit();
     }
     ?>
+
+
     <form class="form-inline " Action="test.php" Method="Get" enctype="text/plain" style="float:right;">
         <div class="row-sm-12">
             <div class="col" style="margin-left: 15%;">
@@ -39,6 +41,7 @@
         </div>
     </form>
 </br></br></br></br>
+
 
 
     <?php
@@ -72,71 +75,8 @@
     else {
       $card=(($count-$start)/3);
     }
-
-    for ($i=0; $i < $card; $i++) {?>
-      <div class="card-columns" style="margin-bottom:3px;margin:0px auto; ">
-      <?php
-        for ($j=0; $j<3 ; $j++) {
-          $result=$select1->fetch(PDO::FETCH_ASSOC);
-          if ($result["minor_category"]!=NULL) {?>
-            <div class="card" style="position: relative; ">
-                <a href=<?php echo $result["link"]; ?>>
-  <img class="card-img-top" src=<?php echo $result["photo"]; ?> alt="Card image cap" >
-  </a>
-                <div class="card-body" style="bottom:0px;">
-                    <h5 class="card-title" style="font-size:12px; ">
-                        <?php echo $result["brand"]==NULL? '&nbsp;' :$result["brand"];?>
-                    </h5>
-                    <hr style="padding:0;">
-                    <p class="card-text" style="font-size: 12px;">
-                        <?php echo $result["product_name"]; ?>
-                    </p>
-                    <p class="card-text" align="right" style="font-style:italic;">
-                        <small class="text-muted">
-  <?php
-  if($result["sale_price"]==-1)
-  {?>
-  <span  >
-  <?php echo '$'.$result["original_price"]; ?>
-  </span>
-  <?php
-  }
-  else
-  {
-  ?>
-  <span style="text-decoration:line-through;" >
-  <?php echo '$'.$result["original_price"]; ?>
-  </span>
-
-
-  <span style="font-size:18px;">
-  <?php echo $result["sale_price"]==0?NULL :'$'.$result["sale_price"]; ?>
-  </span>
-  <?php
-  }
-  ?>
-
-
-
-  </small>
-                    </p>
-                </div>
-
-
-            </div>           <?}
-          else {?>
-            <div class="card" style="border:0;">
-            </div>        <?php  }
-          ?>
-       <?
-
-        }
-        echo "</br>";?>
-      </div>
-        <?
-  }
-  ?>
-
+?>
+    
 
 
     <nav aria-label="Page navigation example" style="display:table; margin:0 auto; ">
