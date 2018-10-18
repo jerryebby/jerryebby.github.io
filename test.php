@@ -12,7 +12,7 @@
                     'host' => "127.0.0.1",
                     'port' =>"3306",
                     'account' =>"jerry",
-                    'password' =>"aj851226",
+                    'password' =>"8uIIHBr722c7Wboq",
                     'dbname' =>"clothespricecompare"
     );
     $dbconnect='mysql:host='.$link['host'].';port='.$link['port'].
