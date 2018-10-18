@@ -434,50 +434,28 @@ else {
                                         </p>
                                         <p class="card-text" align="right" style="font-style:italic;">
                                             <small class="text-muted">
-                      <?php
-                      if($result["sale_price"]==-1)
-                      {?>
-                      <span  >
+                      <?phpif($result["sale_price"]==-1){?>
+                      <span>
                       <?php echo '$'.$result["original_price"]; ?>
                       </span>
-                      <?php
-                      }
-                      else
-                      {
-                      ?>
+                      <?php}else{?>
                       <span style="text-decoration:line-through;" >
                       <?php echo '$'.$result["original_price"]; ?>
                       </span>
-
-
                       <span style="font-size:18px;">
                       <?php echo $result["sale_price"]==0?NULL :'$'.$result["sale_price"]; ?>
                       </span>
-                      <?php
-                      }
-                      ?>
-
-
-
+                      <?}?>
                       </small>
                                         </p>
                                     </div>
-
-
-                                </div>           <?}
-                              else {?>
+                                </div>
+                                <?}else{?>
                                 <div class="card" style="border:0;">
-                                </div>        <?php  }
-                              ?>
-                           <?
-
-                            }
-                            echo "</br>";?>
+                                </div>
+                                <?}}?>
                           </div>
-                            <?
-                      }
-
-?>
+                            <?}?>
 <!-- page end-->
 <nav aria-label="Page navigation example" style="display:table; margin:0 auto; ">
 <ul class="pagination" >
