@@ -63,57 +63,23 @@
         $page = ($page > 0) ? $page : 1; //確認頁數大於零
         $page = ($pages > $page) ? $page : $pages; //確認使用者沒有輸入太神奇的數字
     }
-
     $start=($page-1)*$per;
     $select1 =$connect -> prepare( $sql."LIMIT ".$start.','.$per);
     $select1 -> execute();
     $card=0;
-    $test=$count;
     if ($count-$start>0 && $start==0) {
         $card=5;
     }
     else {
       $card=(($count-$start)/3);
     }
-
     for ($i=0; $i < $card; $i++) {?>
-      <div class="card-columns" style="margin-bottom:3px;margin:0px auto; ">
+      <div class="card-columns" style="margin-bottom:3px;margin:0px auto;">
       <?php
         for ($j=0; $j<3 ; $j++) {
           $result=$select1->fetch(PDO::FETCH_ASSOC);
           if ($result["minor_category"]!=NULL) {?>
-            <div class="card" style="position: relative; ">
-                <a href=<?php echo $result["link"]; ?>>
-  <img class="card-img-top" src=<?php echo $result["photo"];?> alt="Card image cap" >
-  </a>
-                <div class="card-body" style="bottom:0px;">
-                    <h5 class="card-title" style="font-size:12px; ">
-                        <?php echo $result["brand"]==NULL? '&nbsp;' :$result["brand"];?>
-                    </h5>
-                    <hr style="padding:0;">
-                    <p class="card-text" style="font-size: 12px;">
-                        <?php echo $result["product_name"]; ?>
-                    </p>
-                    <p class="card-text" align="right" style="font-style:italic;">
-                        <small class="text-muted">
-  <?php
-  if($result["sale_price"]==-1)
-  {?>
-  <span>
-  <?php echo '$'.$result["original_price"]; ?>
-  </span>
-  <?php}else{?>
-  <span style="text-decoration:line-through;" >
-  <?php echo '$'.$result["original_price"]; ?>
-  </span>
-  <span style="font-size:18px;">
-  <?php echo $result["sale_price"]==0?NULL :'$'.$result["sale_price"]; ?>
-  </span>
-  <?php}?>
-  </small>
-</p>
-</div>
-</div>
+
 <?php}else{?>
             <div class="card" style="border:0;">
             </div><?php}?>
