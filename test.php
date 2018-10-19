@@ -77,12 +77,13 @@
       <div class="card-columns" style="margin-bottom:3px;margin:0px auto;">
       <?php
         for ($j=0; $j<3 ; $j++) {
-          $result=$select1->fetch(PDO::FETCH_ASSOC);
-          if ($result["minor_category"]!=NULL) {?>
+          $result=$select1->fetch(PDO::FETCH_ASSOC);?>
+          <?phpif ($result["minor_category"]!=NULL) {?>
 
-<?php}else{?>
+            <?php}else{?>
             <div class="card" style="border:0;">
-            </div><?php}?>
+            </div>
+            <?php}?>
        <?php}?>
       </div>
         <?php}?>
