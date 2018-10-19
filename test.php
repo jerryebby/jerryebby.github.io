@@ -72,9 +72,26 @@
     }
     else {
       $card=(($count-$start)/3);
-    }?>
+    }
 
 
+
+for ($i=0; $i < $card; $i++) {?>
+  <div class="card-columns" style="margin-bottom:3px;margin:0px auto;">
+<?php
+  for ($j=0; $j < 3; $j++) {
+$result=$select1->fetch(PDO::FETCH_ASSOC);
+  if ($result["minor_category"]!=NULL) {?>
+
+  <?php}
+  else {?>
+
+  <?php}
+}
+  ?>
+  </div>
+<?}
+ ?>
 
 
     <nav aria-label="Page navigation example" style="display:table; margin:0 auto; ">
