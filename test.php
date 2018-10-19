@@ -53,7 +53,7 @@
     $select =$connect -> prepare($sql);
     $select -> execute();
     $count = $select->rowCount();
-    $per=15;
+    $per=60;
     $pages = ceil($count/$per);
 
     if(!isset($_GET["page"])){
@@ -75,8 +75,52 @@
     else {
       $card=(($count-$start)/3);
     }
-?>
-    
+
+    for ($i=0; $i < $card; $i++) {?>
+      <div class="card-columns" style="margin-bottom:3px;margin:0px auto; ">
+      <?php
+        for ($j=0; $j<3 ; $j++) {
+          $result=$select1->fetch(PDO::FETCH_ASSOC);
+          if ($result["minor_category"]!=NULL) {?>
+            <div class="card" style="position: relative; ">
+                <a href=<?php echo $result["link"]; ?>>
+  <img class="card-img-top" src=<?php echo $result["photo"];?> alt="Card image cap" >
+  </a>
+                <div class="card-body" style="bottom:0px;">
+                    <h5 class="card-title" style="font-size:12px; ">
+                        <?php echo $result["brand"]==NULL? '&nbsp;' :$result["brand"];?>
+                    </h5>
+                    <hr style="padding:0;">
+                    <p class="card-text" style="font-size: 12px;">
+                        <?php echo $result["product_name"]; ?>
+                    </p>
+                    <p class="card-text" align="right" style="font-style:italic;">
+                        <small class="text-muted">
+  <?php
+  if($result["sale_price"]==-1)
+  {?>
+  <span>
+  <?php echo '$'.$result["original_price"]; ?>
+  </span>
+  <?php}else{?>
+  <span style="text-decoration:line-through;" >
+  <?php echo '$'.$result["original_price"]; ?>
+  </span>
+  <span style="font-size:18px;">
+  <?php echo $result["sale_price"]==0?NULL :'$'.$result["sale_price"]; ?>
+  </span>
+  <?php}?>
+  </small>
+</p>
+</div>
+</div>
+<?php}else{?>
+            <div class="card" style="border:0;">
+            </div><?php}?>
+       <?php}?>
+      </div>
+        <?php}?>
+
 
 
     <nav aria-label="Page navigation example" style="display:table; margin:0 auto; ">
