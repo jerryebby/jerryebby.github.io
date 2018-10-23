@@ -73,12 +73,10 @@
       $card=(($count-$start)/3);
     }
 
-for ($i=0; $i<$card; $i++) {
-   $j=0;?>
-   <div class="card-columns" style="margin-bottom:3px;margin:0px auto; ">
+
    <?php
    while ($result=$select1->fetch(PDO::FETCH_ASSOC)) {
-     $j++;
+     
      if ($result["minor_category"]!=NULL) {?>
        <div class="card" style="position: relative; ">
            <a href=<?php echo $result["link"]; ?>>
@@ -128,13 +126,7 @@ else
      else {?>
        <div class="card" style="border:0;">
        </div>        <?php  }?>
-     <?php
-     if ($j==3) {
-break;     }
-}?>
-</div>
-
-<?}?>
+    
 
 
 
