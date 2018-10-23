@@ -11,8 +11,8 @@
     $link = array (
                     'host' => "127.0.0.1",
                     'port' =>"3306",
-                    'account' =>"jerry",
-                    'password' =>"8uIIHBr722c7Wboq",
+                    'account' =>"root",
+                    'password' =>"aj851226",
                     'dbname' =>"clothespricecompare"
     );
     $dbconnect='mysql:host='.$link['host'].';port='.$link['port'].
@@ -30,8 +30,6 @@
         exit();
     }
     ?>
-
-
     <form class="form-inline " Action="test.php" Method="Get" enctype="text/plain" style="float:right;">
         <div class="row-sm-12">
             <div class="col" style="margin-left: 15%;">
@@ -43,7 +41,6 @@
 </br></br></br></br>
 
 
-
     <?php
     $sql="SELECT  gender,  	primary_category ,minor_category  , brand,product_name, original_price,sale_price,link,photo
     FROM PRODUCT WHERE gender Like '{$_GET["keywords"]}%'  or
@@ -53,7 +50,7 @@
     $select =$connect -> prepare($sql);
     $select -> execute();
     $count = $select->rowCount();
-    $per=60;
+    $per=15;
     $pages = ceil($count/$per);
 
     if(!isset($_GET["page"])){
@@ -63,10 +60,12 @@
         $page = ($page > 0) ? $page : 1; //確認頁數大於零
         $page = ($pages > $page) ? $page : $pages; //確認使用者沒有輸入太神奇的數字
     }
+
     $start=($page-1)*$per;
     $select1 =$connect -> prepare( $sql."LIMIT ".$start.','.$per);
     $select1 -> execute();
     $card=0;
+    $test=$count;
     if ($count-$start>0 && $start==0) {
         $card=5;
     }
@@ -74,22 +73,71 @@
       $card=(($count-$start)/3);
     }
 
-
-
-for ($i=0; $i < $card; $i++) {?>
-  <div class="card-columns" style="margin-bottom:3px;margin:0px auto;">
+for ($i=0; $i<$card; $i++) {
+   $j=0;?>
+   <div class="card-columns" style="margin-bottom:3px;margin:0px auto; ">
+   <?php
+   while ($result=$select1->fetch(PDO::FETCH_ASSOC)) {
+     $j++;
+     if ($result["minor_category"]!=NULL) {?>
+       <div class="card" style="position: relative; ">
+           <a href=<?php echo $result["link"]; ?>>
+<img class="card-img-top" src=<?php echo $result["photo"]; ?> alt="Card image cap" >
+</a>
+           <div class="card-body" style="bottom:0px;">
+               <h5 class="card-title" style="font-size:12px; ">
+                   <?php echo $result["brand"]==NULL? '&nbsp;' :$result["brand"];?>
+               </h5>
+               <hr style="padding:0;">
+               <p class="card-text" style="font-size: 12px;">
+                   <?php echo $result["product_name"]; ?>
+               </p>
+               <p class="card-text" align="right" style="font-style:italic;">
+                   <small class="text-muted">
 <?php
-    $result=$select1->fetch(PDO::FETCH_ASSOC);
-  if ($result["minor_category"]!=NULL) {?>
+if($result["sale_price"]==-1)
+{?>
+<span  >
+<?php echo '$'.$result["original_price"]; ?>
+</span>
+<?php
+}
+else
+{
+?>
+<span style="text-decoration:line-through;" >
+<?php echo '$'.$result["original_price"]; ?>
+</span>
 
-  <?php}
-  else {?>
 
-  <?php}
-  ?>
-  </div>
-<?}
- ?>
+<span style="font-size:18px;">
+<?php echo $result["sale_price"]==0?NULL :'$'.$result["sale_price"]; ?>
+</span>
+<?php
+}
+?>
+
+
+
+</small>
+               </p>
+           </div>
+
+
+       </div>           <?}
+     else {?>
+       <div class="card" style="border:0;">
+       </div>        <?php  }?>
+     <?php
+     if ($j==3) {
+break;     }
+}?>
+</div>
+
+<?}?>
+
+
+
 
 
     <nav aria-label="Page navigation example" style="display:table; margin:0 auto; ">
