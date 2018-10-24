@@ -31,10 +31,9 @@ error_reporting(E_ALL);?>
 
       if(!isset($_GET["gender"]))
       {
-        $sql="SELECT  gender,  	primary_category ,minor_category  , brand,product_name, original_price,sale_price,link,photo
-        FROM PRODUCT WHERE gender Like '{$_GET["keywords"]}%'  or
-        minor_category Like '%{$_GET["keywords"]}%' or product_name Like '%{$_GET["keywords"]}%'
-        or brand  Like '%{$_GET["keywords"]}%' ";
+          $sql = "SELECT gender, primary_category, minor_category, brand, product_name, original_price, sale_price, link, photo FROM PRODUCT WHERE gender Like '" . $_GET["keywords"] . "%' OR minor_category Like '%" . $_GET["keywords"] . "%' OR product_name Like '%" . $_GET["keywords"] . "%' OR brand Like '%" . $_GET["keywords"] . "%'";
+          
+       
            $select =$connect -> prepare($sql);
       }
       else
