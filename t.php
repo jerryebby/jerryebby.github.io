@@ -15,10 +15,10 @@ error_reporting(E_ALL);
     <?php
     $link = array (
                     'host' => "127.0.0.1",
-                    'port' =>"3306",
-                    'account' =>"jerry",
-                    'password' =>"aj851226",
-                    'dbname' =>"clothespricecompare"
+                'port' =>"3306",
+                'account' =>"php_jerry",
+                'password' =>"FrzbumJquiq5RQzt",
+                'dbname' =>"clothespricecompare"
     );
     $dbconnect='mysql:host='.$link['host'].';port='.$link['port'].
         ';dbname='.$link['dbname'].';charset=utf8';
