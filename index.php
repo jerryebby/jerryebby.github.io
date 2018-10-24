@@ -1,5 +1,3 @@
-<?php ini_set('display_errors','1');
-error_reporting(E_ALL);?>
 <!doctype html>
 <html lang="en">
 
@@ -31,17 +29,16 @@ error_reporting(E_ALL);?>
 
       if(!isset($_GET["gender"]))
       {
-          $sql = "SELECT gender, primary_category, minor_category, brand, product_name, original_price, sale_price, link, photo FROM PRODUCT WHERE gender Like '" . $_GET["keywords"] . "%' OR minor_category Like '%" . $_GET["keywords"] . "%' OR product_name Like '%" . $_GET["keywords"] . "%' OR brand Like '%" . $_GET["keywords"] . "%'";
-          
-       
-           $select =$connect -> prepare($sql);
+ $sql = "SELECT gender, primary_category, minor_category, brand, product_name, original_price, sale_price, link, photo FROM PRODUCT WHERE gender Like '" . $_GET["keywords"] . "%' OR minor_category Like '%" . $_GET["keywords"] . "%' OR product_name Like '%" . $_GET["keywords"] . "%' OR brand Like '%" . $_GET["keywords"] . "%'";
+ $select =$connect -> prepare($sql);
+
       }
       else
       {
-        $sql1="SELECT  gender,  primary_category  , minor_category,brand,product_name, original_price,sale_price,link,photo
-     FROM PRODUCT WHERE (minor_category Like '%{$_GET["keywords"]}%' OR product_name Like '%{$_GET["keywords"]}%'
-     OR brand  Like '%{$_GET["keywords"]}%')
-      AND gender='{$_GET["gender"]}'";
+        $sql1="SELECT  gender,primary_category,minor_category,brand,product_name, original_price,sale_price,link,photo
+     FROM PRODUCT WHERE minor_category Like '%{$_GET["keywords"]}%' OR product_name Like '%{$_GET["keywords"]}%'
+     OR brand  Like '%{$_GET["keywords"]}%'
+     AND gender='{$_GET["gender"]}'";
            $select =$connect -> prepare($sql1);
       }
       $select -> execute();
@@ -415,9 +412,86 @@ else {
 
                         <!--page-->
                         <?php
-                        for ($i=0; $i < $card; $i++) {?>
+                        for ($i=0; $i < $card; $i++) { $j=0;?>
+                          <div class="card-columns" style="margin-bottom:3px;margin:0px auto; ">
+                          <?php
+                              while ($result = $select1->fetch(PDO::FETCH_ASSOC)) {
+                                  $j++;
+                                  if ($result["minor_category"] != NULL) {
+                          ?>
 
-                            <?}?>
+                                 <div class="card" style="position: relative; ">
+                                     <a href=
+                          <?php
+                                      echo $result["link"];
+                          ?>
+                                    >
+                                  <img class="card-img-top" src=
+                          <?php
+                                      echo $result["photo"];
+                          ?>
+                                 >
+                          </a>
+                                     <div class="card-body" style="bottom:0px;">
+                                         <h5 class="card-title" style="font-size:12px; ">
+                                             <?php
+                                      echo $result["brand"] == NULL ? '&nbsp;' : $result["brand"];
+                          ?>
+                                        </h5>
+                                         <hr style="padding:0;">
+                                         <p class="card-text" style="font-size: 12px;">
+                                             <?php
+                                      echo $result["product_name"];
+                          ?>
+                                        </p>
+                                         <p class="card-text" align="right" style="font-style:italic;">
+                                             <small class="text-muted">
+                          <?php
+                                      if ($result["sale_price"] == -1) {
+                          ?>
+                          <span>
+                          <?php
+                                          echo '$' . $result["original_price"];
+                          ?>
+                          </span>
+                          <?php
+                                      } else {
+                          ?>
+                          <span style="text-decoration:line-through;" >
+                          <?php
+                                          echo '$' . $result["original_price"];
+                          ?>
+                          </span>
+
+
+                          <span style="font-size:18px;">
+                          <?php
+                                          echo $result["sale_price"] == 0 ? NULL : '$' . $result["sale_price"];
+                          ?>
+                          </span>
+                          <?php
+                                      }
+                          ?>
+                          </small>
+                                         </p>
+                                     </div>
+                                 </div>
+                                 <?php
+                                  } else {
+                          ?>
+                                <div class="card" style="border:0;">
+                                 </div> <?php
+                                  }
+                                  if ($j == 3) {
+                                      break;
+                                  }
+                              }
+                          ?>
+                          </div>
+                          <?php
+                          }
+
+                            ?>
 <!-- page end-->
 <nav aria-label="Page navigation example" style="display:table; margin:0 auto; ">
 <ul class="pagination" >
