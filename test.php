@@ -87,7 +87,7 @@ for ($i=0; $i<$card; $i++) {
      if ($result["minor_category"]!=NULL) {?>
        <div class="card" style="position: relative; ">
            <a href=<?php echo $result["link"]; ?>>
-<img class="card-img-top" src=<?php echo $result["photo"]; ?> alt="Card image cap" >
+<img class="card-img-top" src=<?php echo $result["photo"]; ?>>
 </a>
            <div class="card-body" style="bottom:0px;">
                <h5 class="card-title" style="font-size:12px; ">
@@ -102,7 +102,7 @@ for ($i=0; $i<$card; $i++) {
 <?php
 if($result["sale_price"]==-1)
 {?>
-<span  >
+<span>
 <?php echo '$'.$result["original_price"]; ?>
 </span>
 <?php
@@ -121,30 +121,17 @@ else
 <?php
 }
 ?>
-
-
-
 </small>
                </p>
            </div>
-
-
-       </div>           <?}
-     else {?>
+       </div>
+       <?php}else{?>
        <div class="card" style="border:0;">
-       </div>        <?php  }?>
-     <?php
-     if ($j==3) {
-break;     }
+       </div> <?php}
+     if($j==3){break;}
 }?>
 </div>
-
-<?}?>
-
-
-
-
-
+<?php}?>
     <nav aria-label="Page navigation example" style="display:table; margin:0 auto; ">
     <ul class="pagination" >
     <li class="page-item">
@@ -153,14 +140,11 @@ break;     }
     <span class="sr-only">Previous</span>
     </a>
     </li>
-
-
     <?php
     for($i=1;$i<=$pages;$i++) {?>
       <li class="page-item">
         <?php echo '<a class="page-link" href="?page='.$i.'&keywords='.$_GET["keywords"].'">' . $i . '</a>'; ?>
       </li>
-
         <?php
     }?>
     <li class="page-item">
@@ -171,6 +155,5 @@ break;     }
     </li>
     </ul>
     </nav>
-
   </body>
 </html>
