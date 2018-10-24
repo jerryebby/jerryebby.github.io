@@ -1,3 +1,8 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -9,18 +14,18 @@
   <body>
     <?php
     $link = array (
-                                   'host' => "127.0.0.1",
-                'port' =>"3306",
-                'account' =>"php_jerry",
-                'password' =>"FrzbumJquiq5RQzt",
-                'dbname' =>"clothespricecompare"
+                    'host' => "127.0.0.1",
+                    'port' =>"3306",
+                    'account' =>"jerry",
+                    'password' =>"aj851226",
+                    'dbname' =>"clothespricecompare"
     );
     $dbconnect='mysql:host='.$link['host'].';port='.$link['port'].
         ';dbname='.$link['dbname'].';charset=utf8';
     try
     {
         $connect = new PDO($dbconnect,$link['account'],$link['password']);
-        $connect -> query("SET NAMES 'utf8");
+        $connect -> query("SET NAMES 'utf8'");
         $connect -> setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
     }
     catch(Exception $e)
@@ -73,10 +78,12 @@
       $card=(($count-$start)/3);
     }
 
-
+for ($i=0; $i<$card; $i++) {
+   $j=0;?>
+   <div class="card-columns" style="margin-bottom:3px;margin:0px auto; ">
    <?php
    while ($result=$select1->fetch(PDO::FETCH_ASSOC)) {
-     
+     $j++;
      if ($result["minor_category"]!=NULL) {?>
        <div class="card" style="position: relative; ">
            <a href=<?php echo $result["link"]; ?>>
@@ -126,7 +133,13 @@ else
      else {?>
        <div class="card" style="border:0;">
        </div>        <?php  }?>
-    
+     <?php
+     if ($j==3) {
+break;     }
+}?>
+</div>
+
+<?}?>
 
 
 
