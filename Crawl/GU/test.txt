@@ -1,0 +1,2085 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<META http-equiv="content-language" CONTENT="zh-TW">
+<META HTTP-EQUIV="content-type" content="text/html; charset=utf-8">
+
+<title>GU網路商店｜YOUR FREEDOM 自由 煥然一新</title>
+
+<META HTTP-EQUIV="Expires" CONTENT="Thu, 01 Dec 1994 16:00:00 GMT">
+<META name="Description" content="YOUR FREEDOM自由，煥然一新。GU網路商店提供您最新時尚流行單品,從當季潮流到百搭嚴選一應具全。每週定時新品上市,並以親切的價格讓您的穿搭更自由、更輕鬆、更有樂趣！">
+<META name="Keywords" content="GU,gu,UNIQLO,優衣褲,線上購物,網路商店,女裝,男裝,童裝,時尚品牌,日本流行,T恤,針織衫,寬褲,家居服,睡衣,保暖,發熱衣,附罩杯上衣,休閒上衣,帽T,吸濕快乾">
+<META http-equiv="Content-Style-Type" content="text/css">
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<META name="copyright" content="Copyright (C) UNIQLO Co., Ltd. All Rights Reserved.">
+
+<link rel="contents" href="/" title="Home">
+<link
+  href="http://www.gu-global.com/tw/store/css/print.css"
+  rel="stylesheet" type="text/css">
+
+<!-- /include_html/FSC-01-010_marketing_TW.jsp -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var dataLayer = [{
+        'targetDomain': '.gu-global.com',
+        'device': 'pc',
+        'screen_device': 'screen-pc'
+    }];
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PM99BM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-PM99BM');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+
+<meta name="robots" content="noydir,noodp,index,follow">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="p:domain_verify" content="27ec0bd0c846937b8f1425ff1fc44150"/>
+
+<link rel="index" href="/">
+<link rel="start" href="/" title="">
+<link rel="stylesheet" href="http://www.gu-global.com/tw/store/feature/material_gu/common/css/initialize.css" media="all">
+<link rel="stylesheet" href="http://www.gu-global.com/tw/store/feature/material_gu/common/css/content.css" media="all">
+<link rel="stylesheet" href="/tw/store/feature/material_gu/common/css/mainImage.css" media="all">
+<!--testshop open down↓-->
+<!--link rel="stylesheet" href="http://admin-gdstw.gu-global.com//tw/store/feature/material_gu/common/css/initialize.css" media="all"-->
+<!--link rel="stylesheet" href="http://admin-gdstw.gu-global.com//tw/store/feature/material_gu/common/css/content.css" media="all"-->
+
+<link rel="shortcut icon" href="new_favicon.ico" type="image/x-icon">
+<link rel="icon" href="new_favicon.ico" type="image/x-icon">
+
+<script type="text/javascript">
+	var modelsInRow  = 5;
+	var updateDate   = '2016.1.18';
+</script>
+
+<script src="http://www.gu-global.com/tw/store/feature/material_gu/common/js/150807import.js"></script>
+<script src="/tw/store/feature/material_gu/common/js/swiper.min.js"></script>
+<!--[if lt IE 9]>
+	<script src="http://www.gu-global.com/tw/store/feature/material_gu/common/js/html5shiv.js"></script>
+	<script src="http://www.gu-global.com/tw/store/feature/material_gu/common/js/selectivizr-min.js"></script>
+<![endif]-->
+
+<!--R∞-->
+<script src="http://www.gu-global.com/tw/store/js/gu_set_r8_uid.js" type="text/javascript"></script>
+<script src="http://www.gu-global.com/tw/store/js/r8lpo.js" type="text/javascript"></script>
+<script type="text/javascript">
+	var getCookie = function (key){
+		var tmp = document.cookie + ";";
+		var index1 = tmp.indexOf(key, 0);
+		if(index1 != -1){
+			tmp = tmp.substring(index1,tmp.length);
+			var index2 = tmp.indexOf("=",0) + 1;
+			var index3 = tmp.indexOf(";",index2);
+			return(unescape(tmp.substring(index2,index3)));
+		}
+		return("");
+	};
+	var convertFormat = function (str){
+		return (typeof str == "string") ? "_" + str.split(',').join('_') +
+		"_" : str;
+	}
+	var R8RULEID  = convertFormat(getCookie('_r8_rule_id'));
+</script>
+<style type="text/css">
+	.ADLPO_AREA{height: 0;overflow: hidden;}
+</style>
+<!--/R∞-->
+
+
+</head>
+<body>
+    <div id="container">
+    <div id="main">
+      <!-- start FSC-header_01 // -->
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	function showBag(flg) {
+		if (flg == "1") {
+			document.getElementById("gnav_cart_target").style.display = 'block';
+		} else {
+			document.getElementById("gnav_cart_target").style.display = 'none';
+		}
+
+	}
+</script>
+
+
+<script src="/tw/store/js/gnavi_w.js" charset="utf-8"></script>
+
+
+
+
+<link href="/tw/store/css/jquery-ui-1.9.2.custom.min.css"  rel="stylesheet" type="text/css" media="all" />
+<link href="/tw/store/css/uniqlo.css?20140813"  rel="stylesheet" type="text/css" media="all" />
+<link href="/tw/store/css/parts/gnavi_w.css"  rel="stylesheet" type="text/css" media="all" />
+
+
+
+	
+
+
+
+
+
+
+<!-- start header // -->
+
+	
+	
+
+
+
+
+
+
+<div id="header" class="headerW01 clearfix">
+	
+	
+	
+	<div class="navArea navAreaH01 clearfix">
+		<!-- start FSC-01-010_top // -->
+		<!-- start FSC-01-010_top_GU_TW // -->
+<link href="/tw/store/css/uq-mini-l4.css" rel="stylesheet" type="text/css" media="all" />
+<!-- end FSC-01-010_top_GU_TW // -->
+
+		<!-- // end FSC-01-010_top -->
+		
+		<!-- start FSC-01-010_8 // -->
+		
+<link rel="stylesheet" href="//www.gu-global.com/tw/store/feature/material_gu/common/css/common.css" media="all">
+<!--Testshop open down↓-->
+<!--link rel="stylesheet" href="http://admin-gdstw.gu-global.com//tw/store/feature/material_gu/common/css/common.css" media="all"-->
+<script src="//www.gu-global.com/tw/store/feature/material_gu/common/js/meganavi.js"></script>
+<!--Testshop open down↓-->
+<!--script src="/tw/store/feature/material_gu/common/js/meganavi.js"></script-->
+<script>
+$(function(){
+	var headerHight = $('#globalHeader').outerHeight();
+    var hash = window.location.hash;
+    $("a[href^=#]").click(function() {
+        if (
+            // 例外部分
+            !$(this).parent().hasClass('modalClose') &&
+            !$(this).hasClass('modalShow') &&
+            !$(this).parent().hasClass('modal') &&
+            !$(this).parent().hasClass('closeBtn') &&
+            !$(this).parents().hasClass('modelBox') &&
+            !$(this).parent().hasClass('menAnc') &&
+            !$(this).parent().hasClass('womenAnc') &&
+            !$(this).parent().hasClass('fixAnc') &&
+            ($(this).attr('href') != '#thumbnailSelect') &&
+            ($(this).parents('#globalHeader').length == 0)
+            ) {
+            var hash = this.hash;
+        if (!hash || hash == "#") {
+            return false;
+        }
+        if (hash.indexOf('#!') == -1) {
+            if(hash=="#top"){
+                $('html,body').animate({
+                    scrollTop: 0
+                }, 'normal');
+            }
+            else{
+                var targetH = $(hash).offset().top - $('#globalHeader').outerHeight(true);
+                $('html,body').animate({
+                    scrollTop: targetH
+                }, 'normal');
+            }
+            
+            return false;
+        }
+    }
+});
+
+	/* var headerHight = $('#globalHeader').outerHeight();
+	 var hash = window.location.hash;
+	 $('a[href^=#]').click(function(){
+	 	if(
+	 		// 例外部分
+	 		!$(this).parent().hasClass('modalClose') &&
+	 		!$(this).hasClass('modalShow') &&
+	 		!$(this).parent().hasClass('modal') &&
+	 		!$(this).parent().hasClass('closeBtn') &&
+	 		!$(this).parents().hasClass('modelBox') &&
+	 		!$(this).parent().hasClass('menAnc') &&
+	 		!$(this).parent().hasClass('womenAnc') &&
+	 		!$(this).parent().hasClass('fixAnc') &&
+	 		($(this).attr('href') != '#thumbnailSelect') &&
+	 		($(this).parents('#globalHeader').length == 0)
+	 	){
+	 		var href = $(this).attr("href");
+	 		pageAncher(href);
+	 		return false;
+	 	}
+	 });
+	 if(hash){
+	 	pageAncher(hash);
+	 }
+
+	 function pageAncher(d){
+	 	if(d == '#top' || d == '#'){
+	 		$('html, body').animate({ scrollTop: 0 });
+	 		return false;
+	 	} else {
+	 		var target = $(d == "#" || d == "" ? 'html' : d);
+	 		setTimeout(function(){
+	 			var position = target.offset().top-headerHight;
+	 			$("html, body").animate({scrollTop:position}, 300);
+	 			window.location.hash = d;
+	 		},100);
+	 	}
+	 }*/
+
+	function changeIcon(URL,no) {
+		var link = document.createElement("link");
+		link.type = "image/x-icon";
+		link.rel = "shortcut icon";
+		link.href = URL;
+		document.getElementsByTagName("head")[0].appendChild(link);
+	}
+	changeIcon("http://www.gu-japan.com/new_favicon.ico",0);
+});
+</script>
+
+<div id="globalHeader">
+	<div class="headerFrame container clearfix">
+		<h1 class="siteLogo"><a href="http://www.gu-global.com/tw/" id="top" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-logo'});"><img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/header/160310_logo_header.png" alt="GU"></a></h1>
+		<ul id="navHeaders" class="clearfix">
+			<li><a href="#!WOMEN" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-women'});"><img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/header/160310_nav_women.gif" alt="WOMEN" class="over"></a></li>
+			<li><a href="#!MEN" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-men'});"><img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/header/160310_nav_men.gif" alt="MEN" class="over"></a></li>
+			<li><a href="#!KIDS" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-kids'});"><img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/header/160310_nav_kids.gif" alt="KIDS" class="over"></a></li>
+		</ul>
+		<ul class="navUtility clearfix" id="navUtil">
+			<li>
+				<a href="http://www.gu-global.com/tw/store/feature/gu/shop/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-shop'});">
+					<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/header/160310_nav_store_search.gif" alt="店鋪資訊" class="over">
+				</a>
+			</li>
+			
+
+
+
+
+
+
+
+    
+    
+<!-- start FSC-01-010_3_login_GU_TW // -->
+<li id="areaStoreLogin1">
+	<a href="https://www.gu-global.com/tw/store/FSC05110SCR.do" title="會員註冊" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-login'});">
+		<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/header/160310_nav_registration.gif" alt="會員註冊" class="over" >
+	</a>
+</li>
+<li id="areaStoreLogin2">
+	
+	<a href="https://www.gu-global.com/tw/store/FSC01010E02.do" title="登入" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-search'});">
+		<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/header/160310_nav_login.gif" alt="登入" class="over" >
+	</a>
+	
+	
+</li>
+
+<!-- // end FSC-01-010_3_login_GU_TW -->
+
+			
+
+<!-- start FSC-01-010_3_logout_GU_TW // -->
+<li id="areaStoreLogin1">
+	<a href="https://www.gu-global.com/tw/store/FSC05020SCR.do" title="我的帳戶">
+		<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/header/160310_nav_usage_situation.gif" alt="我的帳戶" class="over" >
+	</a>
+</li>
+<li id="areaStoreLogin2">
+	<a href="https://www.gu-global.com/tw/store/FSC01010E03.do" title="注销">
+		<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/header/160310_nav_logout.gif" alt="注销" class="over" >
+	</a>
+</li>
+<!-- // end FSC-01-010_3_logout_GU_TW -->
+
+			<li class="searchBox">
+				<form name="HeaderSearch" method="get" action="http://www.gu-global.com/tw/store/search.do" class="topSearch">
+					<input type="image" src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/header/160310_nav_ico_search.gif" class="btn over">
+					<input type="text" name="qtext" id="searchFocus" class="txt">
+					<input type="hidden" name="qstart" value="0">
+					<input type="hidden" name="sort" value="goods_disp_priority">
+					<input type="hidden" name="fid" value="header_search">
+					<input type="hidden" name="qbrand" value="20">
+				</form>
+			</li>
+			<li class="cart under">
+				<a href="http://www.gu-global.com/tw/store/FSC03010SCR.do" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-cart'});">
+					<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/header/160310_nav_ico_cart.gif" alt="ショッピングカートへ" class="over">
+				</a>
+				<input type="text" id="quantity" value="">
+				<ul id="gnav_cart_target" class="info clearfix" style="display: none !important;">
+					<li class="quantity"><img src="//im.uniqlo.com/images/jp/pc/img/material/nav/txt_nav_quantity_JP.gif" alt="商品点数" title="商品点数" /><span>0</span></li>
+					<li class="total"><img src="//im.uniqlo.com/images/jp/pc/img/material/nav/txt_nav_total_JP.gif" alt="合計金額" title="合計金額" /><span>￥0</span></li>
+						<!-- start FSC-01-010_4_GU_JP // -->
+							<li class="msg">商品合計税抜価格5,000円以上で<br />送料(450円+税)が無料！</li>
+						<!-- // end FSC-01-010_4_GU_JP -->
+				</ul>
+			</li>
+		</ul>
+		<script type="text/javascript">
+			function getCookieData(name) {
+				var cvalue = document.cookie;
+				var cstart = cvalue.indexOf(" " + name + "=");
+				if (cstart == -1) {
+					cstart = cvalue.indexOf(name + "=");
+				}
+				if (cstart == -1) {
+					cvalue = null;
+				} else {
+					cstart = cvalue.indexOf("=", cstart) + 1;
+					var cend = cvalue.indexOf(";", cstart);
+					if (cend == -1) {
+						cend = cvalue.length;
+					}
+					cvalue = cvalue.substring(cstart, cend);
+				}
+				return cvalue;
+			}
+			function setHeadCookie() {
+				var noicookie = getCookieData("NOI");
+
+				if (noicookie == null) {
+					noicookie = "0";
+				}
+				var count = document.getElementById("quantity");
+				count.value = noicookie;
+			}
+			setHeadCookie();
+		</script>
+
+		<!-- start FSC-01-010_8 // -->
+		<div id="navWomen">
+	<!--<dl class="navCategory clearfix" style="height:400px;">-->
+	<dl class="navCategory clearfix">
+		<dt><a href="http://www.gu-global.com/tw/store/feature/gu/list" class="over" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_list'});">穿搭示範▶流行速報</a></dt>
+		<dd class="block">
+			<!--ul class="sub2">
+				<li>
+					<a class="womenNavVisual166" href="http://www.gu-global.com/tw/store/feature/gu/list" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_list'});">看全部。時尚特輯一覽 | Fashion On Line</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+				<div id="womenNavVisual5">
+					<a href="http://www.gu-global.com/tw/store/feature/gu/basic/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_basic-w'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/170922_twpc_w_gubasic.jpg" alt="GU BASIC 百搭基本款單品">
+						<p>通勤最適，<br>講究細節品味極簡時尚</p>
+					</a>
+				</div>
+			</div-->
+		</dd>
+
+		<dt><a href="#">外套・大衣</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/coat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_coat'});">大衣・風衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/jacket/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_jacket'});">夾克・外套・背心</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/cardigan/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_cardigan'});">開襟外套</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/parka/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_parka'});">連帽外套</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/uvcut/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_uvcut'});">防曬抗UV外套</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+
+		<dt><a href="#">上衣</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/knit/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_knit'});">針織衫∙針織系列</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/sweat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_sweat'});">休閒上衣∙連帽上衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/shirts/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_shirts'});">襯衫∙設計襯衫</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/onepiece/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_onepiece'});">連身裙∙連身褲</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/tunic/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_tunic'});">長版上衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/designtops/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_designtops'});">設計上衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/printT/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_printT'});">素面T恤∙印花T恤</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+
+		<dt><a href="#">下身</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/widepants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_widepants'});">寬褲</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/pants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_pants'});">長褲</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/skirt/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_skirt'});">裙子</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/leggingspants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_leggingspants'});">內搭緊身褲・內搭褲</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/onepiece/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_onepiece'});">連身裙∙連身褲</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/jeans/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_jeans'});">牛仔褲・牛仔裙</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/relaxedpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_relaxedpants'});">休閒褲</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/croppedpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_croppedpants'});">七分褲・九分褲</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/shortpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_shortpants'});">短褲</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+
+		<dt><a href="#">家居&amp;内衣</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/brafeel/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_brafeel'});">BRA-FEEL 附罩杯上衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/underwear/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_underwear'});">內衣(內衣・內褲)</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/guwarm/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_guwarm'});">GU WARM・保暖發熱</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/gudry/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_gudry'});">GU DRY・吸汗快乾</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/undershirts/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_undershirts'});">內搭背心・內搭T恤</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/roomwear/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_roomwear'});">家居全系列(家居服・鞋・小物)</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/socks/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_socks'});">襪子・褲襪</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+
+		<dt><a href="#">鞋子/配件/飾品</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/shoes/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_shoes'});">鞋子</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/bag/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_bag'});">包包</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/pierce/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_pierce'});">耳環(針式・夾式)</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/accessory/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_accessory'});">項鍊・手飾・配飾</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/hairaccessory/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_hairaccessory'});">髮帶・髮圈・髮夾</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/hat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_hat'});">帽子</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/belt/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_belt'});">皮帶・腰帶・腰封</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/scarf/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_scarf'});">圍巾・領巾・手套</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+	<dt><a href="http://www.gu-global.com/tw/store/feature/gu/women/new/"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_new'});">NEW ARRIVAL</a></dt>
+		<!--dd>
+			<ul class="sub2">
+				<li><a href="http://www.gu-global.com/tw/store/feature/gu/women/new/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_new'});">NEW ARRIVAL</a></li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd-->
+
+		<dt><a href="http://www.gu-global.com/tw/store/feature/gu/women/limited/"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_limited'});">期間限定特價</a></dt>
+		<!--dd>
+			<ul class="sub2">
+				<li><a href="http://www.gu-global.com/tw/store/feature/gu/women/limited/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_limited'});">期間限定特價</a></li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd-->
+
+
+		<dt><a href="http://www.gu-global.com/tw/store/set/1183752" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_set'});"><span style="color: red;">限時素T★兩件折100</span></a></dt>
+
+
+		<!--dd>
+			<ul class="sub2">
+				<li><a href="http://www.gu-global.com/tw/store/set/1162384" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_set'});">合購優惠</a></li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd-->
+		<!--
+		<dt><a href="http://www.gu-global.com/tw/store/set/1178898" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_set'});"><span style=color:red;>內著合購。網路限定</span></a></dt>
+		-->			
+		<!--dt><a href="http://www.gu-global.com/tw/store/set/1179035" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_set'});"><span style=color:red;>Bra-Feel。合購折百</span></a></dt-->
+	
+		<!--dd>
+			<ul class="sub2">
+				<li>
+					<a class="womenNavVisua150" href="http://www.gu-global.com/tw/store/set/1159379" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_set'});">超值合購優惠</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="womenNavVisua150">
+					<a href="http://www.gu-global.com/tw/store/set/1159379" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_set'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160310_bnr_c_navi01.jpg" alt="超值合購優惠">
+					</a>
+				</div>
+
+
+			</div>
+		</dd-->
+		
+		
+		<!--dd>
+			<ul class="sub2">
+				<li><a href="http://www.gu-global.com/tw/store/list/sale-newgoods/women" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_sale'});">PRICE DOWN</a></li>
+			</ul>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/sale" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_sale_tops'});">上衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/sale/#areaG" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_sale_bottoms'});">下身</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/sale/#areaC" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_sale_inner'});">居家&amp;内衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/women/sale/#areaD" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_sale_goods'});">小物</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd-->
+		<dt><a href="http://www.gu-global.com/tw/store/search?qtext=%E7%86%B1%E8%B3%A3%E5%95%86%E5%93%81&qbrand=20&qnew=&qdiscount=&qlimit=&qmulti=&qonline=&qspsize=&qrange=&qcolor=&qsize=&qicon=&qstart=0&sort=goods_disp_priority&qclv1=002"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_bestseller-w'});" style="color: red !important;">熱賣商品</a></dt>
+		<dt><a href="http://www.gu-global.com/tw/store/feature/gu/online/women/"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_online-w'});">網路商店及大型店商品</a></dt>
+		<dt><a href="http://www.gu-global.com/tw/store/list/sale-newgoods/women" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_l3-w_sale'});">PRICE DOWN ↘</a></dt>
+		<dt><a href="http://www.gu-global.com/tw/store/search?qtext=%E6%9C%80%E5%BE%8C%E6%90%B6%E8%B3%BC&qbrand=20&qnew=&qdiscount=&qlimit=&qmulti=&qonline=&qspsize=&qrange=&qcolor=&qsize=&qicon=&qstart=0&sort=goods_disp_priority&qclv1=002"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_lastchance-w'});">最後搶購</a></dt>
+		<!--dd>
+			<ul class="sub2">
+				<li>
+					<a class="womenNavVisua160" href="http://www.gu-global.com/tw/store/feature/gu/online/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_online-w'});">網路商店‧大型店鋪限定商品</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="womenNavVisua160">
+					<a href="http://www.gu-global.com/tw/store/feature/gu/online/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_online-w'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160310_bnr_c_navi02.jpg" alt="網路商店‧大型店鋪限定商品">
+					
+					</a>
+				</div>
+			</div>
+		</dd-->
+		<!--dt><a href="http://www.gu-global.com/tw/GPAPER/sp/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_gpaper'});" target="_blank">G.PAPER</a></dt-->
+		<!--<dt><a href="#">GU TimeLine</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a class="womenNavVisua200" href="http://www.gu-global.com/tw/gutl/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_gutl'});">GU TimeLine</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="womenNavVisua200">
+					<a href="http://www.gu-global.com/tw/gutl/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_gutl'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160310_bnr_c_navi03.jpg" alt="GU TimeLine">
+						<p></p>
+					</a>
+				</div>
+			</div>
+		</dd>-->
+		<dt><a href="http://www.gu-global.com/tw/lookbook/pc/women" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_scatalog'});">LOOKBOOK</a></dt>
+		<!--dt><a href="#">本週電子DM</a></dt-->
+		<!--dd>
+			<ul class="sub2">
+				<li>
+					<a class="womenNavVisua210" href="http://www.gu-global.com/tw/weeklycollection/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_weeklycollection-w'});">本週電子DM</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="womenNavVisua210">
+					<a href="http://www.gu-global.com/tw/weeklycollection/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-W_weeklycollection-w'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160624_bnr_c_navi04.jpg" alt="本週電子DM">
+						
+					</a>
+				</div>
+			</div>
+		</dd-->
+
+	</dl>
+</div>
+<!-- //#navWomen -->
+
+<div id="navMen">
+	<dl class="navCategory clearfix">
+		<dt><a href="http://www.gu-global.com/tw/store/feature/gu/list/#men" class="over" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_list'});">穿搭示範▶流行速報</a></dt>
+		<dd class="block">
+			<!--ul class="sub2">
+				<li>
+					<a class="menNavVisual113" href="http://www.gu-global.com/tw/store/feature/gu/list/#men" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_list'});">看全部。時尚特輯一覽 | Fashion On Line</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+				<div id="menNavVisual3">
+					<a href="http://www.gu-global.com/tw/store/feature/gu/basic/men/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_basic-m'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/170922_twpc_m_gubasic.jpg" alt="GU BASIC 百搭基本款單品">
+						<p>品味極簡時尚，<br>清爽鄰家男孩風格。</p>
+					</a>
+				</div>
+			</div-->
+		</dd>
+
+		<dt><a href="#">外套・大衣</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/coat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_coat'});">大衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/windcoat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_windcoat'});">風衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/parka/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_parka'});">連帽外套</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/jacket/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_jacket'});">夾克・外套</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/cardigan/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_cardigan'});">開襟外套</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+
+		<dt><a href="#">上衣</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/sweat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_sweat'});">休閒上衣∙連帽上衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/knit/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_knit'});">針織衫∙毛衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/shirts/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_shirts'});">襯衫∙法蘭絨襯衫</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/longsleevetshirts/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_longsleevetshirts'});">長袖T恤∙設計上衣</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/poloshirt/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_poloshirt'});">POLO衫</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/printT/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_printT'});">印花T恤</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/designtops/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_designtops'});">短袖T恤∙設計上衣</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+
+		<dt><a href="#">下身</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/pants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_pants'});">長褲</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/jeans/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_jeans'});">牛仔褲</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/relaxedpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_relaxedpants'});">束口褲・休閒褲</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/suitpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_suitpants'});">商務褲・西裝褲</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/croppedpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_croppedpants'});">七分褲・九分褲</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/shortpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_shortpants'});">短褲</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+
+		<dt><a href="#">家居&amp;内衣</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/guwarm/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_guwarm'});">GU WARM・保暖發熱</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/gudry/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_gudry'});">GU DRY・吸汗快乾</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/innerT/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_innerT'});">內衣・內搭褲</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/boxers/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_boxers'});">內褲</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/roomwear/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_roomwear'});">家居系列(家居服・家居鞋)</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/socks/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_socks'});">襪子</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+
+		<dt><a href="#">鞋子/配件</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/shoes/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_shoes'});">鞋子</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/bag/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_bag'});">包包・後背包</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/belt/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_belt'});">皮帶・腰帶</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/hat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_hat'});">帽子/其他配飾</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+
+		<dt><a href="http://www.gu-global.com/tw/store/feature/gu/men/new" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_new'});">NEW ARRIVAL</a></dt>
+		<!--dd>
+			<ul class="sub2">
+				<li><a href="http://www.gu-global.com/tw/store/feature/gu/men/new" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_new'});">NEW ARRIVAL</a></li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd-->
+
+		<dt><a href="http://www.gu-global.com/tw/store/feature/gu/men/limited/"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_limited'});">期間限定特價</a></dt>
+		<!--dd>
+			<ul class="sub2">
+				<li><a href="http://www.gu-global.com/tw/store/feature/gu/men/limited/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_limited'});">期間限定特價</a></li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd-->
+
+		<!--dt><a href="http://www.gu-global.com/tw/store/set/1173391">限時合購優惠</a></dt-->
+		<!--dd>
+			<ul class="sub2">
+				<li><a href="http://www.gu-global.com/tw/store/set/1162384" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_set'});">合購優惠</a></li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd-->
+
+
+		<dt><a href="http://www.gu-global.com/tw/store/set/1183752" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_set'});"><span style="color: red;">限時素T★兩件折100</span></a></dt>
+
+
+		<!--
+		<dt><a href="http://www.gu-global.com/tw/store/set/1178898" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_set'});"><span style=color:red;>內著合購。網路限定</span></a></dt>
+		<dt><a href="http://www.gu-global.com/tw/store/set/1178549" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_set2'});">百搭素T。合購折百</a></dt>
+		-->		
+		<!--dd>
+			<ul class="sub2">
+				<li>
+					<a class="menNavVisua150" href="http://www.gu-global.com/tw/store/set/1159383" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_set'});">超值合購優惠</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="menNavVisua150">
+					<a href="http://www.gu-global.com/tw/store/set/1159383" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_set'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160310_bnr_c_navi01.jpg" alt="超值合購優惠">
+						<p></p>
+					</a>
+				</div>
+
+
+			</div>
+		</dd>-->
+
+		
+		<!--dd>
+			<ul class="sub2">
+				<li><a href="http://www.gu-global.com/tw/store/list/sale-newgoods/men" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_sale'});">PRICE DOWN</a></li>
+			</ul>
+			<<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/sale" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_sale-tops'});">上衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/sale/#areaB" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_sale-bottoms'});">下身</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/sale/#areaC" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_sale-inner'});">居家&amp;内衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/men/sale/#areaD" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_sale-goods'});">小物</a>
+				</li>
+			</ul>>
+			<div class="navVisualBox"></div>
+		</dd-->
+		<dt><a href="http://www.gu-global.com/tw/store/search?qtext=%E7%86%B1%E8%B3%A3%E5%95%86%E5%93%81&qbrand=20&qnew=&qdiscount=&qlimit=&qmulti=&qonline=&qspsize=&qrange=&qcolor=&qsize=&qicon=&qstart=0&sort=goods_disp_priority&qclv1=001" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_bestseller-m'});" style="color: red !important;">熱賣商品</a></dt>
+		<dt><a href="http://www.gu-global.com/tw/store/feature/gu/online/men/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_online-m'});">網路商店及大型店商品</a></dt>
+		<dt><a href="http://www.gu-global.com/tw/store/list/sale-newgoods/men"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_l3-m_sale'});">PRICE DOWN ↘</a></dt>
+		<dt><a href="http://www.gu-global.com/tw/store/search?qtext=%E6%9C%80%E5%BE%8C%E6%90%B6%E8%B3%BC&qbrand=20&qnew=&qdiscount=&qlimit=&qmulti=&qonline=&qspsize=&qrange=&qcolor=&qsize=&qicon=&qstart=0&sort=goods_disp_priority&qclv1=001" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_lastchance-m'});">最後搶購</a></dt>
+		<!--dd>
+			<ul class="sub2">
+				<li>
+					<a class="menNavVisua160" href="http://www.gu-global.com/tw/store/feature/gu/online/men/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_online-m'});">網路商店‧大型店鋪限定商品</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="menNavVisua160">
+					<a href="http://www.gu-global.com/tw/store/feature/gu/online/men/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_online-m'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160310_bnr_c_navi02.jpg" alt="網路商店‧大型店鋪限定商品">
+						
+					</a>
+				</div>
+			</div>
+		</dd-->
+		<!--dt><a href="http://www.gu-global.com/tw/GPAPER/sp/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_gpaper'});" target="_blank">G.PAPER</a></dt-->
+		<!--<dt><a href="#">GU TimeLine</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a class="womenNavVisua200" href="http://www.gu-global.com/tw/gutl/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_gutl'});">GU TimeLine</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="womenNavVisua200">
+					<a href="http://www.gu-global.com/tw/gutl/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_gutl'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160310_bnr_c_navi03.jpg" alt="GU TimeLine">
+						<p></p>
+					</a>
+				</div>
+			</div>
+		</dd>-->
+		<dt><a href="http://www.gu-global.com/tw/lookbook/pc/men" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_scatalog'});">LOOKBOOK</a></dt>
+		<!--dt><a href="#">本週電子DM</a></dt-->
+		<!--dd>
+			<ul class="sub2">
+				<li>
+					<a class="menNavVisua200" href="http://www.gu-global.com/tw/weeklycollection2/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_weeklycollection-m'});">本週電子DM</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="menNavVisua200">
+					<a href="http://www.gu-global.com/tw/weeklycollection2/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-M_weeklycollection-m'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160624_bnr_c_navi04.jpg" alt="本週電子DM">
+						
+					</a>
+				</div>
+			</div>
+		</dd-->
+
+	</dl>
+
+</div>
+<!-- //#navMen -->
+
+<div id="navKids">
+	<dl class="navCategory clearfix">
+		<dt><a href="http://www.gu-global.com/tw/store/feature/gu/list/#kids" class="over"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_list'});">穿搭示範▶流行速報</a></dt>
+		<dd class="block">
+			<!--ul class="sub2">
+				<li>
+					<a class=" " href="http://www.gu-global.com/tw/store/feature/gu/list/#kids" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_list'});">看全部。時尚特輯一覽 | Fashion On Line</a>
+
+				</li>
+			</ul>
+			<div class="navVisualBox">
+				<div id="kidsNavVisual02">
+					<a href="http://www.gu-global.com/tw/store/feature/gu/collection/kids/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_collection'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/171027_twpc_k_recommendstyling.jpg" alt="">
+						<p>寶貝暖身，大人暖心<br>一件保暖！時尚禦寒單品</p>
+					</a>
+				</div>
+			</div-->
+		</dd>
+		
+
+		<dt><a href="#">外套・大衣</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/girlsouter/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_girlsouter'});">女童外套・大衣</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/boysouter/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_boysouter'});">男童外套・大衣</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+
+		<dt><a href="#">上衣</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/girlstops/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_girlstops'});">女童上衣</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/boystops/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_boystops'});">男童上衣</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+		<dt><a href="#">下身</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/girlsbottoms/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_girlsbottoms'});">女童下身</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/boysbottoms/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_boysbottoms'});">男童下身</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+		<dt><a href="#">家居/內衣/配件</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/roomwear/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_roomwear'});">家居&amp;内衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/guwarm/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_guwarm'});">GU WARM・保暖發熱</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/goods/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_goods'});">配件/鞋/襪</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd>
+
+		<!--dt><a href="#">鞋子&配件</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/goods/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_goods'});">女童鞋子/配件</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/boysgoods/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_boysgoods'});">男童鞋子/配件</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd-->
+
+		<!--dt><a href="http://www.gu-global.com/tw/store/set/1179798"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_set'});"><span style=color:red;>指定童裝Ｔ★兩件折百</span></a></dt-->				
+		<!--dd>
+			<ul class="sub2">
+				<li>
+					<a class="kidsNavVisua150" href="http://www.gu-global.com/tw/store/set/1161582" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_set'});">超值合購優惠</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="kidsNavVisua150">
+					<a href="http://www.gu-global.com/tw/store/set/1159379" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_set'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160310_bnr_c_navi01.jpg" alt="超值合購優惠">
+						<p></p>
+					</a>
+				</div>
+
+
+			</div>
+		</dd>-->
+
+		<dt><a href="http://www.gu-global.com/tw/store/feature/gu/kids/new" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_new'});">NEW ARRIVAL</a></dt>
+		<!--dd>
+			<ul class="sub2">
+				<li><a href="http://www.gu-global.com/tw/store/feature/gu/kids/new" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_new'});">NEW ARRIVAL</a></li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd-->
+		<dt><a href="http://www.gu-global.com/tw/store/feature/gu/kids/limited/"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_limited'});">期間限定特價</a></dt>
+		<!--dd>
+			<ul class="sub2">
+				<li><a href="http://www.gu-global.com/tw/store/feature/gu/kids/limited/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_limited'});">期間限定特價</a></li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd-->
+				
+		
+		<!--dd>
+			<ul class="sub2">
+				<li><a href="http://www.gu-global.com/tw/store/list/sale-newgoods/kids/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_sale'});">PRICE DOWN</a></li>
+			</ul>
+			<ul class="sub2">
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/sale/#area01" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_sale-tops'});">上衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/sale/#area03" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_sale-bottoms'});">下身</a>
+				</li>
+				<li>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/sale/#area04" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_sale-inner'});">居家&amp;内衣</a>
+					<a href="http://www.gu-global.com/tw/store/feature/gu/kids/sale/#area05" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_sale-goods'});">小物</a>
+				</li>
+			</ul>
+			<div class="navVisualBox"></div>
+		</dd-->
+		<dt><a href="http://www.gu-global.com/tw/store/search?qtext=%E7%86%B1%E8%B3%A3%E5%95%86%E5%93%81&qbrand=20&qnew=&qdiscount=&qlimit=&qmulti=&qonline=&qspsize=&qrange=&qcolor=&qsize=&qicon=&qstart=0&sort=goods_disp_priority&qclv1=003"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_bestseller-k'});" style="color: red !important;">熱賣商品</a></dt>
+		<dt><a href="http://www.gu-global.com/tw/store/feature/gu/online/kids/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_online-k'});">網路商店及大型店商品</a></dt>
+		<dt><a href="http://www.gu-global.com/tw/store/list/sale-newgoods/kids/"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_l3-k_sale'});">PRICE DOWN ↘</a></dt>
+		<dt><a href="http://www.gu-global.com/tw/store/search?qtext=%E6%9C%80%E5%BE%8C%E6%90%B6%E8%B3%BC&qbrand=20&qnew=&qdiscount=&qlimit=&qmulti=&qonline=&qspsize=&qrange=&qcolor=&qsize=&qicon=&qstart=0&sort=goods_disp_priority&qclv1=003"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_lastchance-k'});">最後搶購</a></dt>
+		<!--dd>
+			<ul class="sub2">
+				<li>
+					<a class="kidsNavVisua160" href="http://www.gu-global.com/tw/store/feature/gu/online/kids/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_online-k'});">網路商店‧大型店鋪限定商品</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="kidsNavVisua160">
+					<a href="http://www.gu-global.com/tw/store/feature/gu/online/kids/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_online-k'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160310_bnr_c_navi02.jpg" alt="網路商店‧大型店鋪限定商品">
+						
+					</a>
+				</div>
+			</div>
+		</dd-->
+		<!--dt><a href="http://www.gu-global.com/tw/GPAPER/sp/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_gpaper'});" target="_blank">G.PAPER</a></dt-->
+		<!--<dt><a href="#">GU TimeLine</a></dt>
+		<dd>
+			<ul class="sub2">
+				<li>
+					<a class="womenNavVisua200" href="http://www.gu-global.com/tw/gutl/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_gutl'});">GU TimeLine</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="womenNavVisua200">
+					<a href="http://www.gu-global.com/tw/gutl/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_gutl'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160310_bnr_c_navi03.jpg" alt="GU TimeLine">
+						<p></p>
+					</a>
+				</div>
+			</div>
+		</dd>-->
+		<dt><a href="http://www.gu-global.com/tw/lookbook/pc/all" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_scatalog'});">LOOKBOOK</a></dt>
+		<!--dt><a href="#">本週電子DM</a></dt-->
+		<!--dd>
+			<ul class="sub2">
+				<li>
+					<a class="kidsNavVisua200" href="http://www.gu-global.com/tw/weeklycollection3/" onclick="ga('send', 'event', 'L1_Hnavi-K_weeklycollection-k');">本週電子DM</a>
+				</li>
+			</ul>
+			<div class="navVisualBox">
+					<div id="kidsNavVisua200">
+					<a href="http://www.gu-global.com/tw/weeklycollection3/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Hnavi_tw_PC', 'eventAction' : 'Hnavi_tw-K_weeklycollection-k'});">
+						<img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/160624_bnr_c_navi04.jpg" alt="本週電子DM">
+					
+					</a>
+				</div>
+			</div>
+		</dd-->
+	</dl>
+
+</div>
+<!-- //#navKids -->
+
+		<!-- // end FSC-01-010_8 -->
+	</div>
+</div>
+
+
+<div id="tax-information" style="text-align: center;">
+<a href="https://www.gu-global.com/tw/store/FSC05110SCR.do" style="display: block; background-color: rgb(19,41,140); /*margin-bottom: 10px;*/"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/170614/170614_twpc_abovemainbanner.jpg" alt="新會員免運"></a>
+
+<a href="http://www.gu-global.com/tw/store/feature/gu/halloween/women/" style="display: block;     background-color:rgb(195,83,46); margin-bottom: 10px;"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181026/181026_twpc_abovemainbanner.jpg" alt="2018 Ha HA HA Halloween"></a>
+
+</div>
+
+<script type="text/javascript">
+(function($){
+	$(document).ready(function(){
+		$('#header').after($('#tax-information').fadeTo(300, 1));
+	});
+})(jQuery)
+</script>
+
+<!--捲軸浮動視窗 start-->
+<script type="text/javascript">
+<!--
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; 
+	} 	
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+
+
+<style>
+body  .scrollbarimg {
+      height: 420px;
+      margin-right: 20px;
+      margin-bottom: 100px;
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      display: inline-block;
+      display: none;
+      z-index: 10300; }
+      body  .scrollbarimg .inner {
+        text-align: right;
+        line-height: 0; }
+        body  .scrollbarimg .inner.fixed {
+          display: none;
+          position: fixed;
+          bottom: 0;
+          right: 50%;
+          z-index: 100;
+          width: 150px;
+          margin-right: -150px; }
+        body  .scrollbarimg .inner img {
+          cursor: pointer; }
+</style>
+<!--捲軸浮動視窗 end-->
+<script>
+	function scrollbarimgBtn() {
+		//ブラウザウインドウ 高さ取得
+		var winH = window.innerHeight ? window.innerHeight: $(window).height();
+		$(window).scroll(function () {
+			var offset = parseInt($(document).scrollTop());
+			var scrollbarimg_elems = $("#scrollbarimg");
+
+			if (offset > 1040) {
+				scrollbarimg_elems.fadeIn("slow");
+			} else {
+				scrollbarimg_elems.fadeOut("slow");
+			}
+		});
+	}
+	$(function(){
+		scrollbarimgBtn();
+	});
+</script>
+
+		<!-- // end FSC-01-010_8 -->
+
+		
+			<!-- start L2dispcategory // -->
+			
+
+			
+				
+				
+				
+					
+				
+				
+			
+			
+			<!-- L2 END -->
+			
+	
+	
+	
+
+		
+		
+		
+	</div>
+	<!--/#header-->
+</div>
+
+
+
+<script type="text/javascript">
+    function getCookie(name) {
+        var cvalue = document.cookie;
+        var cstart = cvalue.indexOf(" " + name + "=");
+        if (cstart == -1) {
+            cstart = cvalue.indexOf(name + "=");
+        }
+        if (cstart == -1) {
+            cvalue = null;
+        } else {
+            cstart = cvalue.indexOf("=", cstart) + 1;
+            var cend = cvalue.indexOf(";", cstart);
+            if (cend == -1) {
+                cend = cvalue.length;
+            }
+            cvalue = cvalue.substring(cstart, cend);
+        }
+        return cvalue;
+    }
+    
+    function setHeaderCookie() {
+        var hcncookie = getCookie("HCN");
+        var noicookie = getCookie("NOI");
+        var sbtcookie = getCookie("SBT");
+
+        if ((document.getElementById("navUtil") != undefined) && (document.getElementById("navUtil").childNodes != undefined)) {
+          var e = document.getElementById("navUtil").childNodes;
+
+          var ea = [];
+          
+          for (var i=0; i<e.length; i++) {
+              if (e[i].nodeName == "LI" && e[i].getAttribute("id") != null && e[i].getAttribute("id").indexOf("areaStoreLogin") != -1) {
+                  ea.push(e[i]);
+              } 
+              if (ea.length == 4) {
+                  break;   
+              }
+          }
+          
+          if (hcncookie != null) {
+              ea[0].parentNode.removeChild(ea[0]);
+              ea[1].parentNode.removeChild(ea[1]);
+          } else {
+              ea[2].parentNode.removeChild(ea[2]);
+              ea[3].parentNode.removeChild(ea[3]);
+          }
+          
+          if (sbtcookie == null || isNaN(parseInt(sbtcookie))) {
+              sbtcookie = "NT$0";
+          } else {
+              sbtcookie = "NT$" + sbtcookie.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+          }
+          if (noicookie == null || isNaN(parseInt(noicookie))) {
+              noicookie = "0"; 
+          }
+        }
+        
+
+        if (document.getElementById("gnav_cart_target") != undefined) {
+          var a = document.getElementById("gnav_cart_target");
+          var countspan = a.children[0].children[1];
+          var totalspan = a.children[1].children[1];
+          
+          var newcount = document.createElement("span");
+          newcount.innerHTML = noicookie;
+          countspan.parentNode.replaceChild(newcount, countspan);
+          
+          var newtotal = document.createElement("span");
+          newtotal.innerHTML = sbtcookie;
+          totalspan.parentNode.replaceChild(newtotal, totalspan);
+        }
+    }
+    setHeaderCookie();    
+</script>
+
+
+
+      <!--/#header-->
+      
+      
+      
+      <script>
+	$(function(){
+		$('hr').first().hide();
+		// swiper系の初期化
+		var swiper = null;
+		var swiperTarget = '.mainSlider';
+		// トータル数を先に計算
+		$('.swiper-pagenum .totalPage').text($(swiperTarget).find('.swiper-wrapper .swiper-slide').length);
+
+		swiper = new Swiper(swiperTarget, {
+			pagination: '.swiper-pagination',
+			paginationClickable: true,
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev',
+			autoplay:2500,
+			autoplayDisableOnInteraction:false,
+			loop: true,
+			speed: 700,
+			onSlideChangeEnd: function() {
+				// 現在のスライド番号を取得
+				if (swiper != null) {
+					$('.swiper-pagenum .currentPage').text(swiper.realIndex + 1);
+				}
+			}
+		});
+	});
+</script>
+
+
+<a id="top"></a>
+
+<link rel="stylesheet" href="/tw/store/feature/material_gu/common/css/170317_ranking.css" media="all">
+<script src="/tw/store/feature/material_gu/common/js/170317_rankingApi.js" defer></script>
+
+
+<!-- ### ABOVE BANNER ### -->
+<!--1-->
+<div style="margin:0 auto; text-align:center;"><a href="https://www.gu-global.com/tw/store/FSC05110SCR.do" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_center_bnr01'});" style="text-align: center; background: #12288b; display: block;"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/170614/170614_twpc_abovemainbanner.jpg" alt="新會員免運"></a></div>
+<!--2-->
+<!--div style="margin:0 auto; text-align:center;"><a href="http://www.gu-global.com/tw/store/feature/gu/women/limited/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_center_bnr02'});" style="text-align: center; background-color:rgb(255,0,0); display: block;"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181005/181005_twpc_abovemainbanner.jpg" alt="歡慶雙✚10/11前 超取滿1010免運"></a></div-->
+<!-- ### ABOVE BANNER END ### -->
+
+<!-- ### EVENT BANNER ### -->
+<!--1-->
+<div style="text-align: center; margin-top: 15px;"><a href="http://www.gu-global.com/tw/store/feature/gu/halloween/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_center_event_halloween'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181026/181026_twpc_helloween.jpg" alt="萬聖節 活動" style="width: 1300px;"></a></div>
+<!--2-->
+<div style="text-align: center; margin-top: 15px;"><a href="http://www.gu-global.com/tw/store/feature/gu/woolouter/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_center_event_woolouter'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181015/181015_twpc_mainvisual_w01.jpg" alt="W OUTER FIESTA" style="width: 1300px;"></a></div>
+<!-- ### EVENT BANNER END ### -->
+
+
+<section id="mainImage" style="margin-top: 15px;">
+	<div class="mainSlider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide flashOver"><a href="http://www.gu-global.com/tw/store/feature/gu/outer/men/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_main_m01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181015/181015_twpc_mainvisual_m03.jpg" alt="M OUTER COLLECTION"></a></div>
+
+			<div class="swiper-slide flashOver"><a href="http://www.gu-global.com/tw/store/feature/gu/marshmallow/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_main_w01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181015/181015_twpc_mainvisual_w02.jpg" alt="W Marshmallow Feel"></a></div>
+
+			<div class="swiper-slide flashOver"><a href="http://www.gu-global.com/tw/store/feature/gu/fashioncollection/kids/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_main_k01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181022/181022_twpc_mainvisual_k01.jpg" alt="K FASHION COLLECTION"></a></div>
+		</div>
+		<div class="swiper-pagination"></div>
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-pagenum">
+			<span class="currentPage">1</span>/<span class="totalPage">1</span>
+		</div>
+	</div>
+</section>
+
+
+
+<!-- ### MAIN WOMEN NAVI### -->
+<nav id="categoryTab" class="container" style="width: 1060px">
+	<ul class="clearfix" style="padding-left: 150px;">
+		<li style="width: 250px;"><a href="javascript:vodi(0);" data-genre="forWomen" class="over"><p>WOMEN</p></a></li>
+		<li style="width: 250px;"><a href="javascript:vodi(0);" data-genre="forMen" class="over"><p>MEN</p></a></li>
+		<li style="width: 250px;"><a href="javascript:vodi(0);" data-genre="forKids" class="over"><p>KIDS</p></a></li>
+	</ul>
+</nav>
+
+
+
+<!-- ### MAIN AREA IN WOMEN ### -->
+<section class="mainBlock container" id="forWomen" style="text-align: center;">
+
+	<!-- ## WOMEN SUB BANNER ##-->
+	<section style="width: 1060px; margin: 0 auto;">
+		<div class="new_arrival" style="margin-bottom: 50px;">
+			<h2 class="l1title">本週新品</h2>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/new/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_subbnr_new_w01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181029/181029_twpc_sub_newarrival_w01.jpg" class="over" alt="本週新品" style="width: 1060px; height: 400px;"></a>
+		</div>
+
+		<div class="limited_price" style="margin-bottom: 50px;">
+			<h2 class="l1title">期間限定特價</h2>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/limited/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_subbnr_limited_w01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181026/181026_twpc_sub_limitedprice_w01.jpg" class="over" alt="期間限定特價" style="width: 1060px; height: 400px;"></a>
+		</div>
+
+		<div class="Last_sale" style="margin-bottom: 50px;">
+			<h2 class="l1title">特價商品</h2>
+			<a href="http://www.gu-global.com/tw/store/list/sale-newgoods/women" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_subbnr_sale_w01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181012/181012_twpc_sub_eventbanner_SALE_w.jpg" class="over" alt="特價商品" style="width: 1060px; height: 400px;"></a>
+		</div>
+	</section>
+
+
+
+	<!-- ## WOMEN SPECIAL CONTENTS ## -->
+	<section id="featureContents" style="text-align: left;">
+		<h2 class="l1title">時尚穿搭特輯</h2>
+
+		<div class="largeBnr">
+			<ul class="clearfix">
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/season/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_wide_w_summeritem'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181008/181008_twpc_scw_collection_w01.jpg" alt="Winter Item"></p><p class="date">UPDATE │ Every Monday</p><h3>Winter Item</h3><p class="readText">每週更新！<br>當季新品女裝一次看！</p></a></li>
+			</ul>
+		</div>
+		<div class="smallBnr">
+			<ul class="clearfix">
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/knitcollection/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_w_knitcollection'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181008_twpc_w_knitcollection.jpg" alt="Knit Collection"></p><p class="date">2018.10.08</p><h3>Knit Collection</h3><p class="readText">換季百搭優雅針織，<br>入冬氣質展現必備單品。</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/guwarmex/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_w_guwarmex'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181001_twpc_w_guwarmex.jpg" alt="GU WARM"></p><p class="date">2018.10.01</p><h3>GU WARM</h3><p class="readText">時尚美人的保暖秘密，<br>GU保暖、極暖系列登場！</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/chiccity/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_w_chiccity'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181022_twpc_w_chiccity.jpg" alt="CHIC & CITY"></p><p class="date">NEW | 2018.10.22</p><h3>CHIC & CITY</h3><p class="readText">獨特簡潔俐落感，<br>展現與眾不同知性氣息。</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/yourfreedomsnap/women/#tab-3" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_w_yourfreedomsnap'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181022_twpc_w_yourfreedomsnap.jpg" alt="Your Freedom SNAP"></p><p class="date">UPDATE | 2018.10.22</p><h3>Your Freedom SNAP</h3><p class="readText">潮人示範，入冬外套穿搭，<br>冬季潮流前線一次揭曉。</p></a></li>
+			</ul>
+		</div>
+		<p class="moreBtn"><a href="http://www.gu-global.com/tw/store/feature/gu/list/#women" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_w_more'});"><u>全系列時尚穿搭特輯</u></a></p>
+	</section>
+
+
+
+	<!-- ## WOMEN RECOMMEND ITEM ## -->
+	<section id="recommendContents" style="text-align: left;">
+		<h2 class="l1title">推薦商品</h2>
+
+		<div class="smallBnr">
+			<ul class="clearfix">
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/search?qtext=college&qbrand=20&qstart=0&sort=goods_disp_priority&qclv1=002" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_recommend_w_usacollegesweat'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181026_twpc_rc_w_usacollegesweat_1026.jpg" alt="USA College Sweat"></p><p class="date">NEW | 2018.10.26</p><h3>USA College Sweat</h3><p class="readText">美國名門大學聯名款，<br>11/1前限時五折瘋狂降。</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/search.do?x=0&y=0&qtext=2WAY%E5%BD%88%E6%80%A7%E8%A4%B2&qstart=0&sort=goods_disp_priority&fid=header_search&qbrand=20" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_recommend_w_brushed2waystretchpants'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181029_twpc_rc_w_brushed2waystretchpants_1029.jpg" alt="Brushed 2Way Stretch Pants"></p><p class="date">NEW | 2018.10.29</p><h3>Brushed 2Way Stretch Pants</h3><p class="readText">時尚保暖2Way彈性褲，<br>素色、格紋冬季百搭舒適</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/women/jacket/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_recommend_w_paddedjacket'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181026_twpc_rc_w_paddedjacket_1026.jpg" alt="Padded Jacket"></p><p class="date">NEW | 2018.10.26</p><h3>Padded Jacket</h3><p class="readText">微中性點亮穿搭，<br>舒適保暖內鋪棉外套。</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/search?qtext=%E7%BE%8A%E6%AF%9B&qbrand=20&qstart=0&sort=goods_disp_priority&qclv1=002" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_recommend_w_woolblendcoat_1005'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181005_twpc_rc_w_woolblendcoat_1005.jpg" alt="Wool Blend Coat"></p><p class="date">2018.10.05</p><h3>Wool Blend Coat</h3><p class="readText">柔軟輕盈的羊毛混紡大衣，<br>設計感高級感兼具的美品。</p></a></li>
+			</ul>
+		</div>
+	</section>
+
+
+
+	<!-- ## WOMEN RANKING ## -->
+	<section id="rankingArea" style="text-align: left;">
+		<h2 class="l1title">DAILY RANKING<span style="font-size: 24px;">&nbsp;&nbsp;- 熱銷排行榜 -</span></h2>
+
+		<section class="dailyRanking" style="background-color:#FFF; padding: 10px 0px 30px 0px; width:1060px; margin: 0 auto;">
+			<section id="rankingW" class="weekly">
+				<!--h3>WOMEN<span style="font-size: 20px;">-女裝每日熱銷即時榜-</span></h3-->
+				<ul class="clearfix"><li style="width: 190px;"></li></ul>
+				<!-- <p class="rankingMore"><span></span></p> -->
+			</section>
+		</section>
+	</section>
+
+
+
+	<!-- #### WOMEN LOOK BOOK #### -->
+	<div style=" margin:0 auto 100px;">
+		<div style="text-align:center;"><a href="http://www.gu-global.com/tw/lookbook/pc/women" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_w_lookbook'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181022/181022_twpc_sub_lookbook_w01.jpg" alt="LOOKBOOK" class="over"></a></div>
+	</div>
+
+
+
+	<!-- #### WOMEN LINE UP #### -->
+	<section id="lineup">
+		<h2 class="l1title" style="text-align: center; background-color: rgb(235,236,238);padding: 20px;display: block;">商品分類一覽</h2>
+		<p class="title">WOMEN</p>
+
+		<div>
+			<h3>〉&nbsp;外套・大衣</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/coat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-coat'});">大衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/jacket/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-jacket'});">夾克・外套・背心</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/cardigan/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-cardigan'});">開襟外套</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/parka/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-parka'});">連帽外套</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/uvcut/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-uvcut'});">防曬抗UV外套</a>
+		</div>
+
+		<div>
+			<h3>〉&nbsp;上衣</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/knit/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-knit'});">針織衫∙針織系列</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/sweat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-sweat'});">休閒上衣∙連帽上衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/shirts/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-shirts'});">襯衫∙設計襯衫</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/onepiece/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-onepiece'});">連身裙∙連身褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/tunic/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-tunic'});">長版上衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/designtops/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-designtops'});">設計上衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/printT/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-printT'});">素面T恤∙印花T恤</a>
+		</div>
+
+		<div>
+			<h3>〉&nbsp;下身</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/widepants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-widepants'});">寬褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/pants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-pants'});">長褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/skirt/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-skirt'});">裙子</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/leggingspants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-leggingspants'});">內搭緊身褲・內搭褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/onepiece/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-onepiece'});">連身裙∙連身褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/jeans/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-jeans'});">牛仔褲・牛仔裙</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/relaxedpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-relaxedpants'});">休閒褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/croppedpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-croppedpants'});">七分褲・九分褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/shortpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-shortpants'});">短褲</a>
+		</div>
+
+		<div>
+			<h3>〉&nbsp;家居&amp;内衣</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/brafeel/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-brafeel'});">BRA-FEEL 附罩杯上衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/underwear/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-underwear'});">內衣(內衣・內褲)</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/guwarm/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-guwarm'});">GU WARM・保暖發熱</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/gudry/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-gudry'});">GU DRY・吸汗快乾</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/undershirts/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-undershirts'});">內搭背心・內搭T恤</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/roomwear/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-roomwear'});">家居全系列(家居服・鞋・小物)</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/socks/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-socks'});">襪子・褲襪</a>
+		</div>
+
+		<div>
+			<h3>〉&nbsp;鞋子/配件/飾品</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/shoes/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-shoes'});">鞋子</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/bag/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-bag'});">包包</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/pierce/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-pierce'});">耳環(針式・夾式)</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/accessory/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-accessory'});">項鍊・手飾・配飾</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/hairaccessory/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-hairaccessory'});">髮帶・髮圈・髮夾</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/hat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-hat'});">帽子</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/belt/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-belt'});">皮帶・腰帶・腰封</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/women/scarf/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-W-LU-scarf'});">圍巾・領巾・手套</a>
+		</div>
+	</section>
+</section>
+
+
+
+
+
+<!-- ### MAIN AREA IN MEN ### -->
+<section class="mainBlock container" id="forMen" style="text-align: center;">
+
+	<!-- ## MEN SUB BANNER ##-->
+	<section style="width: 1060px; margin: 0 auto;">
+		<div class="new_arrival" style="margin-bottom: 50px;">
+			<h2 class="l1title">本週新品</h2>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/new/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_subbnr_new_m01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181029/181029_twpc_sub_newarrival_m01.jpg" class="over" alt="本週新品" style="width: 1060px; height: 400px;"></a>
+		</div>
+
+		<div class="limited_price" style="margin-bottom: 50px;">
+			<h2 class="l1title">期間限定特價</h2>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/limited/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_subbnr_limited_m01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181026/181026_twpc_sub_limitedprice_m01.jpg" class="over" alt="期間限定特價" style="width: 1060px; height: 400px;"></a>
+		</div>
+
+		<div class="Last_sale" style="margin-bottom: 50px;">
+			<h2 class="l1title">特價商品</h2>
+			<a href="http://www.gu-global.com/tw/store/list/sale-newgoods/men" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_subbnr_sale_m01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181012/181012_twpc_sub_eventbanner_SALE_m.jpg" class="over" alt="特價商品" style="width: 1060px; height: 400px;"></a>
+		</div>
+	</section>
+
+
+
+	<!-- ## MEN SPECIAL CONTENTS ## -->
+	<section id="featureContents" style="text-align: left;">
+		<h2 class="l1title">時尚穿搭特輯</h2>
+
+		<div class="largeBnr">
+			<ul class="clearfix">
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/season/men/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_wide_m_summeritem'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181008/181008_twpc_scw_collection_m01.jpg" alt="Winter Item"></p><p class="date">UPDATE │ Every Monday</p><h3>Winter Item</h3><p class="readText">每週更新！<br>當季新品男裝一次看！</p></a></li>
+			</ul>
+		</div>
+		<div class="smallBnr">
+			<ul class="clearfix">
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/390knit/men/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_m_390knit'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181015_twpc_m_390knit.jpg" alt="390KNIT"></p><p class="date">2018.10.15</p><h3>390KNIT</h3><p class="readText">冬日潮流文青專屬，<br>打造冬季裡的愜意日常。</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/cleanstyle/men/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_m_cleanstyle'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181015_twpc_m_cleanstyle.jpg" alt="CLEAN STYLE"></p><p class="date">2018.10.15</p><h3>CLEAN STYLE</h3><p class="readText">質感男士專屬極品紳裝，<br>時尚品味輕鬆完勝正式場合</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/guwarmex/women/#MWarm" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_m_guwarmex'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181001_twpc_m_guwarmex.jpg" alt="GU WARM"></p><p class="date">2018.10.01</p><h3>GU WARM</h3><p class="readText">型男帥氣保暖秘技，<br>GU保暖、極暖系列登場！</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/colorsweat/men/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_m_colorsweat'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/180903_twpc_m_colorsweat.jpg" alt="College Sweat"></p><p class="date">2018.08.27</p><h3>College Sweat</h3><p class="readText">美國名門大學聯名，<br>穿出休閒上衣潮流風格！</p></a></li>
+			</ul>
+		</div>
+		<p class="moreBtn"><a href="http://www.gu-global.com/tw/store/feature/gu/list/#men" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_m_more'});"><u>全系列時尚穿搭特輯</u></a></p>
+	</section>
+
+
+
+	<!-- ## MEN RECOMMEND ITEM ## -->
+	<section id="recommendContents" style="text-align: left;">
+		<h2 class="l1title">推薦商品</h2>
+
+		<div class="smallBnr">
+			<ul class="clearfix">
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/search?qtext=college&qbrand=20&qstart=0&sort=goods_disp_priority&qclv1=001" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_recommend_m_collegesweat'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/180914_twpc_rc_m_collegesweat_0914.jpg" alt="USA College Sweat"></p><p class="date">NEW | 2018.10.26</p><h3>USA College Sweat</h3><p class="readText">美國名門大學聯名款，<br>11/1前限時五折瘋狂降。</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/men/jacket/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_recommend_m_paddedjacket'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181026_twpc_rc_m_paddedjacket_1026.jpg" alt="Padded Jacket"></p><p class="date">NEW | 2018.10.26</p><h3>Padded Jacket</h3><p class="readText">潮男冬季必備，<br>舒適溫暖夾層外套。</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/men/jacket/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_m_boajacket_1001'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181001_twpc_rc_m_boajacket_1001.jpg" alt="Boa Jacket"></p><p class="date">2018.10.01</p><h3>Boa Jacket</h3><p class="readText">非凡時尚感棉絨外套，<br>翻領鋪棉設計潮流首選。</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/men/coat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_recommend_m_woolblendcoat_1012'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181012_twpc_rc_m_woolblendcoat_1012.jpg" alt="Wool Blend Coat"></p><p class="date">2018.10.12</p><h3>Wool Blend Coat</h3><p class="readText">柔軟輕盈羊毛混紡大衣，<br>喚醒潮男的冬日時尚魂。</p></a></li>
+			</ul>
+		</div>
+	</section>
+
+
+
+	<!-- ## MEN RANKING ## -->
+	<section id="rankingArea" style="text-align: left;">
+		<h2 class="l1title">DAILY RANKING<span style="font-size: 24px;">&nbsp;&nbsp;- 熱銷排行榜 -</span></h2>
+
+		<section class="dailyRanking" style="background-color:#FFF; padding: 10px 0px 30px 0px; width:1060px; margin: 0 auto;">
+			<section id="rankingM" class="weekly">
+				<!--h3>MEN<span style="font-size: 20px;">-男裝每日熱銷即時榜-</span></h3-->
+				<ul class="clearfix"><li style="width: 190px;"></li></ul>
+				<!-- <p class="rankingMore"><span></span></p> -->
+			</section>
+		</section>
+	</section>
+
+
+
+	<!-- #### MEN LOOK BOOK #### -->
+	<div style=" margin:0 auto 100px;">
+		<div style="text-align:center;"><a href="http://www.gu-global.com/tw/lookbook/pc/men" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_m_lookbook'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181022/181022_twpc_sub_lookbook_m01.jpg" alt="LOOKBOOK" class="over"></a></div>
+	</div>
+
+
+
+	<!-- #### MEN LINE UP #### -->
+	<section id="lineup">
+		<h2 class="l1title" style="text-align: center; background-color: rgb(235,236,238);padding: 20px;display: block;">商品分類一覽</h2>
+		<p class="title">MEN</p>
+
+		<div>
+			<h3>〉&nbsp;外套・大衣</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/coat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-coat'});">大衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/windcoat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-windcoat'});">風衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/parka/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-parka'});">連帽外套</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/jacket/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-jacket'});">夾克・外套</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/cardigan/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-cardigan'});">開襟外套</a>
+		</div>
+
+		<div>
+			<h3>〉&nbsp;上衣</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/sweat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-sweat'});">休閒上衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/knit/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-knit'});">針織衫∙毛衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/shirts/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-shirts'});">襯衫∙法藍絨襯衫</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/longsleevetshirts/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-longsleevetshirts'});">長袖T恤∙設計上衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/poloshirt/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-poloshirt'});">POLO衫</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/printT/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-printT'});">印花T恤</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/designtops/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-designtops'});">短袖T恤∙設計上衣</a>
+		</div>
+
+		<div>
+			<h3>〉&nbsp;下身</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/pants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-pants'});">長褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/jeans/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-jeans'});">牛仔褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/relaxedpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-relaxedpants'});">束口褲・休閒褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/suitpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-suitpants'});">商務褲・西裝褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/croppedpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-croppedpants'});">七分褲・九分褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/shortpants/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-shortpants'});">短褲</a>
+		</div>
+
+		<div>
+			<h3>〉&nbsp;家居&amp;内衣</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/guwarm/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-guwarm'});">GU WARM・保暖發熱</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/gudry/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-gudry'});">GU DRY・吸汗快乾</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/innerT/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-innerT'});">內衣・內搭褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/boxers/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-boxers'});">內褲</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/roomwear/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-roomwear'});">家居系列(家居服・家居鞋)</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/socks/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-socks'});">襪子</a>
+		</div>
+
+		<div>
+			<h3>〉&nbsp;鞋子/配件</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/shoes/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-shoes'});">鞋子</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/bag/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-bag'});">包包・後背包</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/belt/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-belt'});">皮帶・腰帶</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/men/hat/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-M-LU-hat'});">帽子/其他配飾</a>
+		</div>
+	</section>
+</section>
+
+
+
+
+
+<!-- ### MAIN AREA IN KIDS ### -->
+<section class="mainBlock container" id="forKids" style="text-align: center;">
+
+	<!-- ## KIDS SUB BANNER ##-->
+	<section style="width: 1060px; margin: 0 auto;">
+
+		<!--div class="limited_price" style="margin-bottom: 50px;">
+			<h2 class="l1title">期間限定特價</h2>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/limited/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_subbnr_limited_k01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/180920/180920_twpc_sub_limitedprice_k01.jpg" class="over" alt="期間限定特價" style="width: 1060px; height: 400px;"></a>
+		</div-->
+
+		<div class="new_arrival" style="margin-bottom: 50px;">
+			<h2 class="l1title">本週新品</h2>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/new/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_subbnr_new_k01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181022/181022_twpc_sub_newarrival_k01.jpg" class="over" alt="本週新品" style="width: 1060px; height: 400px;"></a>
+		</div>
+
+	</section>
+
+
+
+	<!-- ## KIDS SPECIAL CONTENTS ## -->
+	<section id="featureContents" style="text-align: left;">
+		<h2 class="l1title">時尚穿搭特輯</h2>
+
+		<div class="largeBnr">
+			<ul class="clearfix">
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/season/kids/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_wide_k_summeritem'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181008/181008_twpc_scw_collection_k01.jpg" alt="Winter Item"></p><p class="date">UPDATE │ Every Monday</p><h3>Winter Item</h3><p class="readText">每週更新！<br>當季新品童裝一次看！</p></a></li>
+			</ul>
+		</div>
+		<div class="smallBnr">
+			<ul class="clearfix">
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/fashioncollection/kids/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_k_fashioncollection'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/181022_twpc_k_fashioncollection.jpg" alt="FASHION COLLECTION"></p><p class="date">NEW | 2018.10.22</p><h3>FASHION COLLECTION</h3><p class="readText">寶貝小大人時尚感，<br>舒適好動的暖心穿搭。</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/disney/kids/#DisneyK" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_k_disney'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/180921_twpc_rc_w_disneypajama_0921.jpg" alt="Disney Pajama"></p><p class="date">2018.09.21</p><h3>Disney Pajama</h3><p class="readText">迪士尼寶貝甜睡系列，<br>與心愛的主角們甜蜜入睡。</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/collection/kids/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_k_collection'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/180820_twpc_k_collection.jpg" alt="Fashion Collection"></p><p class="date">2018.08.20</p><h3>Fashion Collection</h3><p class="readText">小甜心的秋日淑女風，<br>小潮男的秋季帥氣風。</p></a></li>
+
+				<li class="swiper-slide"><a href="http://www.gu-global.com/tw/store/feature/gu/fashiontrend/women/#KidsPart" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_k_fashiontrend'});"><p class="bnrImage"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/navigation/gnav/180824_twpc_w_fashiontrend.jpg" alt="18FW Fashion Trend"></p><p class="date">2018.08.24</p><h3>18FW Fashion Trend</h3><p class="readText">GU時尚盛事，秋冬展示會<br>直擊！18FW流行最前線。</p></a></li>
+			</ul>
+		</div>
+		<p class="moreBtn"><a href="http://www.gu-global.com/tw/store/feature/gu/list/#kids" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_feature_k_more'});"><u>全系列時尚穿搭特輯</u></a></p>
+	</section>
+
+
+
+	<!-- ## KIDS RANKING ## -->
+	<section id="rankingArea" style="text-align: left;">
+		<h2 class="l1title">DAILY RANKING<span style="font-size: 24px;">&nbsp;&nbsp;- 熱銷排行榜 -</span></h2>
+		<section class="dailyRanking" style="background-color:#FFF; padding: 10px 0px 30px 0px; width:1060px; margin: 0 auto;">
+			<section id="rankingK" class="weekly">
+				<!--h3>KIDS<span style="font-size: 20px;">-童裝每日熱銷即時榜-</span></h3-->
+				<ul class="clearfix"><li style="width: 190px;"></li></ul>
+				<!-- <p class="rankingMore"><span></span></p> -->
+			</section>
+		</section>
+	</section>
+
+
+
+	<!-- #### KIDS LOOK BOOK #### -->
+	<div style=" margin:0 auto 100px;">
+		<div style="text-align:center;"><a href="http://www.gu-global.com/tw/lookbook/pc/girls" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_k_lookbook'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181022/181022_twpc_sub_lookbook_k01.jpg" alt="LOOKBOOK" class="over"></a></div>
+	</div>
+
+
+
+	<!-- #### KIDS LINE UP #### -->
+	<section id="lineup">
+		<h2 class="l1title" style="text-align: center; background-color: rgb(235,236,238);padding: 10px;display: block;">商品分類一覽</h2>
+		<p class="title">KIDS</p>
+
+		<div>
+			<h3>〉&nbsp;外套・大衣</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/girlsouter/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-K-LU-girlsouter'});">女童外套・大衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/boysouter/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-K-LU-boysouter'});">男童外套・大衣</a>
+		</div>
+
+		<div>
+			<h3>〉&nbsp;上衣</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/girlstops/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-K-LU-girlstops'});">女童上衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/boystops/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-K-LU-boystops'});">男童上衣</a>
+		</div>
+
+		<div>
+			<h3>〉&nbsp;下身</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/girlsbottoms/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-K-LU-girlsbottoms'});">女童下身</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/boysbottoms/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-K-LU-boysbottoms'});">男童下身</a>
+		</div>
+
+		<div>
+			<h3>〉&nbsp;家居/内衣/配件</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/roomwear/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-K-LU-roomwear'});">家居&amp;内衣</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/guwarm/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-K-LU-guwarm'});">GU WARM・保暖發熱</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/goods/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-K-LU-goods'});">配件/鞋/襪</a>
+		</div>
+
+		<!--div>
+			<h3>〉&nbsp;鞋子/配件</h3>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/goods/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-K-LU-goods'});">女童鞋子/配件</a>
+			<a href="http://www.gu-global.com/tw/store/feature/gu/kids/boysgoods/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-K-LU-boysgoods'});">男童鞋子/配件</a>
+		</div-->
+	</section>
+</section>
+
+
+<!--div style="text-align: center;margin: 0 auto 50px;"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/171124/171124_twpc_tit.jpg" alt="出貨延遲公告"></div-->
+
+
+
+<!-- #### INFORMATION #### -->
+<section id="information">
+	<h2 class="l1title" style="width: 1060px; font-size: 36px;">INFORMATION</h2>
+	<ul class="clearfix" style="margin-top: 50px;">
+		<li><a href="http://www.gu-global.com/tw/store/feature/gu/shop/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_info_01'});">實體店鋪資訊</a></li>
+		<li><a href="http://www.gu-global.com/tw/store/feature/gu/news/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_info_02'});">最新消息一覽</a></li>
+		<li><a href="http://www.pasona.com.tw/vip/GU/index.html" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_info_03'});">招募資訊</a></li>
+		<li><a href="https://www.gu-global.com/tw/store/FSC05610SCR.do" target="_blank" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_info_04'});">訂閱/取消電子報</a></li>
+		<li><a href="https://www.gu-global.com/tw/store/FSC05110SCR.do" target="_blank" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_info_05'});">立即註冊會員</a></li>
+		<li><a href="http://www.gu-global.com/tw/store/feature/gu/twfaq/" target="_blank" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_info_06'});">網路商店 FAQ</a></li>
+	</ul>
+</section>
+
+
+	<!-- #### GU CHANGE #### -->
+	<div style=" margin:-30px auto 30px;">
+		<div style="text-align:center;"><a href="http://www.gu-global.com/tw/store/feature/gu/guchange/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_w_guchange'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/181012/181012_twpc_guchange.jpg" alt="GU CHANGE" class="over"></a></div>
+	</div>
+
+
+<!-- #### ABOUT GU #### -->
+<section id="aboutgu">
+	<div class="aboutWrapper clearfix">
+		<div class="left">
+			<h2>ABOUT<br>GU ONLINE STORE</h2>
+			<p>關於GU網路商店</p>
+		</div>
+		<div class="right">
+			<h3>YOUR FREEDOM</h3>
+			<h3 style="font-family: &quot;微軟正黑體&quot;;font-weight:bolder;font-size: 20px;margin-top: -12px;">自由 煥然一新</h3>
+			<p>只要稍稍變換穿搭，心情就會隨之改變，<br>
+			變得勇於前進、更接近理想目標，<br>
+			甚至發現不同樣貌的自己！<br>
+			每個人，每一天都能煥然一新，<br>
+			穿上時尚又舒適的服裝，隨心搭配讓你更加自由！<br>
+			GU就是自由！
+			</p>
+		</div>
+	</div>
+</section>
+
+<!-- #### SNS #### -->
+<section id="sns" class="clearfix">
+	<ul class="relationLink">
+		<li>
+			<img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/171020/171020img_footer_sns.png" alt="OFFICIAL SNS" usemap="#sns">
+			<map name="sns">
+				<area shape="rect" coords="0,15,30,45" href="https://www.facebook.com/gu.taiwan/" target="_blank" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-facebook'});" alt="Facebook">
+				<area shape="rect" coords="50,15,80,45" href="http://line.naver.jp/ti/p/%40gutaiwan" target="_blank"  onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-line'});" alt="LINE">
+				<area shape="rect" coords="100,15,131,45" href="https://www.youtube.com/user/guTaiwanChannel" target="_blank" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-youtube'});" alt="YouTube">
+				<area shape="rect" coords="150,15,181,45" href="https://www.instagram.com/gu_taiwan/" target="_blank" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_S-instagram'});" alt="Instagram">
+			</map>
+		</li>
+		<li style="margin-left: 50px;">
+			<img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/171020/171020img_footer_store.png" alt="FR GROUP STORES" usemap="#frgStore">
+			<map name="frgStore">
+				<area shape="rect" coords="0,15,30,45" href="http://www.uniqlo.com/tw/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_uniqlo'});" alt="UNIQLO">
+				<area shape="rect" coords="45,15,75,45" href="http://www.gu-global.com/tw/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_tw_gu'});" alt="GU">
+			</map>
+		</li>
+	</ul>
+</section>
+
+<div id="pagetop">
+	<a href="#top"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/halloween/women/181026g-page-top-arrow.png" alt="" class="over"></a>
+</div>
+
+<!--PC 浮動視窗區 - 開始-->
+<div id="scrollbarimg" class="scrollbarimg" style="display:none;">
+	<div class="inner">
+	
+    <div style="position: fixed; right:0; margin-right: 20px; z-index:99999;"><A onclick="MM_showHideLayers('scrollbarimg','','hide');"><IMG width="25" height="25" src="//im.uniqlo.com/images/tw/gu/pc/img/top/160506/160506g-btn_close.png"></A></div>
+		<a href="http://www.gu-global.com/tw/store/feature/gu/halloween/women/">
+			<img alt="2018 Ha HA HA Halloween" src="//im.uniqlo.com/images/tw/gu/pc/img/top/171027/171027_floatingbnr.gif">
+		</a>
+	</div>
+</div>
+<!--PC 浮動視窗區 - 結束  ps 原始檔在 ABOVE BNR 檔案內。 所以結束後， 就可以刪除囉-->
+
+
+<script type="text/javascript" defer="">
+	$(function(){
+		// var rankingApiW02 = new api.recommend.RankingApi();
+		// rankingApiW02.pc().setMaxRanking(30).defaultForMore(15).women().setPageType('L1').setGAIndex('ranking').ranking($('ul', '#rankingW'));
+
+		// var rankingApiM02 = new api.recommend.RankingApi();
+		// rankingApiM02.pc().setMaxRanking(30).defaultForMore(15).men().setPageType('L1').setGAIndex('ranking').ranking($('ul', '#rankingM'));
+
+		// var rankingApiK02 = new api.recommend.RankingApi();
+		// rankingApiK02.pc().setMaxRanking(30).defaultForMore(15).kids().setPageType('L1').setGAIndex('ranking').ranking($('ul', '#rankingK'));
+		var rankingApiW02 = new api.recommend.RankingApi();
+		rankingApiW02.pc().setMaxRanking(30).defaultForMore(30).women().setGAIndex('ranking').ranking($('ul', '#rankingW'));
+		var rankingApiM02 = new api.recommend.RankingApi();
+		rankingApiM02.pc().setMaxRanking(30).defaultForMore(30).men().setGAIndex('ranking').ranking($('ul', '#rankingM'));
+		var rankingApiK02 = new api.recommend.RankingApi();
+		rankingApiK02.pc().setMaxRanking(30).defaultForMore(30).kids().setGAIndex('ranking').ranking($('ul', '#rankingK'));
+	});
+</script>
+
+<style type="text/css">
+
+/*Montserrat 字形匯入*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400');
+#categoryTab ul li p{text-align:center;font-size:32px;font-weight:600;text-decoration: none;font-family:'Montserrat',"微軟正黑體";}#categoryTab ul li a{text-decoration: none;color: orange;}#categoryTab ul li{
+	background-color: black;}
+body{min-width: 1300px;}
+
+/*萬聖節背景區*/
+#main{
+	background-image: url("http://im.uniqlo.com/images/tw/gu/pc/img/top/181026/181026_bg.jpg");
+}
+#categoryTab ul li a.current{
+	border-top-color: orange;
+}
+#globalFooter ul li a {
+	color: white;
+}
+#globalFooter{
+	color: white;
+}
+
+.container{width:100%;}.oshirase a{text-align:center;margin:0;padding:13px 0;background:#666;display:block}/*#mainImage{width:100%;max-width:2000px;margin:0 auto 120px}#mainImage .mainBnr{width:100%}#mainImage .mainBnr img{width:100%;}#mainImage .topMainBnr{margin-bottom:50px}#mainImage .l2Menu{width:960px;margin:0 auto 50px}#mainImage .l2Menu li{width:320px;float:left}#mainImage .l2Menu li a{display:block;width:100%;border:1px solid #cacaca;border-right:0;box-sizing:border-box;color:#666;font-size:24px;letter-spacing:2px;text-align:center;padding:26px 0}#mainImage .l2Menu li a:hover{color:#999;text-decoration:none}#mainImage .l2Menu li:last-child{width:319px;border-right:1px solid #cacaca}*/#featureContents{width:1060px;margin:0 auto 50px}#featureContents .largeBnr{margin-bottom:25px}#featureContents .largeBnr ul li{float:left;width:460px;height:auto;margin-right:40px;background-color: black;}#featureContents .largeBnr ul li .bnrImage{margin-bottom:13px}#featureContents .largeBnr ul li .bnrImage img{width:1060px;height:400px;/*border:1px solid #cacaca;*/box-sizing:border-box}#featureContents .largeBnr ul li .date{font-family:'Montserrat',"微軟正黑體";font-size:12px;margin-bottom:8px}#featureContents .largeBnr ul li h3{font-family:'Montserrat',"微軟正黑體";font-size:18px;margin-bottom:5px;line-height:1.3}#featureContents .largeBnr ul li .readText{font-family:'Montserrat',"微軟正黑體";font-size:14px;line-height:1.3}#featureContents .largeBnr ul li a{color:white;text-decoration:none}#featureContents .largeBnr ul li a:hover{color:white;text-decoration:none}#featureContents .largeBnr ul li a:hover img{filter:alpha(opacity=80);-moz-opacity:.8;opacity:.8}#featureContents .largeBnr ul li a:hover h3,#featureContents .largeBnr ul li a:hover .readText{text-decoration:underline}#featureContents .largeBnr ul li:last-child{margin-right:0}#featureContents .smallBnr{margin-bottom:25px}#featureContents .smallBnr ul li{float:left;width:230px;height:auto;margin-right:46.6px; background-color: black;}#featureContents .smallBnr ul li .bnrImage{margin-bottom:13px}#featureContents .smallBnr ul li .bnrImage img{width:230px;height:230px;/*border:1px solid #cacaca;*/box-sizing:border-box}#featureContents .smallBnr ul li .date{font-family:'Montserrat',"微軟正黑體";font-size:12px;margin-bottom:8px}#featureContents .smallBnr ul li h3{font-family:'Montserrat',"微軟正黑體";font-size:18px;margin-bottom:5px;line-height:1.3}#featureContents .smallBnr ul li .readText{font-family:'Montserrat',"微軟正黑體";font-size:14px;line-height:1.3}#featureContents .smallBnr ul li a{color:white;text-decoration:none}#featureContents .smallBnr ul li a:hover{color:white;text-decoration:none}#featureContents .smallBnr ul li a:hover img{filter:alpha(opacity=80);-moz-opacity:.8;opacity:.8}#featureContents .smallBnr ul li a:hover h3,#featureContents .smallBnr ul li a:hover .readText{text-decoration:underline}#featureContents .smallBnr ul li:last-child{margin-right:0}#featureContents .moreBtn{text-align:center;font-family:'Montserrat',"微軟正黑體";font-size:26px;font-weight:bold}#featureContents .moreBtn a{position:relative;padding-right:34px;color:white}#featureContents .moreBtn a:after{content:url(//www.uniqlo.com/jp/images/contents/gu/top/main/170710/170710_icon_arrow_01.png);position:absolute;top:50%;right:0;margin-top:-11px}#featureContents .moreBtn a:hover{text-decoration:none;filter:alpha(opacity=80);-moz-opacity:.8;opacity:.8}#recommendContents{width:1060px;margin:0 auto 50px}#recommendContents .smallBnr ul li{float:left;width:230px;height:auto;margin-right:46.6px;background-color: black;}#recommendContents .smallBnr ul li .bnrImage{margin-bottom:13px}#recommendContents .smallBnr ul li .bnrImage img{width:230px;height:230px;/*border:1px solid #cacaca;*/box-sizing:border-box}#recommendContents .smallBnr ul li .date{font-family:'Montserrat',"微軟正黑體";font-size:12px;margin-bottom:8px}#recommendContents .smallBnr ul li h3{font-family:'Montserrat',"微軟正黑體";font-size:18px;margin-bottom:5px;line-height:1.3}#recommendContents .smallBnr ul li .readText{font-family:'Montserrat',"微軟正黑體";font-size:14px;line-height:1.3}#recommendContents .smallBnr ul li a{color:white;text-decoration:none}#recommendContents .smallBnr ul li a:hover{color:white;text-decoration:none}#recommendContents .smallBnr ul li a:hover img{filter:alpha(opacity=80);-moz-opacity:.8;opacity:.8}#recommendContents .smallBnr ul li a:hover h3,#recommendContents .smallBnr ul li a:hover .readText{text-decoration:underline}#recommendContents .smallBnr ul li:last-child{margin-right:0}#rankingArea{width:1060px;margin:50px auto 25px}#rankingArea .dailyRanking{margin-bottom:50px}#rankingArea .dailyRanking h2{margin-bottom:25px;width:260px;height:21px;background-position:0 -230px}#rankingArea .dailyRanking h3{font-size:28px;letter-spacing:2px;color:#666}#rankingArea .dailyRanking ul.heightPriceDown li{padding-bottom:28px}#rankingArea .dailyRanking ul.heightLimited li{padding-bottom:42px}#rankingArea .dailyRanking ul li{position:relative;float:left;width:212px;padding-bottom:20px;margin-bottom:25px;min-height:210px}#rankingArea .dailyRanking ul li .rank{position:absolute;top:0;left:0;z-index:10;height:42px}#rankingArea .dailyRanking ul li .icon{position:absolute;top:0;right:0;z-index:10;height:188px;vertical-align:bottom}#rankingArea .dailyRanking ul li .icon p{margin:0}#rankingArea .dailyRanking ul li .rank{margin-top:5px;width:54px;height:39px;background-image:url(//www.uniqlo.com/jp/images/contents/gu/top/main/170310/170310_img_ranking_sprite.png)}#rankingArea .dailyRanking ul li .rank.rank1{background-position:0 -5px}#rankingArea .dailyRanking ul li .rank.rank2{background-position:-59px -5px}#rankingArea .dailyRanking ul li .rank.rank3{background-position:-118px -5px}#rankingArea .dailyRanking ul li .rank.rank4{background-position:-177px -5px}#rankingArea .dailyRanking ul li .rank.rank5{background-position:-236px -5px}#rankingArea .dailyRanking ul li .rank.rank6{background-position:0 -49px}#rankingArea .dailyRanking ul li .rank.rank7{background-position:-59px -49px}#rankingArea .dailyRanking ul li .rank.rank8{background-position:-118px -49px}#rankingArea .dailyRanking ul li .rank.rank9{background-position:-177px -49px}#rankingArea .dailyRanking ul li .rank.rank10{background-position:-236px -49px}#rankingArea .dailyRanking ul li .rank.rank11{background-position:0 -93px}#rankingArea .dailyRanking ul li .rank.rank12{background-position:-59px -93px}#rankingArea .dailyRanking ul li .rank.rank13{background-position:-118px -93px}#rankingArea .dailyRanking ul li .rank.rank14{background-position:-177px -93px}#rankingArea .dailyRanking ul li .rank.rank15{background-position:-236px -93px}#rankingArea .dailyRanking ul li .rank.rank16{background-position:0 -137px}#rankingArea .dailyRanking ul li .rank.rank17{background-position:-59px -137px}#rankingArea .dailyRanking ul li .rank.rank18{background-position:-118px -137px}#rankingArea .dailyRanking ul li .rank.rank19{background-position:-177px -137px}#rankingArea .dailyRanking ul li .rank.rank20{background-position:-236px -137px}#rankingArea .dailyRanking ul li .rank.rank21{background-position:0 -181px}#rankingArea .dailyRanking ul li .rank.rank22{background-position:-59px -181px}#rankingArea .dailyRanking ul li .rank.rank23{background-position:-118px -181px}#rankingArea .dailyRanking ul li .rank.rank24{background-position:-177px -181px}#rankingArea .dailyRanking ul li .rank.rank25{background-position:-236px -181px}#rankingArea .dailyRanking ul li .rank.rank26{background-position:0 -225px}#rankingArea .dailyRanking ul li .rank.rank27{background-position:-59px -225px}#rankingArea .dailyRanking ul li .rank.rank28{background-position:-118px -225px}#rankingArea .dailyRanking ul li .rank.rank29{background-position:-177px -225px}#rankingArea .dailyRanking ul li .rank.rank30{background-position:-236px -225px}#rankingArea .dailyRanking ul li .icon{width:50px}#rankingArea .dailyRanking ul li .icon img{margin-bottom:5px}#rankingArea .dailyRanking ul li figure{width:212px;height:212px}#rankingArea .dailyRanking ul li figure img{max-width:212px;width:212px;height:212px}#rankingArea .dailyRanking ul li a:hover{text-decoration:none}#rankingArea .dailyRanking ul li a:hover h4{text-decoration:underline}#rankingArea .dailyRanking ul li h4,#rankingArea .dailyRanking ul li span,#rankingArea .dailyRanking ul li p{margin-left:25px}#rankingArea .dailyRanking ul li h4{margin-bottom:7px;font-weight:normal;font-size:85%;line-height:1.4}#rankingArea .dailyRanking ul li span{display:block;color:#e60012;font-size:8px;font-weight:bold;margin:0 0 5px}#rankingArea .dailyRanking ul li span img{margin-top:2px}#rankingArea .dailyRanking ul li p{position:absolute;bottom:0}#rankingArea h2.l1title{letter-spacing:0}#banners{width:960px;margin:0 auto 100px}#banners p{margin-bottom:40px}#banners p img{border:1px solid #cacaca;box-sizing:border-box}#banners ul li{float:left;width:210px;height:210px;margin-right:40px}#banners ul li img{width:210px;height:210px;border:1px solid #cacaca;box-sizing:border-box}#banners ul li:last-child{margin-right:0}#information{width:1060px;margin:0 auto 50px}#information ul{}#information ul li{width:345px;background-color: black;}#information ul li a{display:block;padding:15px 25px;border:1px solid #eee;color:white;font-weight:bold;font-size:16px;font-family:'Montserrat',"微軟正黑體";}#information ul li a span{font-weight:normal}#information h2.l1title{letter-spacing:3px}#popup_container{font-family:Arial,sans-serif;font-size:13px;font-weight:bold;min-width:300px;max-width:450px;background:#FFF;border:solid 5px #999;color:#000;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;box-shadow:10px 10px 10px rgba(0,0,0,0.4)}#popup_container table{text-align:center;margin:0 auto}#popup_container table td{vertical-align:top;text-align:left;padding:5px}#popup_title{font-size:15px;font-weight:bold;text-align:center;line-height:1.75em;color:white;background:#16288a;border:solid 1px #FFF;border-bottom:solid 1px #999;cursor:default;padding:0;margin:0}#popup_content{padding:1em 1.75em;margin:0}#popup_message{text-align:center}#popup_message p{margin:25px 0 10px}#popup_message p.read{font-weight:bold;margin:0 0 10px}#popup_message p.third{font-weight:bold;text-align:center;margin:0 auto}#popup_panel{text-align:center;margin:1em 0 0 1em}#popup_prompt{margin:.5em 0}#pagetop{position:fixed;z-index:1000;right:50px;bottom:50px;display:none}#pagetop a{display:block;width:46px;height:47px;background-position:-850px -750px}#globalFooter ul.footerNavi01{padding-top:8px;width:550px;background-color: black;}#globalFooter ul.footerNavi02{padding-top:10px;width:550px;background-color: black;}#globalFooter ul.footerNavi02 .borderNone{padding-left:0;border-left:none!important}#globalFooter p{padding-top:0!important}#rightSubBnr{background:#eee;width:300px;padding:0;position:fixed;z-index:1000;right:-320px;bottom:80px;overflow:hidden}#rightSubBnr #footer-bnr-close{position:absolute;top:0;right:0}h2.l1title{font-size:38px;font-family:'Montserrat',"微軟正黑體";margin-bottom:10px;letter-spacing:2px;color:orange;background-color: black;display: inline-block;}#linkTextContents{width:960px;margin:0 auto 100px}#linkTextContents .linkTextBox{color:#666;display:block;width:208px;border:1px solid #cacaca;padding:30px 0 3px;float:left;margin-right:40px;text-align:center;text-decoration:none;font-weight:bold}#linkTextContents .linkTextBox.mr-0{margin-right:0}#linkTextContents .linkTextBox.lastBox{float:right}#linkTextContents .linkTextBox:last-child{margin-right:0}#linkTextContents .linkTextBox p{margin-bottom:15px;text-align:center}#linkTextContents .linkTextBox h2{text-align:center;font-size:20px;line-height:1;margin-bottom:18px}#linkTextContents .linkTextBox h2 span.small{font-size:13px;font-weight:normal}#linkTextContents .linkTextBox h2 span.large{font-size:18px}#linkTextContents .linkTextBox h2 span.line1{font-size:18px;line-height:2.25em}#linkTextContents .linkTextBox:hover p,#linkTextContents .linkTextBox:hover h2{filter:alpha(opacity=50);-moz-opacity:.5;opacity:.5}.rankingMore{display: none;cursor:pointer;color:#666;text-align:center;padding:15px 0;margin:10px 0 0;font-size:14px;font-weight:bold}.rankingMore:hover{filter:alpha(opacity=80);-moz-opacity:.8;opacity:.8}.rankingMore:after{content:"";background:url(//www.uniqlo.com/jp/images/contents/gu/top/main/170710/170710_icon_arrow_02.png);background-repeat:no-repeat;background-size:22px 13px;display:inline-block;width:22px;height:13px}.rankingMore span:before{content:"TOP 30";display:inline-block;margin-right:20px}.rankingMore.open:after{content:"";background:url(//www.uniqlo.com/jp/images/contents/gu/top/main/170710/170710_icon_arrow_03.png);background-repeat:no-repeat;background-size:22px 13px;display:inline-block;width:22px;height:13px}.rankingMore.open span:before{content:"TOP 15";display:inline-block;margin-right:20px}.rankingLatter{display:none}#aboutgu{width:1060px;margin:0 auto 50px}#aboutgu .aboutWrapper{background:#f2f2f2;margin:0 -500%;padding:46px 500%;width:100%;color:#666}#aboutgu .aboutWrapper .left{float:left;width:224px;height: 100px;margin-right:78px;border-top:1px solid #666;border-bottom:1px solid #666;padding:60px 0 20px 20px}#aboutgu .aboutWrapper .left h2{font-size:18px;margin-bottom:5px;line-height:1.3}#aboutgu .aboutWrapper .left p{font-size:18px;font-family:'Montserrat',"微軟正黑體";line-height:1.5;}#aboutgu .aboutWrapper .right{float:left;width:638px}#aboutgu .aboutWrapper .right h3{font-size:24px;/*font-family:'Montserrat',"微軟正黑體";*/margin-bottom:15px;margin-top:-2px;font-weight: bold;}#aboutgu .aboutWrapper .right p{line-height:1.8;font-family:'Montserrat',"微軟正黑體";font-size:12px}.sprite{background:url(//www.uniqlo.com/jp/images/contents/gu/top/main/170605/170605sprite.png) no-repeat;text-indent:-999em!important;overflow:hidden!important}#globalHeader .navUtility li.searchBox input.btn{width:16px;height:16px;background-position:-350px -600px;border:0;cursor:pointer}#sns{width:960px;margin:0 auto 50px}#sns .relationLink li{float:left}#sns .relationLink li .officialSns{display:block;width:238px;height:41px;margin:0 45px 0 0;padding:0 0 0 2px;background-position:-350px -750px}#sns .relationLink li .officialSns a{float:left;width:27px;height:27px;margin:16px 13px 0 0}#sns .relationLink li .officialSns span{float:left;width:27px;height:27px;margin:16px 11px 0 0}#sns .relationLink li .officialSns .last{width:40px;margin:16px 0 0 0}#sns .relationLink li .frGroupStores{display:block;width:129px;height:43px;margin:0;padding:0 0 0 2px;background-position:-600px -750px}#sns .relationLink li .frGroupStores a{float:left;width:27px;height:27px;margin:16px 14px 0 0}.worldGu{width:83px;height:13px;background-position:-732px -750px}#lineup{margin:0 0 50px 0}#lineup p.title{font-size:22px;font-family:'Montserrat',"微軟正黑體";color:white;font-weight:bold;border-bottom:1px #e3e4e6 solid;padding-bottom:10px;width:1060px;margin:20px auto;}#lineup div{display:inline-block;width:212px;font-family:'Montserrat',"微軟正黑體";vertical-align:top;margin-top:15px;background: black;}#lineup div h3{font-size:18px;color:white;margin:0 0 15px;}#lineup div a{display:block;font-size:14px;color:white;line-height:24px;margin:0 0 0 22px;}
+
+
+.RANKING ul li figure img {width:98%;}
+#tax-information {display: none!important;}
+</style>
+
+
+<!-- #### POP UP #### -->
+<!--div id="modal-content">
+	<p class="modalLinkOver"-->
+		<!-- END 二選一 影片 -->
+		<!--script>
+			var tag = document.createElement('script');
+			tag.src = "https://www.youtube.com/iframe_api";
+			var firstScriptTag = document.getElementsByTagName('script')[0];
+			firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+			function onYouTubeIframeAPIReady() {
+				player = new YT.Player('ytplayer', {
+					height: '500',
+					width: '100%',
+					videoId: 'QQu0NqBgVc8',
+					playerVars:{
+						'loop': '1',
+						'playlist': 'QQu0NqBgVc8',
+						'controls':'0',
+						'iv_load_policy':'3',
+						'rel': '0'
+					},
+					events: {
+						'onReady': onPlayerReady
+					}
+				});
+			} 
+			function onPlayerReady(event) {
+				event.target.playVideo();
+				event.target.mute();
+			}
+		</script>
+		<div id="ytplayer"></div-->
+			<!-- END 二選一 影片 -->
+
+			<!-- 二選一 圖片 -->
+			<!--a href="http://www.gu-global.com/tw/store/feature/gu/redsale/women/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_modal_link01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/170623/170623-ttl_pop_00.jpg" alt="" width="840" height="410"></a><a href="http://r.advg.jp/adptg_count/r?adptg_aid=5413&adptg_mid=9179&adptg_lid=1" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_modal_link01'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/161014/161014g-ttl_pop_01.jpg" alt="" width="420" height="278"></a><a href="http://r.advg.jp/adptg_count/r?adptg_aid=5413&adptg_mid=9179&adptg_lid=2" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_modal_link02'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/161014/161014g-ttl_pop_02.jpg" alt="" width="420" height="278"></a><a href="http://r.advg.jp/adptg_count/r?adptg_aid=5413&adptg_mid=9179&adptg_lid=3" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'L1_tw_PCtop', 'eventAction' : 'L1_modal_link03'});"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/161014/161014g-ttl_pop_03.jpg" alt="" width="840" height="200"></a-->
+				<!-- END 二選一 圖片 -->
+	<!--/p>
+	<p><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/160708/160708g-img_pop_text03.jpg" alt="" width="281" height="57"></p>
+	<p><a id="modal-close" class="button-link"><img src="http://im.uniqlo.com/images/tw/gu/pc/img/top/160506/160506g-btn_close.png" width="50" height="50"></a></p>
+	<div class="modalCheckArea">
+		<a id="modal-close-hide" href="#">不再顯示</a>
+	</div>
+</div-->
+<!-- #### END POP UP #### -->
+
+
+
+<!-- #### JS FOR POP UP #### -->
+<!--script type="text/javascript">
+if(localStorage.closeModal !== "close"){
+	$(function(){
+		setTimeout(function(){
+			$("body").append('<div id="modal-overlay"></div>');
+			$("#modal-overlay").fadeIn("slow");
+			centeringModal();
+			$("#modal-content").fadeIn("slow");
+			$("#modal-overlay,#modal-close").unbind().click(function(){
+				$("#modal-content,#modal-overlay").fadeOut("slow",function(){
+					$('#modal-overlay').remove();
+				});
+			});
+			$("#modal-close-hide").unbind().click(function(){
+				$("#modal-content,#modal-overlay").fadeOut("slow",function(){
+					$('#modal-overlay').remove();
+					localStorage.closeModal = "close";
+				});
+			});
+		},100);
+
+		$(window).resize(centeringModal);
+
+		function centeringModal(){
+			var w = $(window).width();
+			var h = $(window).height();
+			var cw = $("#modal-content").outerWidth();
+			var ch = $("#modal-content").outerHeight();
+			$("#modal-content").css({"left": ((w - cw)/2) + "px","top": ((h - ch)/8) + "px"})//圖片:(h - ch)/2) 影片:(h - ch)/8)
+		}
+	});
+}
+</script-->
+<!-- #### END JS FOR POP UP #### -->
+      <br/>
+      <!-- start FSC-00-000_marketing.jsp // -->
+
+<!-- // end FSC-00-000_marketing.jsp // -->
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+<!-- start FSC-footer_01_US // -->
+
+<!-- start FSC-01-020_1_GU_TW // -->
+<style type="text/css">
+	#globalFooter ul.footerNavi01{padding-top:8px;width: 580px;}
+	#globalFooter ul.footerNavi02{padding-top:10px;width: 580px;}
+	#globalFooter ul.footerNavi02 .borderNone {padding-left:0!important;border-left: none!important;}
+	#globalFooter p {padding-top:0!important;}
+	#globalFooter ul li{padding: 0 12px; font-size: 12px;}
+</style>
+<div id="globalFooter" class="container">
+	<!-- <div style="margin-bottom:15px"><a href="http://www.gu-japan.com/information/0401/index.html" target="_blank"><img src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/material/nav/header/140401-bnr-tax.gif" alt="" width="960" height="62" /></a></div> // -->
+	<div class="clearfix">
+		<h1><a href="http://www.gu-global.com/tw/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-logo'});"><img src="//im.uniqlo.com/images/tw/gu/pc/img/feature/gu/material/150807logo_footer.png" alt="GU"></a></h1>
+		<ul class="clearfix footerNavi01">
+			<li><a href="http://www.gu-global.com/tw/store/feature/gu/shop/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-shop'});">店鋪資訊</a></li>
+			<li><a href="http://www.gu-global.com/tw/store/feature/gu/twfaq/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-faq'});">網路購物FAQ</a></li>
+			<li><a href="http://www.gu-global.com/tw/store/feature/gu/about/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-about'});">關於GU</a></li>
+			<li><a href="https://www.gu-global.com/tw/store/FSC05610SCR.do" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-mail'});">電子報訂閱 / 解除</a></li>
+			<li><a href="http://www.gu-global.com/tw/store/feature/gu/prvcy/#t03" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-prvcy'});">買賣定型化契約</a></li>
+			<li><a href="http://www.gu-global.com/tw/store/feature/gu/prvcy/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-prvcy'});">政府政令宣導</a></li>
+		</ul>
+		<ul class="clearfix footerNavi02">
+			<li><img src="http://im.uniqlo.com/images/tw/gu/pc/img/feature/gu/material/160513_gu_footer_world_navi.jpg" alt=""></li>
+			<li class="borderNone"><a href="http://www.gu-japan.com/" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-japan'});">JAPAN</a></li>
+			<li><a href="https://gucn.world.tmall.com/" target="_blank" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-china'});">CHINA</a></li>
+			<li><a href="http://www.gu-global.com/hk/" target="_blank" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-hongkong'});">HONG KONG</a></li>
+			<li><a href="http://www.gu-global.com/tw/" target="_blank" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-taiwan'});">TAIWAN</a></li>
+			<li><a href="https://www.gu-global.com/kr/" target="_blank" onclick="dataLayer.push({'event' : 'trackGaEvent', 'eventCategory' : 'Fnavi_tw_PC', 'eventAction' : 'Fnavi_tw-koera'});">KOREA</a></li>
+		</ul>
+		<p><small>COPYRIGHT &copy; G.U. CO., LTD. ALL RIGHTS RESERVED.</small></p>
+	</div>
+</div>
+<!-- // end FSC-01-020_1_GU_TW -->
+<!-- // end FSC-footer_01_US -->
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+</body>
+</html>
