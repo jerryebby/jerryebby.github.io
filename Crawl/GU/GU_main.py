@@ -45,32 +45,32 @@ def getGender(url):
 
 def insertToDB(data_list):
     SQLdb_id = 'python_crawl'
-	SQLdb_pwd = 'U8teriWxe0ozp0rf'
-	db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
-	cursor = db.cursor()
-	for index in data_list:
-		sql = ("INSERT INTO `PRODUCT`(`gender`, `primary_category`, `minor_category`, `brand`, \
-		`product_name`, `original_price`, `sale_price`, `link`, `photo`)\
-		 VALUES ('%s', '%s', '%s', '%s', '%s', %f, %f, '%s', '%s');" % \
-		(index.gender, index.category.primary, index.category.minor, index.brand, \
-		index.product_name.encode('utf-8'), index.original_price, index.sale_price, index.link, index.photo))
-		cursor.execute(sql)
-		print(sql)
-	db.commit()
-	db.close()
+    SQLdb_pwd = 'U8teriWxe0ozp0rf'
+    db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
+    cursor = db.cursor()
+    for index in data_list:
+        sql = ("INSERT INTO `PRODUCT`(`gender`, `primary_category`, `minor_category`, `brand`, \
+        `product_name`, `original_price`, `sale_price`, `link`, `photo`)\
+        VALUES ('%s', '%s', '%s', '%s', '%s', %f, %f, '%s', '%s');" % \
+        (index.gender, index.category.primary, index.category.minor, index.brand, \
+        index.product_name.encode('utf-8'), index.original_price, index.sale_price, index.link, index.photo))
+        cursor.execute(sql)
+        print(sql)
+    db.commit()
+    db.close()
 
 def cleanExpiredData():
-	SQLdb_id = 'python_crawl'
+    SQLdb_id = 'python_crawl'
     SQLdb_pwd = 'U8teriWxe0ozp0rf'
-	db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
-	cursor = db.cursor()
-	date = strftime("%Y-%m-%d", localtime())
-	datetime = date + ' 00:00:00'
-	sql = ("DELETE FROM `PRODUCT` WHERE `brand` = 'GU' AND `time` < '%s';" % (datetime))
-	cursor.execute(sql)
-	print(sql)
-	db.commit()
-	db.close()
+    db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
+    cursor = db.cursor()
+    date = strftime("%Y-%m-%d", localtime())
+    datetime = date + ' 00:00:00'
+    sql = ("DELETE FROM `PRODUCT` WHERE `brand` = 'GU' AND `time` < '%s';" % (datetime))
+    cursor.execute(sql)
+    print(sql)
+    db.commit()
+    db.close()
 
 url = 'http://www.gu-global.com/tw/'
 res = requests.get(url)
