@@ -61,7 +61,7 @@ def insertToDB(data_list):
 
 def cleanExpiredData():
 	SQLdb_id = 'python_crawl'
-	SQLdb_pwd = 'U8teriWxe0ozp0rf'
+    SQLdb_pwd = 'U8teriWxe0ozp0rf'
 	db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
 	cursor = db.cursor()
 	date = strftime("%Y-%m-%d", localtime())
