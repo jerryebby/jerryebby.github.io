@@ -53,7 +53,7 @@ def insertToDB(data_list):
         `product_name`, `original_price`, `sale_price`, `link`, `photo`)\
         VALUES ('%s', '%s', '%s', '%s', '%s', %f, %f, '%s', '%s');" % \
         (index.gender, '', '', index.brand, \
-        index.product_name.encode('utf-8'), index.original_price, index.sale_price, index.link, index.photo))
+        index.product_name, index.original_price, index.sale_price, index.link, index.photo))
         cursor.execute(sql)
         print(sql)
     db.commit()
