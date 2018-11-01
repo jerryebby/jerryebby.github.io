@@ -4,6 +4,9 @@ from bs4 import BeautifulSoup
 import MySQLdb
 from collections import namedtuple
 from time import localtime, strftime
+import sys  
+
+sys.setdefaultencoding('utf8')
 
 def GU_categorySearch(url):
     res = requests.get(url)
