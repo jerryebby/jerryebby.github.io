@@ -118,8 +118,8 @@ def getCategoryByPName(product_name, p, m):
 		return category('BOTTOM', 'TROUSERS')
     elif '襯衫' in product_name:
 		return category('UPPER', 'SHIRT')
-    elif '長袖' in product_name or '5分袖' in product_name or u'7分袖' in product_name \
-    or u'8分袖' in product_name:
+    elif '長袖' in product_name or '5分袖' in product_name or '7分袖' in product_name \
+    or '8分袖' in product_name or '9分袖' in product_name:
         return category('UPPER', 'LONG_SLEEVES')
     elif '背心' in product_name or '短袖' in product_name or '無袖' in product_name or \
     '細肩帶' in product_name:
