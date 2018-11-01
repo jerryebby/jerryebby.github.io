@@ -104,21 +104,21 @@ def getCategory(url, product_name):
 
 def getCategoryByPName(product_name, p, m):
     category = namedtuple('category',['primary','minor'])
-    if u'外套' in product_name:
+    if '外套' in product_name:
 		return category('UPPER', 'OUTERWEAR')
-    elif u'裙' in product_name or u'洋裝' in product_name:
+    elif '裙' in product_name or '洋裝' in product_name:
 		return category('BOTTOM', 'SKIRT')
-    elif u'短褲' in product_name or u'1分' in product_name or u'3分' in product_name:
+    elif '短褲' in product_name or '1分' in product_name or '3分' in product_name:
 		return category('BOTTOM', 'SHORTS')
-    elif u'褲' in product_name:
+    elif '褲' in product_name:
 		return category('BOTTOM', 'TROUSERS')
-    elif u'襯衫' in product_name:
+    elif '襯衫' in product_name:
 		return category('UPPER', 'SHIRT')
-    elif u'長袖' in product_name or u'5分袖' in product_name or u'7分袖' in product_name \
+    elif '長袖' in product_name or '5分袖' in product_name or u'7分袖' in product_name \
     or u'8分袖' in product_name:
         return category('UPPER', 'LONG_SLEEVES')
-    elif u'背心' in product_name or u'短袖' in product_name or u'無袖' in product_name or \
-    u'細肩帶' in product_name:
+    elif '背心' in product_name or '短袖' in product_name or '無袖' in product_name or \
+    '細肩帶' in product_name:
         return category('UPPER', 'SHORT_SLEEVES')
     else:
 		return category(p, m)
