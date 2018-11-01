@@ -161,5 +161,5 @@ for t in tmp:
     if url not in url_list:
         url_list.append(url)
         print url
-        #GU_categorySearch(t.get('href'))
-#cleanExpiredData()
+        GU_categorySearch(t.get('href'))
+cleanExpiredData()
