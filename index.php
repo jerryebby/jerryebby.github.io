@@ -143,12 +143,12 @@ require_once "index_connect.php";
                                             <div class="dropdown-divider"></div>
                                             <div class="card items" style="border:0; ">
                                                 <ul class="list-group list-group-flush" align="center">
-                                                    <a class="dropdown-item" href="http://localhost/index.php?keywords=shirt&gender=KIDS">短Ｔ</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SHORT_SLEEVE&gender=KIDS">短袖</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=LONG_SLEEVE&gender=KIDS">長袖</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=POLO&gender=KIDS">POLO衫</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SHIRT&gender=KIDS">襯衫</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=OUTERWEAR&gender=KIDS">外套</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=shirt&gender=KIDS">短Ｔ</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=SHORT_SLEEVE&gender=KIDS">短袖</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=LONG_SLEEVE&gender=KIDS">長袖</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=POLO&gender=KIDS">POLO衫</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=SHIRT&gender=KIDS">襯衫</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=OUTERWEAR&gender=KIDS">外套</a>
                                                 </ul>
                                             </div>
                                         </div>
@@ -157,11 +157,11 @@ require_once "index_connect.php";
                                             <div class="dropdown-divider"></div>
                                             <div class="card items" style="border:0; ">
                                                 <ul class="list-group list-group-flush" align="center">
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SHORTS&gender=KIDS">短褲</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=TROUSERS&gender=KIDS">長褲</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=JEANS&gender=KIDS">牛仔褲</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=JEANS&gender=KIDS">七分褲</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SKIRT&gender=KIDS">裙裝</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=SHORTS&gender=KIDS">短褲</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=TROUSERS&gender=KIDS">長褲</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=JEANS&gender=KIDS">牛仔褲</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=JEANS&gender=KIDS">七分褲</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=SKIRT&gender=KIDS">裙裝</a>
                                                     <br>
                                                 </ul>
                                             </div>
@@ -171,10 +171,10 @@ require_once "index_connect.php";
                                             <div class="dropdown-divider"></div>
                                             <div class="card items" style="border:0; ">
                                                 <ul class="list-group list-group-flush" align="center">
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=SPORTS&gender=">運動</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=ACCESSORIES&gender=KIDS">配件</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=UNDERWEAR&gender=KIDS">內衣</a>
-                                                    <a class="dropdown-item" href="http://35.189.180.77/index.php?keywords=UNDERPANTS&gender=KIDS">內褲</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=SPORTS&gender=">運動</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=ACCESSORIES&gender=KIDS">配件</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=UNDERWEAR&gender=KIDS">內衣</a>
+                                                    <a class="dropdown-item" href="http://35.189.180.77/search.php?keywords=UNDERPANTS&gender=KIDS">內褲</a>
                                                     <br>
                                                 </ul>
                                             </div>
