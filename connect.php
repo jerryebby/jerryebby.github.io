@@ -2,6 +2,8 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+$data=array();
+
 $link = array (
                 'host' => "127.0.0.1",
                 'port' =>"3306",
@@ -23,50 +25,8 @@ catch(Exception $e)
     echo iconv('gbk', 'utf-8',$e->getMessage());
     exit();
 }
-if (!isset($_GET["keywords"])) {
-  echo "Search Error!";
-    }
-else {
-  $sql="SELECT  gender,  primary_category ,minor_category  , brand,product_name, original_price,sale_price,link,photo
-  FROM PRODUCT WHERE gender Like '{$_GET["keywords"]}%'  or
-  minor_category Like '%{$_GET["keywords"]}%' or product_name Like '%{$_GET["keywords"]}%'
-  or brand  Like '%{$_GET["keywords"]}%' ";
-
-  $select =$connect -> prepare($sql);
-  $select -> execute();
-  $count = $select->rowCount();
-  $per=15;
-  $pages = ceil($count/$per);
-
-  if(!isset($_GET["page"])){
-      $page=1; //設定起始頁
-  } else {
-      $page = intval($_GET["page"]); //確認頁數只能夠是數值資料
-      $page = ($page > 0) ? $page : 1; //確認頁數大於零
-      $page = ($pages > $page) ? $page : $pages; //確認使用者沒有輸入太神奇的數字
-  }
-
-  $start=($page-1)*$per;
-  $select1 =$connect -> prepare( $sql."LIMIT ".$start.','.$per);
-  $select1 -> execute();
-  $card=0;
-  if ($count-$start>0 && $start==0) {
-      $card=5;
-  }
-  else {
-    $card=(($count-$start)/3);
-  }
-  $data=array();
-  while ($row=$select1->fetch(PDO::FETCH_ASSOC)) {
-    $data[$page][]=$row;
-  }
-
-  $select->closeCursor();
-  $select1->closeCursor();
 
 
-
- }
 
 
 
