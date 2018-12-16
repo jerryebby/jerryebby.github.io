@@ -37,9 +37,8 @@ include "filter.php";
                                         <div class="dropdown-divider"></div>
                                         <div class="card items" style="border:0; ">
                                             <ul class="list-group list-group-flush" align="center">
-                                                <a class="dropdown-item" href="./search.php?minor_category=shirt&gender[]=WOMEN">短Ｔ</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVE&gender[]=WOMEN">短袖</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVE&gender[]=WOMEN">長袖</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=WOMEN">短袖</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=WOMEN">長袖</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=MEN">POLO衫</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=WOMEN">襯衫</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=WOMEN">外套</a>
@@ -54,7 +53,6 @@ include "filter.php";
                                                 <a class="dropdown-item" href="./search.php?minor_category=SHORTS&gender[]=WOMEN">短褲</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=WOMEN">長褲</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=WOMEN">牛仔褲</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=WOMEN">七分褲</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=SKIRT&gender[]=WOMEN">裙裝</a>
                                                 <br>
                                             </ul>
@@ -89,9 +87,8 @@ include "filter.php";
                                         <div class="dropdown-divider"></div>
                                         <div class="card items" style="border:0; ">
                                             <ul class="list-group list-group-flush" align="center">
-                                                <a class="dropdown-item" href="./search.php?minor_category=shirt&gender[]=MEN">短Ｔ</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVE&gender[]=MEN">短袖</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVE&gender[]=MEN">長袖</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=MEN">短袖</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=MEN">長袖</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=MEN">POLO衫</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=MEN">襯衫</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=MEN">外套</a>
@@ -106,7 +103,6 @@ include "filter.php";
                                                 <a class="dropdown-item" href="./search.php?minor_category=SHORTS&gender[]=MEN">短褲</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=MEN">長褲</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=MEN">牛仔褲</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=MEN">七分褲</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=SKIRT&gender[]=MEN">裙裝</a>
                                                 <br>
                                             </ul>
@@ -143,9 +139,8 @@ include "filter.php";
                                             <div class="dropdown-divider"></div>
                                             <div class="card items" style="border:0; ">
                                                 <ul class="list-group list-group-flush" align="center">
-                                                    <a class="dropdown-item" href="./search.php?minor_category=shirt&gender[]=KIDS">短Ｔ</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVE&gender[]=KIDS">短袖</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVE&gender[]=KIDS">長袖</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=KIDS">短袖</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=KIDS">長袖</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=KIDS">POLO衫</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=KIDS">襯衫</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=KIDS">外套</a>
@@ -160,7 +155,6 @@ include "filter.php";
                                                     <a class="dropdown-item" href="./search.php?minor_category=SHORTS&gender[]=KIDS">短褲</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=KIDS">長褲</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=KIDS">牛仔褲</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=KIDS">七分褲</a>
                                                     <a class="dropdown-item" href=".7/search.php?minor_category=SKIRT&gender[]=KIDS">裙裝</a>
                                                     <br>
                                                 </ul>
@@ -207,7 +201,7 @@ include "filter.php";
 
                 <div class="col-sm-3">
                   <div style="margin-top: 35%;"><span>進階搜尋</span></div>
-                  <form method="get" action="search.php?<?php if (isset($_GET['keywords'])){ echo $_GET['keywords'];} ?>" style="background-color:darkgray; padding: 20px; overflow: auto; background-color: white; border-style:double;">
+                  <form method="get" action="search.php" id="formsearch" style="background-color:darkgray; padding: 20px; overflow: auto; background-color: white; border-style:double;">
                     <span>搜尋：</span>
                     <Input Type="text" class="col-sm-9" name="keywords" value="<?php if (isset($_GET['keywords'])){ echo $_GET['keywords'];} ?>"style="display: inline-block; height: 40px; overflow: auto;">
                     </br></br>
@@ -283,16 +277,13 @@ include "filter.php";
 
                     <div style="clear:both"></div>
 
-                    <div class="form-group " style="float:right; margin-right:5%;">
+                    <div class="form-group "  style="float:right; margin-right:5%;">
+    <select  class="form-control" name="order" style="width: 150px; margin:0px auto;" form="formsearch">
+<option value="1">相關度</option>
+<option value="ASC">價格由低至高</option>
+<option value="DESC">價格由高至低</option>
+</select>
 
-                        <select class="form-control" id="exampleFormControlSelect1" style="width: 150px; margin:0px auto;
-
-">
-      <option>相關度</option>
-      <option>價格由低至高</option>
-      <option>價格由高至低</option>
-
-    </select>
                     </div>
 
                     <div style="clear:both"></div>

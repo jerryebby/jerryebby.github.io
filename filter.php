@@ -52,7 +52,10 @@ if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<$_G
   $max_price=$_GET["max_price"];
   $sql=$sql."and ()";
 }
-echo $sql;
+
+if (isset($_GET["order"])) {
+  $order=$_GET["order"];
+}
 
     $select = $connect -> prepare($sql);
     $select -> execute();
@@ -71,7 +74,7 @@ echo $sql;
           $page = ($page > 0) ? $page : 1; //確認頁數大於零
           $page = ($pages > $page) ? $page : $pages; //確認使用者沒有輸入太神奇的數字
       }
-      
+
       $start=($page-1)*$per;
       $select1 = $connect -> prepare( $sql."LIMIT ".$start.','.$per);
       $select1 -> execute();
