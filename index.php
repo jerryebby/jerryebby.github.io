@@ -41,10 +41,8 @@ require_once "index_connect.php";
                           <div class="dropdown-divider"></div>
                           <div class="card items" style="border:0; ">
                               <ul class="list-group list-group-flush" align="center">
-                                  <a class="dropdown-item" href="./search.php?minor_category=shirt&gender[]=WOMEN">短Ｔ</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=WOMEN">短袖</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=WOMEN">長袖</a>
-                                  <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=MEN">POLO衫</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=WOMEN">襯衫</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=WOMEN">外套</a>
                               </ul>
@@ -58,9 +56,8 @@ require_once "index_connect.php";
                                   <a class="dropdown-item" href="./search.php?minor_category=SHORTS&gender[]=WOMEN">短褲</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=WOMEN">長褲</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=WOMEN">牛仔褲</a>
-                                  <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=WOMEN">七分褲</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=SKIRT&gender[]=WOMEN">裙裝</a>
-                                  <br>
+                                </br>
                               </ul>
                           </div>
                       </div>
@@ -73,7 +70,7 @@ require_once "index_connect.php";
                                   <a class="dropdown-item" href="./search.php?minor_category=ACCESSORIES&gender[]=WOMEN">配件</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=UNDERWEAR&gender[]=WOMEN">內衣</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=UNDERPANTS&gender[]=WOMEN">內褲</a>
-                                  <br>
+                                </br>
                               </ul>
                           </div>
                       </div>
@@ -93,7 +90,6 @@ require_once "index_connect.php";
                           <div class="dropdown-divider"></div>
                           <div class="card items" style="border:0; ">
                               <ul class="list-group list-group-flush" align="center">
-                                  <a class="dropdown-item" href="./search.php?minor_category=shirt&gender[]=MEN">短Ｔ</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=MEN">短袖</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=MEN">長袖</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=MEN">POLO衫</a>
@@ -110,9 +106,7 @@ require_once "index_connect.php";
                                   <a class="dropdown-item" href="./search.php?minor_category=SHORTS&gender[]=MEN">短褲</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=MEN">長褲</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=MEN">牛仔褲</a>
-                                  <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=MEN">七分褲</a>
-                                  <a class="dropdown-item" href="./search.php?minor_category=SKIRT&gender[]=MEN">裙裝</a>
-                                  <br>
+                                </br></br>
                               </ul>
                           </div>
                       </div>
@@ -125,7 +119,7 @@ require_once "index_connect.php";
                                   <a class="dropdown-item" href="./search.php?minor_category=ACCESSORIES&gender[]=MEN">配件</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=UNDERWEAR&gender[]=MEN">內衣</a>
                                   <a class="dropdown-item" href="./search.php?minor_category=UNDERPANTS&gender[]=MEN">內褲</a>
-                                  <br>
+                                </br>
                               </ul>
                           </div>
                       </div>
@@ -147,10 +141,8 @@ require_once "index_connect.php";
                               <div class="dropdown-divider"></div>
                               <div class="card items" style="border:0; ">
                                   <ul class="list-group list-group-flush" align="center">
-                                      <a class="dropdown-item" href="./search.php?minor_category=shirt&gender[]=KIDS">短Ｔ</a>
                                       <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=KIDS">短袖</a>
                                       <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=KIDS">長袖</a>
-                                      <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=KIDS">POLO衫</a>
                                       <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=KIDS">襯衫</a>
                                       <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=KIDS">外套</a>
                                   </ul>
@@ -164,9 +156,9 @@ require_once "index_connect.php";
                                       <a class="dropdown-item" href="./search.php?minor_category=SHORTS&gender[]=KIDS">短褲</a>
                                       <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=KIDS">長褲</a>
                                       <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=KIDS">牛仔褲</a>
-                                      <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=KIDS">七分褲</a>
-                                      <a class="dropdown-item" href=".7/search.php?minor_category=SKIRT&gender[]=KIDS">裙裝</a>
-                                      <br>
+                                      <a class="dropdown-item" href="./search.php?minor_category=SKIRT&gender[]=KIDS">裙裝</a>
+
+                                    </br></br>
                                   </ul>
                               </div>
                           </div>
@@ -179,7 +171,7 @@ require_once "index_connect.php";
                                       <a class="dropdown-item" href="./search.php?minor_category=ACCESSORIES&gender[]=KIDS">配件</a>
                                       <a class="dropdown-item" href="./search.php?minor_category=UNDERWEAR&gender[]=KIDS">內衣</a>
                                       <a class="dropdown-item" href="./search.php?minor_category=UNDERPANTS&gender[]=KIDS">內褲</a>
-                                      <br>
+                                    </br>
                                   </ul>
                               </div>
                           </div>
@@ -205,7 +197,7 @@ require_once "index_connect.php";
     </nav>
 
 
-            <br><br>
+  </br></br>
 
 
             <div class="row">
