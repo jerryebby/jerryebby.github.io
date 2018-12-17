@@ -98,10 +98,7 @@ def getCategory(url, product_name):
 			elif '/LV-sleeve' in url:
 				return getCategoryByPName(product_name, 'UPPER', '')
 			elif '/POLO' in url:
-				if u'長袖' in product_name:
-					return category('UPPER', 'LONG_SLEEVES')
-				else:
-					return category('UPPER', 'SHORT_SLEEVES')
+				return category('UPPER', 'POLO')
 			else: return category('UPPER', '')
 		# 襯衫
 		elif '/shirts/' in url:
