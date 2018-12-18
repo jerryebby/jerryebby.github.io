@@ -136,10 +136,10 @@ def insertToDB(data_list):
     cursor = db.cursor()
     for index in data_list:
         actual_price = 0
-        if sale_price == -1:
-            actual_price = original_price
+        if index.sale_price == -1:
+            actual_price = index.original_price
         else:
-            actual_price = sale_price
+            actual_price = index.sale_price
         sql = ("INSERT INTO `PRODUCT`(`gender`, `primary_category`, `minor_category`, `brand`, \
         `product_name`, `original_price`, `sale_price`, `actual_price`, `link`, `photo`) \
         VALUES ('%s', '%s', '%s', '%s', '%s', %f, %f, %f, '%s', '%s');" % \
