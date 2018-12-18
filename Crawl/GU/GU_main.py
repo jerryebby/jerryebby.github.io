@@ -133,12 +133,17 @@ def insertToDB(data_list):
     db = MySQLdb.connect('localhost', SQLdb_id, SQLdb_pwd, 'clothespricecompare', charset='utf8' )
     cursor = db.cursor()
     for index in data_list:
-        sql = ("INSERT INTO `PRODUCT`(`gender`, `primary_category`, `minor_category`, `brand`, \
-        `product_name`, `original_price`, `sale_price`, `link`, `photo`) \
-        VALUES ('%s', '%s', '%s', '%s', '%s', %f, %f, '%s', '%s');" % \
-        (index.gender, index.category.primary, index.category.minor, index.brand, \
-        index.product_name, index.original_price, index.sale_price, index.link, index.photo))
-        cursor.execute(sql)
+        actual_price = 0
+		if index.sale_price == -1:
+			actual_price = index.original_price
+		else:
+			actual_price = index.sale_price
+		sql = ("INSERT INTO `PRODUCT`(`gender`, `primary_category`, `minor_category`, `brand`, \
+		`product_name`, `original_price`, `sale_price`, `actual_price`, `link`, `photo`)\
+		 VALUES ('%s', '%s', '%s', '%s', '%s', %f, %f, %f, '%s', '%s');" % \
+		(index.gender, index.category.primary, index.category.minor, index.brand, \
+		index.product_name.encode('utf-8'), index.original_price, index.sale_price, actual_price, index.link, index.photo))
+		cursor.execute(sql)
         print(sql)
     db.commit()
     db.close()
