@@ -1,7 +1,7 @@
 <?php
 include "connect.php";
 $keywords1=$_SERVER['QUERY_STRING'];
-$sql="SELECT  gender, primary_category, minor_category, brand, product_name, original_price, sale_price, link, photo
+$sql="SELECT  gender, primary_category, minor_category, brand, product_name, original_price, sale_price,actual_price ,link, photo
 FROM PRODUCT WHERE 1";
 if (isset($_GET["keywords"]))
 {
@@ -50,13 +50,15 @@ if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<$_G
 {
   $min_price=$_GET["min_price"];
   $max_price=$_GET["max_price"];
-  $sql=$sql."and ()";
+  $sql=$sql."and (actual_price BETWEEN '{$min_price}' and '{$max_price}')";
 }
 
 if (isset($_GET["order"])) {
   $order=$_GET["order"];
+  if ($order!='1') {
+    $sql=$sql."order by actual_price ".$order;
+  }
 }
-
     $select = $connect -> prepare($sql);
     $select -> execute();
     $count = $select->rowCount();
@@ -76,7 +78,7 @@ if (isset($_GET["order"])) {
       }
 
       $start=($page-1)*$per;
-      $select1 = $connect -> prepare( $sql."LIMIT ".$start.','.$per);
+      $select1 = $connect -> prepare( $sql." LIMIT ".$start.','.$per);
       $select1 -> execute();
       while ($row=$select1->fetch(PDO::FETCH_ASSOC)) {
           $data[$page][]=$row;

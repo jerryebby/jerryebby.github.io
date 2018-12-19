@@ -5,8 +5,15 @@
     $keywords='';
     $minor_category='';
     $gender='';
+    $min_price='';
+    $max_price='';
+    $price='';
+    $order='';
     if (isset($_GET["keywords"])) {
     $keywords="&keywords=".$_GET["keywords"];
+    if ($keywords=="&keywords=") {
+      $keywords='';
+    }
     }
     if (isset($_GET["minor_category"])) {
       $minor_category="&minor_category=".$_GET["minor_category"];
@@ -18,7 +25,17 @@
           $gender=$gender."&gender[]={$gender1[$i]}";
                  }
           }
-
+          if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<$_GET["max_price"]))
+          {
+            $min_price=$_GET["min_price"];
+            $max_price=$_GET["max_price"];
+            $price="&min_price=".$min_price."&max_price=".$max_price;
+          }
+          if (isset($_GET["order"])) {
+            if ($_GET["order"]!='1') {
+              $order="&order=".$_GET["order"];
+            }
+          }
 
 
     if ( isset($pages)) {
@@ -27,7 +44,7 @@
       ?>
       <li class="page-item">
         <?php
-          echo '<a class="page-link" href="?page='.$Previous.$keywords.$minor_category.$gender.'">'."&laquo;".'</a>';
+          echo '<a class="page-link" href="?page='.$Previous.$keywords.$minor_category.$gender.$order.$price.'">'."&laquo;".'</a>';
          ?>
       </li>
 
@@ -36,7 +53,7 @@
         if ( $page-3 < $i && $i < $page+3 ) {?>
           <li class="page-item">
             <?php
-              echo '<a class="page-link" href="?page='.$i.$keywords.$minor_category.$gender.'">' . $i . '</a>';
+              echo '<a class="page-link" href="?page='.$i.$keywords.$minor_category.$gender.$order.$price.'">' . $i . '</a>';
 
              ?>
           </li><?php
@@ -48,7 +65,7 @@
 
   <li class="page-item">
     <?php
-      echo '<a class="page-link" href="?page='.$Next.$keywords.$minor_category.$gender.'">'."&raquo;".'</a>';
+      echo '<a class="page-link" href="?page='.$Next.$keywords.$minor_category.$gender.$order.$price.'">'."&raquo;".'</a>';
      ?>  </li>
   <?php
     }?>

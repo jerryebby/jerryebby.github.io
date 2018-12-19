@@ -213,12 +213,12 @@ require_once "index_connect.php";
                             <span>價格區間</span>
                             <div class="row" style="text-align: center;">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="最低">
+                                    <input type="text" class="form-control" placeholder="最低" value="<?php if (isset($_GET['min_price'])){ echo $_GET['min_price'];} ?>">
                                 </div>
 
                                 <span>~</span>
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="最高">
+                                    <input type="text" class="form-control" placeholder="最高"  value="<?php if (isset($_GET['max_price'])){ echo $_GET['max_price'];} ?>">
                                 </div>
                             </div>
                         </div>

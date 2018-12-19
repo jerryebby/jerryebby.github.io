@@ -205,12 +205,14 @@ include "filter.php";
                             <span>價格區間</span>
                             <div class="row" style="text-align: center;">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="最低">
+                                    <input type="text" name="min_price"class="form-control" placeholder="最低" <?php if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<$_GET["max_price"]))
+ { echo "value=".$_GET['min_price'];} ?>>
                                 </div>
 
                                 <span>~</span>
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="最高">
+                                    <input type="text" name="max_price"class="form-control" placeholder="最高" <?php if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<$_GET["max_price"]))
+ { echo "value=".$_GET['max_price'];} ?>>
                                 </div>
                             </div>
                         </div>
