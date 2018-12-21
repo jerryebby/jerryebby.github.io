@@ -8,7 +8,15 @@ include "filter.php";
         <!-- Required meta tags -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script type="text/javascript">
+        function submitform()
+        {
+          var checkValue=$("#test1").val();
+          // document.write(checkValue);
+          document.getElementById('formsearch').submit();
 
+        }
+        </script>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css
 " integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -39,6 +47,7 @@ include "filter.php";
                                             <ul class="list-group list-group-flush" align="center">
                                                 <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=WOMEN">短袖</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=WOMEN">長袖</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=WOMEN">POLO衫</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=WOMEN">襯衫</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=WOMEN">外套</a>
                                             </ul>
@@ -53,6 +62,7 @@ include "filter.php";
                                                 <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=WOMEN">長褲</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=WOMEN">牛仔褲</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=SKIRT&gender[]=WOMEN">裙裝</a>
+                                              </br>
                                             </ul>
                                         </div>
                                     </div>
@@ -65,6 +75,7 @@ include "filter.php";
                                                 <a class="dropdown-item" href="./search.php?minor_category=ACCESSORIES&gender[]=WOMEN">配件</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=UNDERWEAR&gender[]=WOMEN">內衣</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=UNDERPANTS&gender[]=WOMEN">內褲</a>
+                                              </br>
                                             </ul>
                                         </div>
                                     </div>
@@ -138,6 +149,7 @@ include "filter.php";
                                                 <ul class="list-group list-group-flush" align="center">
                                                     <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=KIDS">短袖</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=KIDS">長袖</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=KIDS">POLO衫</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=KIDS">襯衫</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=KIDS">外套</a>
                                                 </ul>
@@ -152,6 +164,7 @@ include "filter.php";
                                                     <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=KIDS">長褲</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=KIDS">牛仔褲</a>
                                                     <a class="dropdown-item" href=".7/search.php?minor_category=SKIRT&gender[]=KIDS">裙裝</a>
+                                                  </br>
                                                 </ul>
                                             </div>
                                         </div>
@@ -164,6 +177,7 @@ include "filter.php";
                                                     <a class="dropdown-item" href="./search.php?minor_category=ACCESSORIES&gender[]=KIDS">配件</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=UNDERWEAR&gender[]=KIDS">內衣</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=UNDERPANTS&gender[]=KIDS">內褲</a>
+                                                  </br>
                                                 </ul>
                                             </div>
                                         </div>
@@ -196,9 +210,13 @@ include "filter.php";
 
                 <div class="col-sm-3">
                     <div style="margin-top: 35%;"><span>進階搜尋</span></div>
-                    <form method="get" action="search.php" id="formsearch" style="background-color:darkgray; padding: 20px; overflow: auto; background-color: white; border-style:double;">
-                        <span>搜尋：</span>
-                        <Input Type="text" class="col-sm-9" name="keywords" value="<?php if (isset($_GET['keywords'])){ echo $_GET['keywords'];} ?>" style="display: inline-block; height: 40px; overflow: auto;">
+                    <form method="get" action="search.php" id='formsearch' style="background-color:darkgray; padding: 20px; overflow: auto; background-color: white; border-style:double;">
+                      <input type="hidden" name="minor_category" <?php if (isset($_GET["minor_category"])&&$_GET["minor_category"]!='') {
+                        echo "value=".$_GET["minor_category"];
+                      } ?>>
+
+                        <span>關鍵字&nbsp;</span>
+                        <Input Type="text" class="col-sm-8" name="keywords" value="<?php if (isset($_GET['keywords'])){ echo $_GET['keywords'];} ?>" style="display: inline-block; height: 40px; overflow: auto;">
                         </br>
                         </br>
                         <div id="priceinterval">
@@ -219,7 +237,7 @@ include "filter.php";
 
 
                         <div id="size" style="margin-top: 20px;">
-                            <span>性別</span>
+                            <span>角色</span>
                             <div class=" form-check">
                                 <input type="checkbox" class="form-check-input" id="defaultCheck1" name="gender[]" value="MEN" <?php if (isset($_GET[ "gender"]) && in_array( "MEN",$_GET[ "gender"])){echo "checked";}?>>
                                 <label class="form-check-label" for="exampleCheck1">男生</label>
@@ -235,8 +253,15 @@ include "filter.php";
 
 
                         </div>
+                        <div id="size" style="margin-top: 20px;">
+                            <span>類別</span>
 
-                        <button type="submit" class="btn" style="float:right; border:1px solid;">確定</button>
+                        </div>
+                        <div id="size" style="margin-top: 20px;">
+                            <span>品牌</span>
+
+                        </div>
+                        <button type="submit"   class="btn" style="float:right; border:1px solid;">確定</button>
                     </form>
                 </div>
 
@@ -276,10 +301,26 @@ include "filter.php";
                     <div style="clear:both"></div>
 
                     <div class="form-group " style="float:right; margin-right:5%;">
-                        <select class="form-control" name="order" style="width: 150px; margin:0px auto;" form="formsearch">
-<option value="1">相關度</option>
-<option value="ASC">價格由低至高</option>
-<option value="DESC">價格由高至低</option>
+                        <select class="form-control" id="test1" name="order" style="width: 150px; margin:0px auto;" form="formsearch" onchange="submitform()" >
+                        <?php if (isset($_GET["order"])&& $_GET["order"]=="ASC")
+                         {?>
+                          <option value="ASC" >價格由低至高</option>
+                          <option value="1">相關度</option>
+                          <option value="DESC" >價格由高至低</option>
+                         <?php  }
+                          else if(isset($_GET["order"])&&$_GET["order"]=="DESC")
+                          {?>
+                            <option value="DESC" >價格由高至低</option>
+                            <option value="ASC" >價格由低至高</option>
+                            <option value="1">相關度</option>
+                          <?php }
+                            else { ?>
+                          <option value="1">相關度</option>
+  <option value="ASC" >價格由低至高</option>
+  <option value="DESC" >價格由高至低</option>
+                        <?php }  ?>
+
+
 </select>
 
                     </div>

@@ -2,13 +2,13 @@
 include "connect.php";
 $keywords1=$_SERVER['QUERY_STRING'];
 $sql="SELECT  gender, primary_category, minor_category, brand, product_name, original_price, sale_price,actual_price ,link, photo
-FROM PRODUCT WHERE 1";
-if (isset($_GET["keywords"]))
+FROM PRODUCT WHERE 1 ";
+if (isset($_GET["keywords"])&&$_GET["keywords"]!='')
 {
   $keywords=$_GET["keywords"];
   $sql=$sql." and (
    product_name Like '%{$keywords}%'
-  or brand Like '%{$keywords}%') ";
+  or brand Like '%{$keywords}%') "." ";
 }
 if(isset($_GET["gender"]))
     {
@@ -17,7 +17,7 @@ if(isset($_GET["gender"]))
       if($i==0 && count($gender)==1)
       {
         $sql=$sql." and (
-         gender='{$gender[$i]}')";
+         gender='{$gender[$i]}')"." ";
       }
       else if ($i==0) {
         $sql=$sql." and (
@@ -25,12 +25,12 @@ if(isset($_GET["gender"]))
              }
              else if($i==(count($gender)-1)) {
                $sql=$sql." or
-                gender='{$gender[$i]}' )";
+                gender='{$gender[$i]}' )"." ";
               }
               else
               {
                 $sql=$sql." or
-                 gender='{$gender[$i]}' ";
+                 gender='{$gender[$i]}' "." ";
               }
              }
 
@@ -39,18 +39,19 @@ if(isset($_GET["gender"]))
       }
 
 
-if(isset($_GET["minor_category"]))
+if(isset($_GET["minor_category"])&&$_GET["minor_category"]!='')
 {
   $minor_category=$_GET["minor_category"];
   $sql=$sql." and(
-   minor_category='{$minor_category}') ";
+   minor_category='{$minor_category}') "." ";
+
 }
 
 if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<$_GET["max_price"]))
 {
   $min_price=$_GET["min_price"];
   $max_price=$_GET["max_price"];
-  $sql=$sql."and (actual_price BETWEEN '{$min_price}' and '{$max_price}')";
+  $sql=$sql."and (actual_price BETWEEN '{$min_price}' and '{$max_price}')"." ";
 }
 
 if (isset($_GET["order"])) {
@@ -65,7 +66,6 @@ if (isset($_GET["order"])) {
     if ($count==0) {
     }
     else {
-
       $per=15;
       $pages = ceil($count/$per);
 
@@ -76,7 +76,6 @@ if (isset($_GET["order"])) {
           $page = ($page > 0) ? $page : 1; //確認頁數大於零
           $page = ($pages > $page) ? $page : $pages; //確認使用者沒有輸入太神奇的數字
       }
-
       $start=($page-1)*$per;
       $select1 = $connect -> prepare( $sql." LIMIT ".$start.','.$per);
       $select1 -> execute();

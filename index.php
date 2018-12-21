@@ -12,12 +12,14 @@ require_once "index_connect.php";
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css
 " integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script type="text/javascript">
+function submitform()
+{
+  document.getElementById('formsearch').submit();
+}
+</script>
 
 
-        <script type="text/javascript">
-            document.getElementById("")
-
-        </script>
         <title>衣比呀,衣服比價網</title>
     </head>
 
@@ -44,6 +46,7 @@ require_once "index_connect.php";
                                             <ul class="list-group list-group-flush" align="center">
                                                 <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=WOMEN">短袖</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=WOMEN">長袖</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=WOMEN">POLO衫</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=WOMEN">襯衫</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=WOMEN">外套</a>
                                             </ul>
@@ -58,6 +61,7 @@ require_once "index_connect.php";
                                                 <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=WOMEN">長褲</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=WOMEN">牛仔褲</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=SKIRT&gender[]=WOMEN">裙裝</a>
+                                                </br>
                                             </ul>
                                         </div>
                                     </div>
@@ -70,6 +74,7 @@ require_once "index_connect.php";
                                                 <a class="dropdown-item" href="./search.php?minor_category=ACCESSORIES&gender[]=WOMEN">配件</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=UNDERWEAR&gender[]=WOMEN">內衣</a>
                                                 <a class="dropdown-item" href="./search.php?minor_category=UNDERPANTS&gender[]=WOMEN">內褲</a>
+                                                </br>
                                             </ul>
                                         </div>
                                     </div>
@@ -142,7 +147,8 @@ require_once "index_connect.php";
                                             <div class="card items" style="border:0; ">
                                                 <ul class="list-group list-group-flush" align="center">
                                                     <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=KIDS">短袖</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=KIDS">長袖</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=KIDS">長袖</a>                                                <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=MEN">POLO衫</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=KIDS">POLO衫</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=KIDS">襯衫</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=KIDS">外套</a>
                                                 </ul>
@@ -157,8 +163,8 @@ require_once "index_connect.php";
                                                     <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=KIDS">長褲</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=KIDS">牛仔褲</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=SKIRT&gender[]=KIDS">裙裝</a>
-
-
+                                                  </br>
+                                                  </br>
                                                 </ul>
                                             </div>
                                         </div>
@@ -171,6 +177,7 @@ require_once "index_connect.php";
                                                     <a class="dropdown-item" href="./search.php?minor_category=ACCESSORIES&gender[]=KIDS">配件</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=UNDERWEAR&gender[]=KIDS">內衣</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category=UNDERPANTS&gender[]=KIDS">內褲</a>
+                                                    </br>
                                                 </ul>
                                             </div>
                                         </div>
@@ -205,15 +212,18 @@ require_once "index_connect.php";
                 <div class="col-sm-3">
                     <div style="margin-top: 35%;"><span>進階搜尋</span></div>
                     <form method="get" action="search.php" id="formsearch" style="background-color:darkgray; padding: 20px; overflow: auto; background-color: white; border-style:double;">
-                        <span>搜尋：</span>
-                        <Input Type="text" class="col-sm-9" name="keywords" value="<?php if (isset($_GET['keywords'])){ echo $_GET['keywords'];} ?>" style="display: inline-block; height: 40px; overflow: auto;">
+
+                      <?php if (isset($_GET["minor_category"])&&$_GET["minor_category"]!='') {echo '<input type="hidden" name="minor_category" value"'.$_GET['minor_category'].'">';}?>
+
+                        <span>關鍵字&nbsp;</span>
+                        <Input Type="text" class="col-sm-8" name="keywords" value="<?php if (isset($_GET['keywords'])){ echo $_GET['keywords'];} ?>" style="display: inline-block; height: 40px; overflow: auto;">
                         </br>
                         </br>
                         <div id="priceinterval">
                             <span>價格區間</span>
                             <div class="row" style="text-align: center;">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="最低" value="<?php if (isset($_GET['min_price'])){ echo $_GET['min_price'];} ?>">
+                                    <input type="text" class="form-control" placeholder="最低" <?php if (isset($_GET['min_price'])){ echo $_GET['min_price'];} ?>>
                                 </div>
 
                                 <span>~</span>
@@ -225,7 +235,7 @@ require_once "index_connect.php";
 
 
                         <div id="size" style="margin-top: 20px;">
-                            <span>性別</span>
+                            <span>角色</span>
                             <div class=" form-check">
                                 <input type="checkbox" class="form-check-input" id="defaultCheck1" name="gender[]" value="MEN" <?php if (isset($_GET[ "gender"]) && in_array( "MEN",$_GET[ "gender"])){echo "checked";}?>>
                                 <label class="form-check-label" for="exampleCheck1">男生</label>
@@ -242,7 +252,16 @@ require_once "index_connect.php";
 
                         </div>
 
-                        <button type="submit" class="btn" style="float:right; border:1px solid;">確定</button>
+                        <div id="size" style="margin-top: 20px;">
+                            <span>類別</span>
+
+                        </div>
+                        <div id="size" style="margin-top: 20px;">
+                            <span>品牌</span>
+
+                        </div>
+
+                        <button type="submit" id='test'class="btn" style="float:right; border:1px solid;">確定</button>
                     </form>
 
 
@@ -264,11 +283,12 @@ require_once "index_connect.php";
                             <ol class="breadcrumb col-sm-5" style="float:left; background-color:white; font-size:16px;">
                                 <li class="breadcrumb-item"><a href="index.php" style="color:black; text-decoration:none;">衣比呀</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">
-                                    <?php if (isset($_GET["keywords"])) {
-                                          echo $_GET["keywords"];
-                                    }
+                                    <?php if (isset($_GET["keywords"]))
+                                    {
 
-                                    ?>
+                                      echo $_GET["keywords"];
+                                    }
+                        ?>
                                 </li>
                             </ol>
 
@@ -285,14 +305,27 @@ require_once "index_connect.php";
 
                     <div class="form-group " style="float:right; margin-right:5%;">
                         <form method="post" action="search.php" style="background:#FFD382">
-                            <select name="order[]" class="form-control" id="exampleFormControlSelect1" style="width: 150px; margin:0px auto;
+                          <select class="form-control" id="test1" name="order" style="width: 150px; margin:0px auto;" form="formsearch" onchange="submitform()" >
+                          <?php if (isset($_GET["order"])&& $_GET["order"]=="ASC")
+                           {?>
+                            <option value="ASC" >價格由低至高</option>
+                            <option value="1">相關度</option>
+                            <option value="DESC" >價格由高至低</option>
+                           <?php  }
+                            else if(isset($_GET["order"])&&$_GET["order"]=="DESC")
+                            {?>
+                              <option value="DESC" >價格由高至低</option>
+                              <option value="ASC" >價格由低至高</option>
+                              <option value="1">相關度</option>
+                            <?php }
+                              else { ?>
+                            <option value="1">相關度</option>
+    <option value="ASC" >價格由低至高</option>
+    <option value="DESC" >價格由高至低</option>
+                          <?php }  ?>
 
-">
-      <option value="1">相關度</option>
-      <option value="ASC">價格由低至高</option>
-      <option value="DESC">價格由高至低</option>
 
-    </select>
+  </select>
                         </form>
                     </div>
 
