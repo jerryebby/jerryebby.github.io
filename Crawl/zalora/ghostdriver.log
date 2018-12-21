@@ -1,0 +1,31 @@
+[INFO  - 2018-12-19T05:47:44.663Z] GhostDriver - Main - running on port 63603
+[INFO  - 2018-12-19T05:47:45.400Z] Session [9be0dc30-0351-11e9-bbf9-d905c4ebe4ad] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-12-19T05:47:45.400Z] Session [9be0dc30-0351-11e9-bbf9-d905c4ebe4ad] - page.customHeaders:  - {}
+[INFO  - 2018-12-19T05:47:45.400Z] Session [9be0dc30-0351-11e9-bbf9-d905c4ebe4ad] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-12-19T05:47:45.400Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9be0dc30-0351-11e9-bbf9-d905c4ebe4ad
+[ERROR - 2018-12-19T05:47:45.635Z] Session [9be0dc30-0351-11e9-bbf9-d905c4ebe4ad] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Object.keys(j).find(function(t){return u(e[t])!==j[t]&&((0,b.default)("option '"+t+"' must have '"+j[t]+"' type!"),!0)})')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-19T05:47:45.635Z] Session [9be0dc30-0351-11e9-bbf9-d905c4ebe4ad] - page.onError - stack:
+  M (https://rum.zacdn.com/rum/0.2.36/rum.shop.min.js:1)
+  default (https://rum.zacdn.com/rum/0.2.36/rum.shop.min.js:1)
+  (anonymous function) (https://rum.zacdn.com/rum/0.2.36/rum.shop.min.js:1)
+  t (https://rum.zacdn.com/rum/0.2.36/rum.shop.min.js:1)
+  (anonymous function) (https://rum.zacdn.com/rum/0.2.36/rum.shop.min.js:1)
+  t (https://rum.zacdn.com/rum/0.2.36/rum.shop.min.js:1)
+  (anonymous function) (https://rum.zacdn.com/rum/0.2.36/rum.shop.min.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-19T05:47:45.857Z] Session [9be0dc30-0351-11e9-bbf9-d905c4ebe4ad] - page.onError - msg: TypeError: undefined is not an object (evaluating 'Zalora.Header.HeaderController')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-19T05:47:45.857Z] Session [9be0dc30-0351-11e9-bbf9-d905c4ebe4ad] - page.onError - stack:
+  (anonymous function) (https://www.zalora.com.tw/women/clothing/skirts/?from=header:4046)
+  n (https://static-tw.zacdn.com/js/jquery-1.7.min.js:2)
+  fireWith (https://static-tw.zacdn.com/js/jquery-1.7.min.js:2)
+  ready (https://static-tw.zacdn.com/js/jquery-1.7.min.js:2)
+  C (https://static-tw.zacdn.com/js/jquery-1.7.min.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2018-12-19T05:52:44.685Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-12-19T05:52:44.685Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '9be0dc30-0351-11e9-bbf9-d905c4ebe4ad', because windowless
