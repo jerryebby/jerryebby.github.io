@@ -1,6 +1,5 @@
 <?php
 include "connect.php";
-$keywords1=$_SERVER['QUERY_STRING'];
 $sql="SELECT  gender, primary_category, minor_category, brand, product_name, original_price, sale_price,actual_price ,link, photo
 FROM PRODUCT WHERE 1 ";
 if (isset($_GET["keywords"])&&$_GET["keywords"]!='')
@@ -13,6 +12,7 @@ if (isset($_GET["keywords"])&&$_GET["keywords"]!='')
 if(isset($_GET["gender"]))
     {
     $gender=$_GET["gender"];
+    $gender=array_unique($gender);
     for ($i=0; $i <count($gender); $i++) {
       if($i==0 && count($gender)==1)
       {
@@ -41,25 +41,72 @@ if(isset($_GET["gender"]))
 
 if(isset($_GET["minor_category"])&&$_GET["minor_category"]!='')
 {
+  // $minor_category=$_GET["minor_category"];
+  // $sql=$sql." and(
+  //  minor_category='{$minor_category}') "." ";
   $minor_category=$_GET["minor_category"];
-  $sql=$sql." and(
-   minor_category='{$minor_category}') "." ";
+  $minor_category=array_unique($minor_category);
+  for ($i=0; $i <count($minor_category); $i++) {
+    if($i==0 && count($minor_category)==1)
+    {
+      $sql=$sql." and (
+       minor_category='{$minor_category[$i]}')"." ";
+    }
+    else if ($i==0 ) {
+      $sql=$sql." and (
+       minor_category='{$minor_category[$i]}'";
+           }
+           else if($i==(count($minor_category)-1)) {
+             $sql=$sql." or
+              minor_category='{$minor_category[$i]}' )"." ";
+            }
+            else
+            {
+              $sql=$sql." or
+               minor_category='{$minor_category[$i]}' "." ";
+            }
+           }
+
 
 }
-
 if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<$_GET["max_price"]))
 {
   $min_price=$_GET["min_price"];
   $max_price=$_GET["max_price"];
   $sql=$sql."and (actual_price BETWEEN '{$min_price}' and '{$max_price}')"." ";
 }
-
+if (isset($_GET["brand"])) {
+  $brand=$_GET["brand"];
+  $brand=array_unique($brand);
+  for ($i=0; $i <count($brand); $i++) {
+    if($i==0 && count($brand)==1)
+    {
+      $sql=$sql." and (
+       brand='{$brand[$i]}')"." ";
+    }
+    else if ($i==0 ) {
+      $sql=$sql." and (
+       brand='{$brand[$i]}'";
+           }
+           else if($i==(count($brand)-1)) {
+             $sql=$sql." or
+              brand='{$brand[$i]}' )"." ";
+            }
+            else
+            {
+              $sql=$sql." or
+               brand='{$brand[$i]}' "." ";
+            }
+           }
+         }
 if (isset($_GET["order"])) {
   $order=$_GET["order"];
   if ($order!='1') {
     $sql=$sql."order by actual_price ".$order;
   }
 }
+
+
     $select = $connect -> prepare($sql);
     $select -> execute();
     $count = $select->rowCount();

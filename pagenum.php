@@ -10,9 +10,14 @@
     $price='';
     $order='';
     $minor_category='';
-    if (isset($_GET["minor_category"])) {
-      $minor_category="&minor_category=".$_GET["minor_category"];
-    }
+    $brand='';
+
+    if (isset($_GET["brand"])) {
+      $brand1=$_GET["brand"];
+      for ($i=0; $i <count($brand1); $i++) {
+        $brand=$brand."&brand[]={$brand1[$i]}";
+               }    }
+
     if (isset($_GET["keywords"])) {
     $keywords="&keywords=".$_GET["keywords"];
     if ($keywords=="&keywords=") {
@@ -20,10 +25,12 @@
     }
     }
     if (isset($_GET["minor_category"])) {
-      $minor_category="&minor_category=".$_GET["minor_category"];
-      if ($minor_category=="&minor_category=") {
-        $minor_category='';
-      }
+      $minor_category1=$_GET["minor_category"];
+      $minor_category1=array_unique($minor_category1);
+      for ($i=0; $i <count($minor_category1); $i++) {
+        $minor_category=$minor_category."&minor_category[]={$minor_category1[$i]}";
+               }
+
     }
     if(isset($_GET["gender"]))
         {
@@ -32,6 +39,7 @@
           $gender=$gender."&gender[]={$gender1[$i]}";
                  }
           }
+
           if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<$_GET["max_price"]))
           {
             $min_price=$_GET["min_price"];
@@ -51,7 +59,7 @@
       ?>
       <li class="page-item">
         <?php
-          echo '<a class="page-link" href="?page='.$Previous.$keywords.$minor_category.$gender.$order.$price.$minor_category.'">'."&laquo;".'</a>';
+          echo '<a class="page-link" href="?page='.$Previous.$keywords.$minor_category.$gender.$order.$price.$brand.'">'."&laquo;".'</a>';
          ?>
       </li>
 
@@ -60,7 +68,7 @@
         if ( $page-3 < $i && $i < $page+3 ) {?>
           <li class="page-item">
             <?php
-              echo '<a class="page-link" href="?page='.$i.$keywords.$minor_category.$gender.$order.$price.$minor_category.'">' . $i . '</a>';
+              echo '<a class="page-link" href="?page='.$i.$keywords.$minor_category.$gender.$order.$price.$brand.'">' . $i . '</a>';
 
              ?>
           </li><?php
@@ -72,7 +80,7 @@
 
   <li class="page-item">
     <?php
-      echo '<a class="page-link" href="?page='.$Next.$keywords.$minor_category.$gender.$order.$price.$minor_category.'">'."&raquo;".'</a>';
+      echo '<a class="page-link" href="?page='.$Next.$keywords.$minor_category.$gender.$order.$price.$brand.'">'."&raquo;".'</a>';
      ?>  </li>
   <?php
     }?>

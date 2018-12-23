@@ -44,11 +44,11 @@ function submitform()
                                         <div class="dropdown-divider"></div>
                                         <div class="card items" style="border:0; ">
                                             <ul class="list-group list-group-flush" align="center">
-                                                <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=WOMEN">短袖</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=WOMEN">長袖</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=WOMEN">POLO衫</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=WOMEN">襯衫</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=WOMEN">外套</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=SHORT_SLEEVES&gender[]=WOMEN">短袖</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=LONG_SLEEVES&gender[]=WOMEN">長袖</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=POLO&gender[]=WOMEN">POLO衫</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=SHIRT&gender[]=WOMEN">襯衫</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=OUTERWEAR&gender[]=WOMEN">外套</a>
                                             </ul>
                                         </div>
                                     </div>
@@ -57,10 +57,10 @@ function submitform()
                                         <div class="dropdown-divider"></div>
                                         <div class="card items" style="border:0; ">
                                             <ul class="list-group list-group-flush" align="center">
-                                                <a class="dropdown-item" href="./search.php?minor_category=SHORTS&gender[]=WOMEN">短褲</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=WOMEN">長褲</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=WOMEN">牛仔褲</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=SKIRT&gender[]=WOMEN">裙裝</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=SHORTS&gender[]=WOMEN">短褲</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=TROUSERS&gender[]=WOMEN">長褲</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=JEANS&gender[]=WOMEN">牛仔褲</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=SKIRT&gender[]=WOMEN">裙裝</a>
                                                 </br>
                                             </ul>
                                         </div>
@@ -70,10 +70,10 @@ function submitform()
                                         <div class="dropdown-divider"></div>
                                         <div class="card items" style="border:0; ">
                                             <ul class="list-group list-group-flush" align="center">
-                                                <a class="dropdown-item" href="./search.php?minor_category=SPORTS&gender[]=WOMEN">運動</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=ACCESSORIES&gender[]=WOMEN">配件</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=UNDERWEAR&gender[]=WOMEN">內衣</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=UNDERPANTS&gender[]=WOMEN">內褲</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=SPORTS&gender[]=WOMEN">運動</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=ACCESSORIES&gender[]=WOMEN">配件</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=UNDERWEAR&gender[]=WOMEN">內衣</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=UNDERPANTS&gender[]=WOMEN">內褲</a>
                                                 </br>
                                             </ul>
                                         </div>
@@ -94,11 +94,11 @@ function submitform()
                                         <div class="dropdown-divider"></div>
                                         <div class="card items" style="border:0; ">
                                             <ul class="list-group list-group-flush" align="center">
-                                                <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=MEN">短袖</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=MEN">長袖</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=MEN">POLO衫</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=MEN">襯衫</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=MEN">外套</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=SHORT_SLEEVES&gender[]=MEN">短袖</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=LONG_SLEEVES&gender[]=MEN">長袖</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=POLO&gender[]=MEN">POLO衫</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=SHIRT&gender[]=MEN">襯衫</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=OUTERWEAR&gender[]=MEN">外套</a>
                                             </ul>
                                         </div>
                                     </div>
@@ -107,9 +107,9 @@ function submitform()
                                         <div class="dropdown-divider"></div>
                                         <div class="card items" style="border:0; ">
                                             <ul class="list-group list-group-flush" align="center">
-                                                <a class="dropdown-item" href="./search.php?minor_category=SHORTS&gender[]=MEN">短褲</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=MEN">長褲</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=MEN">牛仔褲</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=SHORTS&gender[]=MEN">短褲</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=TROUSERS&gender[]=MEN">長褲</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=JEANS&gender[]=MEN">牛仔褲</a>
                                                 </br>
                                                 </br>
                                             </ul>
@@ -120,10 +120,10 @@ function submitform()
                                         <div class="dropdown-divider"></div>
                                         <div class="card items" style="border:0; ">
                                             <ul class="list-group list-group-flush" align="center">
-                                                <a class="dropdown-item" href="./search.php?minor_category=SPORTS&gender[]=MEN">運動</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=ACCESSORIES&gender[]=MEN">配件</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=UNDERWEAR&gender[]=MEN">內衣</a>
-                                                <a class="dropdown-item" href="./search.php?minor_category=UNDERPANTS&gender[]=MEN">內褲</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=SPORTS&gender[]=MEN">運動</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=ACCESSORIES&gender[]=MEN">配件</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=UNDERWEAR&gender[]=MEN">內衣</a>
+                                                <a class="dropdown-item" href="./search.php?minor_category[]=UNDERPANTS&gender[]=MEN">內褲</a>
                                                 </br>
                                             </ul>
                                         </div>
@@ -146,11 +146,11 @@ function submitform()
                                             <div class="dropdown-divider"></div>
                                             <div class="card items" style="border:0; ">
                                                 <ul class="list-group list-group-flush" align="center">
-                                                    <a class="dropdown-item" href="./search.php?minor_category=SHORT_SLEEVES&gender[]=KIDS">短袖</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=LONG_SLEEVES&gender[]=KIDS">長袖</a>                                                <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=MEN">POLO衫</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=KIDS">POLO衫</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=SHIRT&gender[]=KIDS">襯衫</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=OUTERWEAR&gender[]=KIDS">外套</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=SHORT_SLEEVES&gender[]=KIDS">短袖</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=LONG_SLEEVES&gender[]=KIDS">長袖</a>                                                <a class="dropdown-item" href="./search.php?minor_category=POLO&gender[]=MEN">POLO衫</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=POLO&gender[]=KIDS">POLO衫</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=SHIRT&gender[]=KIDS">襯衫</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=OUTERWEAR&gender[]=KIDS">外套</a>
                                                 </ul>
                                             </div>
                                         </div>
@@ -159,10 +159,10 @@ function submitform()
                                             <div class="dropdown-divider"></div>
                                             <div class="card items" style="border:0; ">
                                                 <ul class="list-group list-group-flush" align="center">
-                                                    <a class="dropdown-item" href="./search.php?minor_category=SHORTS&gender[]=KIDS">短褲</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=TROUSERS&gender[]=KIDS">長褲</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=JEANS&gender[]=KIDS">牛仔褲</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=SKIRT&gender[]=KIDS">裙裝</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=SHORTS&gender[]=KIDS">短褲</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=TROUSERS&gender[]=KIDS">長褲</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=JEANS&gender[]=KIDS">牛仔褲</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=SKIRT&gender[]=KIDS">裙裝</a>
                                                   </br>
                                                   </br>
                                                 </ul>
@@ -173,10 +173,10 @@ function submitform()
                                             <div class="dropdown-divider"></div>
                                             <div class="card items" style="border:0; ">
                                                 <ul class="list-group list-group-flush" align="center">
-                                                    <a class="dropdown-item" href="./search.php?minor_category=SPORTS&gender[]=KIDS">運動</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=ACCESSORIES&gender[]=KIDS">配件</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=UNDERWEAR&gender[]=KIDS">內衣</a>
-                                                    <a class="dropdown-item" href="./search.php?minor_category=UNDERPANTS&gender[]=KIDS">內褲</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=SPORTS&gender[]=KIDS">運動</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=ACCESSORIES&gender[]=KIDS">配件</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=UNDERWEAR&gender[]=KIDS">內衣</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=UNDERPANTS&gender[]=KIDS">內褲</a>
                                                     </br>
                                                 </ul>
                                             </div>
@@ -235,29 +235,112 @@ function submitform()
 
 
                         <div id="size" style="margin-top: 20px;">
+                          <div class="">
                             <span>角色</span>
-                            <div class=" form-check">
-                                <input type="checkbox" class="form-check-input" id="defaultCheck1" name="gender[]" value="MEN" <?php if (isset($_GET[ "gender"]) && in_array( "MEN",$_GET[ "gender"])){echo "checked";}?>>
-                                <label class="form-check-label" for="exampleCheck1">男生</label>
-                            </div>
-                            <div class=" form-check">
-                                <input type="checkbox" class="form-check-input" id="defaultCheck2" name="gender[]" value="WOMEN" <?php if (isset($_GET[ "gender"]) && in_array( "WOMEN",$_GET[ "gender"])){echo "checked";}?>>
-                                <label class="form-check-label" for="exampleCheck1">女生</label>
-                            </div>
-                            <div class=" form-check">
-                                <input type="checkbox" class="form-check-input" id="defaultCheck3" name="gender[]" value="KIDS" <?php if (isset($_GET[ "gender"]) && in_array( "KIDS",$_GET[ "gender"])){echo "checked";}?>>
-                                <label class="form-check-label" for="exampleCheck1">小孩</label>
-                            </div>
+                          </div>
 
+                            <div class="form-check form-check-inline">
+                              <input type="checkbox" class="form-check-input" id="defaultCheck1" name="gender[]" value="MEN" <?php if (isset($_GET[ "gender"]) && in_array( "MEN",$_GET[ "gender"])){echo "checked";}?>>
+                              <label class="form-check-label" for="exampleCheck1">男生</label>
+                          </div>
 
+                            <div class="form-check form-check-inline">
+                              <input type="checkbox" class="form-check-input" id="defaultCheck2" name="gender[]" value="WOMEN" <?php if (isset($_GET[ "gender"]) && in_array( "WOMEN",$_GET[ "gender"])){echo "checked";}?>>
+                              <label class="form-check-label" for="exampleCheck1">女生</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input type="checkbox" class="form-check-input" id="defaultCheck3" name="gender[]" value="KIDS" <?php if (isset($_GET[ "gender"]) && in_array( "KIDS",$_GET[ "gender"])){echo "checked";}?>>
+                              <label class="form-check-label" for="exampleCheck1">小孩</label>
+                            </div>
                         </div>
 
                         <div id="size" style="margin-top: 20px;">
+                          <div class="">
                             <span>類別</span>
 
+                          </div>
+                          <div class="">
+                            <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="minor_category[]" value="SHORT_SLEEVES" <?php if (isset($_GET[ "minor_category"]) && in_array( "SHORT_SLEEVES",$_GET[ "minor_category"])){echo "checked";}?>>
+  <label class="form-check-label" for="inlineCheckbox1">短袖</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="minor_category[]" value="SHORTS" <?php if (isset($_GET[ "minor_category"]) && in_array( "SHORTS",$_GET[ "minor_category"])){echo "checked";}?>>
+  <label class="form-check-label" for="inlineCheckbox2">短褲</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="minor_category[]" value="SPORTS" <?php if (isset($_GET[ "minor_category"]) && in_array( "SPORTS",$_GET[ "minor_category"])){echo "checked";}?>>
+  <label class="form-check-label" for="inlineCheckbox2">運動</label>
+</div>
+                          </div>
+                          <div class="">
+                            <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" name="minor_category[]" value="LONG_SLEEVES" <?php if (isset($_GET[ "minor_category"]) && in_array( "LONG_SLEEVES",$_GET[ "minor_category"])){echo "checked";}?>>
+    <label class="form-check-label" for="inlineCheckbox1">長袖</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" name="minor_category[]" value="TROUSERS" <?php if (isset($_GET[ "minor_category"]) && in_array( "TROUSERS",$_GET[ "minor_category"])){echo "checked";}?>>
+    <label class="form-check-label" for="inlineCheckbox2">長褲</label>
+    </div>
+    <div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" name="minor_category[]" value="ACCESSORIES" <?php if (isset($_GET[ "minor_category"]) && in_array( "ACCESSORIES",$_GET[ "minor_category"])){echo "checked";}?>>
+    <label class="form-check-label" for="inlineCheckbox2">配件</label>
+    </div>
+                          </div>
+                          <div class="">
+                            <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="minor_category[]" value="OUTERWEAR" <?php if (isset($_GET[ "minor_category"]) && in_array( "OUTERWEAR",$_GET[ "minor_category"])){echo "checked";}?>>
+  <label class="form-check-label" for="inlineCheckbox1">外套</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="minor_category[]" value="SKIRT" <?php if (isset($_GET[ "minor_category"]) && in_array( "SKIRT",$_GET[ "minor_category"])){echo "checked";}?> >
+  <label class="form-check-label" for="inlineCheckbox2">裙裝</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="minor_category[]" value="UNDERWEAR" <?php if (isset($_GET[ "minor_category"]) && in_array( "UNDERWEAR",$_GET[ "minor_category"])){echo "checked";}?> >
+  <label class="form-check-label" for="inlineCheckbox2">內衣</label>
+</div>
+                          </div>
+                          <div class="">
+                            <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="minor_category[]" value="SHIRT" <?php if (isset($_GET[ "minor_category"]) && in_array( "SHIRT",$_GET[ "minor_category"])){echo "checked";}?> >
+  <label class="form-check-label" for="inlineCheckbox1">襯衫</label>
+</div>
+
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="minor_category[]" value="UNDERPANTS" <?php if (isset($_GET[ "minor_category"]) && in_array( "UNDERPANTS",$_GET[ "minor_category"])){echo "checked";}?> >
+  <label class="form-check-label" for="inlineCheckbox2">內褲</label>
+</div>
+                          </div>
+                          <div class="">
+
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="checkbox" name="minor_category[]" value="POLO" <?php if (isset($_GET[ "minor_category"]) && in_array( "POLO",$_GET[ "minor_category"])){echo "checked";}?> >
+<label class="form-check-label" for="inlineCheckbox1">POLO衫</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="checkbox" name="minor_category[]" value="JEANS" <?php if (isset($_GET[ "minor_category"]) && in_array( "JEANS",$_GET[ "minor_category"])){echo "checked";}?> >
+<label class="form-check-label" for="inlineCheckbox2">牛仔褲</label>
+</div>
+
+                          </div>
+
+
                         </div>
+
                         <div id="size" style="margin-top: 20px;">
+                          <div class="">
                             <span>品牌</span>
+                          </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" name="brand[]" value="lativ"  <?php if (isset($_GET[ "brand"]) && in_array( "lativ",$_GET[ "brand"])){echo "checked";}?> >
+                              <label class="form-check-label" for="inlineCheckbox1">Lativ</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" name="brand[]" value="GU" <?php if (isset($_GET[ "brand"]) && in_array( "GU",$_GET[ "brand"])){echo "checked";}?>>
+                              <label class="form-check-label" for="inlineCheckbox2">GU</label>
+                            </div>
+
 
                         </div>
 
