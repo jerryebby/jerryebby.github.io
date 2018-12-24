@@ -16,7 +16,7 @@ if (isset($page)&&isset($data)) {
   <img class="card-img-top" src=<?php echo $data[$page][$k]["photo"]; ?> alt="Card image cap" >
   </a>
             <div class="card-body" style="bottom:0px;">
-                <h5 class="card-title" style="font-size:12px; ">
+                <h5 class="card-title" style="font-size:14px; ">
                     <?php echo $data[$page][$k]["brand"]==NULL? '&nbsp;' :$data[$page][$k]["brand"];?>
                 </h5>
                 <hr style="padding:0;">
@@ -28,7 +28,7 @@ if (isset($page)&&isset($data)) {
   <?php
   if($data[$page][$k]["sale_price"]==-1)
   {?>
-  <span>
+  <span style="font-size:18px;">
   <?php echo '$'.$data[$page][$k]["original_price"]; ?>
   </span>
   <?php

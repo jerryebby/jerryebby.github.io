@@ -219,13 +219,13 @@ include "filter.php";
                             <span>價格區間</span>
                             <div class="row" style="text-align: center;">
                                 <div class="col">
-                                    <input type="text" name="min_price"class="form-control" placeholder="最低" <?php if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<=$_GET["max_price"]))
+                                    <input type="text" name="min_price"class="form-control" placeholder="最低" <?php if(isset($_GET["min_price"])||isset($_GET["max_price"]))
  { echo "value=".$_GET['min_price'];} ?>>
                                 </div>
 
                                 <span>~</span>
                                 <div class="col">
-                                    <input type="text" name="max_price"class="form-control" placeholder="最高" <?php if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<=$_GET["max_price"]))
+                                    <input type="text" name="max_price"class="form-control" placeholder="最高" <?php if(isset($_GET["min_price"])||isset($_GET["max_price"]))
  { echo "value=".$_GET['max_price'];} ?>>
                                 </div>
                             </div>
@@ -340,7 +340,7 @@ include "filter.php";
 
 
                         </div>
-                        <button type="submit"   class="btn" style="float:right; border:1px solid;">確定</button>
+                        <button type="submit"   class="btn" style="float:right; border:1px solid;">Search</button>
                     </form>
                 </div>
 
@@ -381,23 +381,19 @@ include "filter.php";
 
                     <div class="form-group " style="float:right; margin-right:5%;">
                         <select class="form-control" id="test1" name="order" style="width: 150px; margin:0px auto;" form="formsearch" onchange="submitform()" >
-                        <?php if (isset($_GET["order"])&& $_GET["order"]=="ASC")
-                         {?>
-                          <option value="ASC" >價格由低至高</option>
-                          <option value="1">相關度</option>
-                          <option value="DESC" >價格由高至低</option>
-                         <?php  }
-                          else if(isset($_GET["order"])&&$_GET["order"]=="DESC")
-                          {?>
-                            <option value="DESC" >價格由高至低</option>
-                            <option value="ASC" >價格由低至高</option>
-                            <option value="1">相關度</option>
-                          <?php }
-                            else { ?>
-                          <option value="1">相關度</option>
-  <option value="ASC" >價格由低至高</option>
-  <option value="DESC" >價格由高至低</option>
-                        <?php }  ?>
+                          <?php if (isset($_GET["order"])&& $_GET["order"]=="DESC")
+                           {?>
+                             <option value="DESC" >價格由高至低</option>
+                             <option value="ASC" >價格由低至高</option>
+                           <?php  }
+                            else
+                            {?>
+                              <option value="ASC" >價格由低至高</option>
+                              <option value="DESC" >價格由高至低</option>
+
+                            <?php }
+                             ?>
+
 
 
 </select>

@@ -40,7 +40,7 @@
                  }
           }
 
-          if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<=$_GET["max_price"]))
+          if(isset($_GET["min_price"])||isset($_GET["max_price"]))
           {
             $min_price=$_GET["min_price"];
             $max_price=$_GET["max_price"];

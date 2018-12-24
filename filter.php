@@ -69,13 +69,21 @@ if(isset($_GET["minor_category"])&&$_GET["minor_category"]!='')
 
 
 }
-if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<=$_GET["max_price"]))
+if(isset($_GET["min_price"])||isset($_GET["max_price"]))
 {
   $min_price=$_GET["min_price"];
   $max_price=$_GET["max_price"];
   if ($min_price!=''&&$max_price!='') {
     $sql=$sql."and (actual_price BETWEEN '{$min_price}' and '{$max_price}')"." ";
   }
+  else if ($min_price!=''&&$max_price=='') {
+    $sql=$sql."and(actual_price >= '{$min_price}')";
+  }
+  else {
+    $sql=$sql."and(actual_price <= '{$max_price}')";
+
+  }
+
 }
 if (isset($_GET["brand"])) {
   $brand=$_GET["brand"];
