@@ -64,7 +64,7 @@ def getGender(url):
 	elif '/MEN/' in url or '/SPORT_MEN/' in url:
 		return 'MEN'
 	else: 
-		return ''
+		return 'N/A'
 
 """
 上衣 UPPER
@@ -96,10 +96,10 @@ def getCategory(url, product_name):
 			elif '/LONG-Graphic-TEE' in url or '/long-sleeves' in url:
 				return category('UPPER', 'LONG_SLEEVES')
 			elif '/LV-sleeve' in url:
-				return getCategoryByPName(product_name, 'UPPER', '')
+				return getCategoryByPName(product_name, 'UPPER', 'N/A')
 			elif '/POLO' in url:
 				return category('UPPER', 'POLO')
-			else: return getCategoryByPName(product_name, 'UPPER', '')
+			else: return getCategoryByPName(product_name, 'UPPER', 'N/A')
 		# 襯衫
 		elif '/shirts/' in url:
 			return category('UPPER', 'SHIRT')
@@ -120,7 +120,7 @@ def getCategory(url, product_name):
 			elif '/Skirt' in url or '/Dress' in url:
 				return category('BOTTOM', 'SKIRT')
 			else: 
-				return getCategoryByPName(product_name, 'BOTTOM', '')
+				return getCategoryByPName(product_name, 'BOTTOM', 'N/A')
 		# 家居、內著
 		elif '/underwear/' in url:
 			if '/brassiere' in url or '/T-Bra' in url or '/T-Bra' in url or '/inner-wear' in url \
@@ -133,13 +133,13 @@ def getCategory(url, product_name):
 			elif '/socks' in url:
 				return category('OTHER', 'ACCESSORIES')
 			else:
-				return getCategoryByPName(product_name, 'OTHER', '')
+				return getCategoryByPName(product_name, 'OTHER', 'N/A')
 		# 配件
 		elif '/accessories/' in url:
 			return category('OTHER', 'ACCESSORIES')
 		# 無法判斷
 		else:
-			return getCategoryByPName(product_name, 'OTHER', '')
+			return getCategoryByPName(product_name, 'OTHER', 'N/A')
 	# baby
 	elif '/BABY/' in url:
 		# 上身
@@ -148,7 +148,7 @@ def getCategory(url, product_name):
 				return category('UPPER', 'SHORT_SLEEVES')
 			elif '/LONG-Graphic-TEE' in url or '/long-sleeves' in url:
 				return category('UPPER', 'LONG_SLEEVES')
-			else: return getCategoryByPName(product_name, 'UPPER', '')
+			else: return getCategoryByPName(product_name, 'UPPER', 'N/A')
 
 		# 襯衫
 		elif '/shirts/' in url:
@@ -167,20 +167,20 @@ def getCategory(url, product_name):
 			elif '/skirts' in url or '/Dress' in url:
 				return category('BOTTOM', 'SKIRT')
 			else: 
-				return getCategoryByPName(product_name, 'BOTTOM', '')
+				return getCategoryByPName(product_name, 'BOTTOM', 'N/A')
 		# 家居、配件
 		elif '/Home-Set/' in url or '/accessories/' in url:
 			return category('OTHER', 'ACCESSORIES')
 		# 無法判斷
 		else:
-			return getCategoryByPName(product_name, 'OTHER', '')
+			return getCategoryByPName(product_name, 'OTHER', 'N/A')
 
 	# sport
 	elif '/SPORTS/' in url:
 		return category('OTHER', 'SPORTS')
 	# 無法判斷
 	else:
-		return getCategoryByPName(product_name, 'OTHER', '')
+		return getCategoryByPName(product_name, 'OTHER', 'N/A')
 
 
 # 由品名判斷商品種類
@@ -192,10 +192,12 @@ def getCategoryByPName(product_name, p, m):
 		return category('UPPER', 'SHIRT')
 	elif u'裙' in product_name or u'洋裝' in product_name:
 		return category('BOTTOM', 'SKIRT')
-	elif u'短褲' in product_name:
+	elif u'短褲' in product_name or (u'五分' in product_name and u'褲' in product_name):
 		return category('BOTTOM', 'SHORTS')
 	elif u'背心' in product_name or u'短袖' in product_name:
 		return category('UPPER', 'SHORT_SLEEVES')
+	elif u'內褲' in product_name: 
+		return category('OTHER', 'UNDERPANTS')
 	elif u'褲' in product_name: 
 		return category('BOTTOM', 'TROUSERS')
 	else: 

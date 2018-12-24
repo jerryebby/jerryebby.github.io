@@ -45,7 +45,7 @@ def getGender(url):
     elif '/kids/' in url:
         return 'KIDS'
     else:
-        return ''
+        return 'N/A'
 
 """
 上衣 UPPER
@@ -96,7 +96,7 @@ def getCategory(url, product_name):
     elif '/brafeel/' in url or '/underwear/' in url:
         return category('OTHER', 'UNDERWEAR')
     elif '/guwarm/' in url or '/gudry/' in url or '/undershirts/' in url:
-        return getCategoryByPName(product_name, 'UPPER', '')
+        return getCategoryByPName(product_name, 'UPPER', 'N/A')
     elif '/boxers/' in url:
         return category('OTHER', 'UNDERPANTS')
     elif '/roomwear/' in url:
@@ -106,7 +106,7 @@ def getCategory(url, product_name):
     or '/scarf/' in url or '/goods/' in url or '/glasses/' in url:
         return category('OTHER', 'ACCESSORIES')
     else:
-        return getCategoryByPName(product_name, '', '')
+        return getCategoryByPName(product_name, 'N/A', 'N/A')
 
 def getCategoryByPName(product_name, p, m):
     category = namedtuple('category',['primary','minor'])
@@ -116,6 +116,8 @@ def getCategoryByPName(product_name, p, m):
 		return category('BOTTOM', 'SKIRT')
     elif '短褲' in product_name or '1分' in product_name or '3分' in product_name:
 		return category('BOTTOM', 'SHORTS')
+    elif u'內褲' in product_name: 
+		return category('OTHER', 'UNDERPANTS')
     elif '褲' in product_name:
 		return category('BOTTOM', 'TROUSERS')
     elif '襯衫' in product_name:
