@@ -7,7 +7,10 @@ if (isset($page)&&isset($data)) {
     <?php
     for ($j=0; $j < 3; $j++) {
       $k=($i*3)+$j;
-      if ($data[$page][$k]["minor_category"]!=NULL) {?>
+      if (($k<count($data[$page]))) {
+
+        ?>
+
         <div class="card" style="position: relative; ">
             <a href=<?php echo $data[$page][$k]["link"]; ?>>
   <img class="card-img-top" src=<?php echo $data[$page][$k]["photo"]; ?> alt="Card image cap" >
@@ -62,4 +65,7 @@ if (isset($page)&&isset($data)) {
   }
 
 
+}
+else {
+  echo "&nbsp&nbsp&nbsp未搜尋到該商品...";
 }?>
