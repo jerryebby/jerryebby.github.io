@@ -192,7 +192,7 @@ include "filter.php";
                             <div class="row-sm-12">
                                 <div class="col" style="margin-left: 15%;">
                                     <Input Type="text" class="col-sm-9" name="keywords" value="<?php if (isset($_GET['keywords'])){ echo $_GET['keywords'];} ?>" style="display: inline-block; height: 40px; overflow: auto;">
-                                    <Input Type="submit" value=" S " style="overflow: auto; height: 40px; width: 40px;">
+                                    <Input Type="submit" value="🔍" style="overflow: auto; height: 40px; width: 40px;">
                                 </div>
                             </div>
                         </form>
@@ -220,13 +220,13 @@ include "filter.php";
                             <div class="row" style="text-align: center;">
                                 <div class="col">
                                     <input type="text" name="min_price"class="form-control" placeholder="最低" <?php if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<=$_GET["max_price"]))
- { echo "value=".$_GET['min_price'];} ?> >
+ { echo "value=".$_GET['min_price'];} ?>>
                                 </div>
 
                                 <span>~</span>
                                 <div class="col">
-                                    <input type="text" name="max_price"class="form-control" placeholder="最高" <?php if(isset($_GET["max_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<=$_GET["max_price"]))
- { echo "value=".$_GET['max_price'];} ?> >
+                                    <input type="text" name="max_price"class="form-control" placeholder="最高" <?php if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<=$_GET["max_price"]))
+ { echo "value=".$_GET['max_price'];} ?>>
                                 </div>
                             </div>
                         </div>
@@ -251,6 +251,7 @@ include "filter.php";
                               <label class="form-check-label" for="exampleCheck1">小孩</label>
                             </div>
                         </div>
+
                         <div id="size" style="margin-top: 20px;">
                           <div class="">
                             <span>類別</span>

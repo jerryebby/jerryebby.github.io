@@ -192,7 +192,7 @@ function submitform()
                             <div class="row-sm-12">
                                 <div class="col" style="margin-left: 15%;">
                                     <Input Type="text" class="col-sm-9" name="keywords" value="<?php if (isset($_GET['keywords'])){ echo $_GET['keywords'];} ?>" style="display: inline-block; height: 40px; overflow: auto;">
-                                    <Input Type="submit" value=" S " style="overflow: auto; height: 40px; width: 40px;">
+                                    <Input Type="submit" value="🔍" style="overflow: auto; height: 40px; width: 40px;">
                                 </div>
                             </div>
                         </form>
