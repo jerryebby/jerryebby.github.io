@@ -73,7 +73,9 @@ if(isset($_GET["min_price"])&&isset($_GET["max_price"])&&($_GET["min_price"]<=$_
 {
   $min_price=$_GET["min_price"];
   $max_price=$_GET["max_price"];
-  $sql=$sql."and (actual_price BETWEEN '{$min_price}' and '{$max_price}')"." ";
+  if ($min_price!=''&&$max_price!='') {
+    $sql=$sql."and (actual_price BETWEEN '{$min_price}' and '{$max_price}')"." ";
+  }
 }
 if (isset($_GET["brand"])) {
   $brand=$_GET["brand"];
@@ -105,8 +107,6 @@ if (isset($_GET["order"])) {
     $sql=$sql."order by actual_price ".$order;
   }
 }
-
-
     $select = $connect -> prepare($sql);
     $select -> execute();
     $count = $select->rowCount();
