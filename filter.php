@@ -79,7 +79,7 @@ if(isset($_GET["min_price"])||isset($_GET["max_price"]))
   else if ($min_price!=''&&$max_price=='') {
     $sql=$sql."and(actual_price >= '{$min_price}')";
   }
-  else {
+  else if($min_price==''&&$max_price!=''){
     $sql=$sql."and(actual_price <= '{$max_price}')";
 
   }

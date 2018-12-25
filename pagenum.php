@@ -44,7 +44,9 @@
           {
             $min_price=$_GET["min_price"];
             $max_price=$_GET["max_price"];
-            $price="&min_price=".$min_price."&max_price=".$max_price;
+            if ($min_price!=''&&$max_price!='') {
+              $price="&min_price=".$min_price."&max_price=".$max_price;
+            }
           }
           if (isset($_GET["order"])) {
             if ($_GET["order"]!='1') {
