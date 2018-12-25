@@ -392,16 +392,21 @@ function submitform()
                         <form method="post" action="search.php" style="background:#FFD382">
                           <select class="form-control" id="test1" name="order" style="width: 150px; margin:0px auto;" form="formsearch" onchange="submitform()" >
                           <?php if (isset($_GET["order"])&& $_GET["order"]=="DESC")
-                           {?>
+                           { ?>
                              <option value="DESC" >價格由高至低</option>
                              <option value="ASC" >價格由低至高</option>
+                             <option value="1" >無排序</option>
                            <?php  }
-                            else
-                            {?>
+                            else if (isset($_GET["order"])&& $_GET["order"]=="ASC")
+                            { ?>
                               <option value="ASC" >價格由低至高</option>
                               <option value="DESC" >價格由高至低</option>
-
-                            <?php }
+                              <option value="1" >無排序</option>
+                            <?php } else { ?>
+                              <option value="1" >無排序</option>
+                              <option value="ASC" >價格由低至高</option>
+                              <option value="DESC" >價格由高至低</option>
+                                                          <?php }
                              ?>
 
 
