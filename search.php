@@ -163,7 +163,7 @@ include "filter.php";
                                                     <a class="dropdown-item" href="./search.php?minor_category[]=SHORTS&gender[]=KIDS">短褲</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category[]=TROUSERS&gender[]=KIDS">長褲</a>
                                                     <a class="dropdown-item" href="./search.php?minor_category[]=JEANS&gender[]=KIDS">牛仔褲</a>
-                                                    <a class="dropdown-item" href=".7/search.php?minor_category[]=SKIRT&gender[]=KIDS">裙裝</a>
+                                                    <a class="dropdown-item" href="./search.php?minor_category[]=SKIRT&gender[]=KIDS">裙裝</a>
                                                   </br>
                                                 </ul>
                                             </div>
