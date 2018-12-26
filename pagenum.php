@@ -44,11 +44,8 @@
           {
             $min_price=$_GET["min_price"];
             $max_price=$_GET["max_price"];
-            if ($min_price!=''&&$max_price!='') {
-            }
-            else {
-              $price="&min_price=".$min_price."&max_price=".$max_price;
-            }
+            $price="&min_price=".$min_price."&max_price=".$max_price;
+
 
           }
           if (isset($_GET["order"])) {
@@ -59,8 +56,15 @@
 
 
     if ( isset($pages)) {
-      $Next=$page+1;
-      $Previous=$page-1;
+      $Next=1;
+      if ($Next+1>=$pages) {
+        $Next=$pages;
+      }
+      else {
+        $Next=$page+1;
+      }
+        $Previous=$page-1;
+
       ?>
       <li class="page-item">
         <?php
