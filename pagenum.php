@@ -68,7 +68,7 @@
       ?>
       <li class="page-item">
         <?php
-          echo '<a class="page-link" href="?page='.$Previous.$keywords.$minor_category.$gender.$order.$price.$brand.'">'."&laquo;".'</a>';
+          echo '<a class="page-link" href="?page='.$Previous.$keywords.$minor_category.$gender.$order.$price.$brand.'">'."<".'</a>';
          ?>
       </li>
 
@@ -89,7 +89,7 @@
 
   <li class="page-item">
     <?php
-      echo '<a class="page-link" href="?page='.$Next.$keywords.$minor_category.$gender.$order.$price.$brand.'">'."&raquo;".'</a>';
+      echo '<a class="page-link" href="?page='.$Next.$keywords.$minor_category.$gender.$order.$price.$brand.'">'.'>'.'</a>';
      ?>  </li>
   <?php
     }?>
