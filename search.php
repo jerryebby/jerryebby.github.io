@@ -191,8 +191,8 @@ include "filter.php";
                         <form class="form-inline " Action="search.php" Method="get" enctype="text/plain" style="float:right;">
                             <div class="row-sm-12">
                                 <div class="col" style="margin-left: 15%;">
-                                    <Input Type="text" class="col-sm-9" name="keywords" value="<?php if (isset($_GET['keywords'])){ echo $_GET['keywords'];} ?>" style="display: inline-block; height: 40px; overflow: auto;">
-                                    <Input Type="submit" value="🔍" style="overflow: auto; height: 40px; width: 40px;">
+                                    <Input Type="text" class="col-sm-8" name="keywords" value="<?php if (isset($_GET['keywords'])){ echo $_GET['keywords'];} ?>" style="display: inline-block; height: 40px; overflow: auto;">
+                                    <Input Type="submit" value="確定" style="overflow: auto; height: 40px; ">
                                 </div>
                             </div>
                         </form>
@@ -233,23 +233,19 @@ include "filter.php";
 
 
                         <div id="size" style="margin-top: 20px;">
-                          <div class="">
-                            <span>角色</span>
-                          </div>
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="defaultCheck1" name="gender[]" value="MEN" <?php if (isset($_GET[ "gender"]) && in_array( "MEN",$_GET[ "gender"])){echo "checked";}?>>
+                            <label class="form-check-label" for="exampleCheck1">男生</label>
+                        </div>
 
-                            <div class="form-check form-check-inline">
-                              <input type="checkbox" class="form-check-input" id="defaultCheck1" name="gender[]" value="MEN" <?php if (isset($_GET[ "gender"]) && in_array( "MEN",$_GET[ "gender"])){echo "checked";}?>>
-                              <label class="form-check-label" for="exampleCheck1">男生</label>
+                          <div class="form-check ">
+                            <input type="checkbox" class="form-check-input" id="defaultCheck2" name="gender[]" value="WOMEN" <?php if (isset($_GET[ "gender"]) && in_array( "WOMEN",$_GET[ "gender"])){echo "checked";}?>>
+                            <label class="form-check-label" for="exampleCheck1">女生</label>
                           </div>
-
-                            <div class="form-check form-check-inline">
-                              <input type="checkbox" class="form-check-input" id="defaultCheck2" name="gender[]" value="WOMEN" <?php if (isset($_GET[ "gender"]) && in_array( "WOMEN",$_GET[ "gender"])){echo "checked";}?>>
-                              <label class="form-check-label" for="exampleCheck1">女生</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                              <input type="checkbox" class="form-check-input" id="defaultCheck3" name="gender[]" value="KIDS" <?php if (isset($_GET[ "gender"]) && in_array( "KIDS",$_GET[ "gender"])){echo "checked";}?>>
-                              <label class="form-check-label" for="exampleCheck1">小孩</label>
-                            </div>
+                          <div class="form-check ">
+                            <input type="checkbox" class="form-check-input" id="defaultCheck3" name="gender[]" value="KIDS" <?php if (isset($_GET[ "gender"]) && in_array( "KIDS",$_GET[ "gender"])){echo "checked";}?>>
+                            <label class="form-check-label" for="exampleCheck1">小孩</label>
+                          </div>
                         </div>
 
                         <div id="size" style="margin-top: 20px;">
@@ -340,7 +336,7 @@ include "filter.php";
 
 
                         </div>
-                        <button type="submit"   class="btn" style="float:right; border:1px solid;">Search</button>
+                        <button type="submit"   class="btn" style="float:right; border:1px solid;">確定</button>
                     </form>
                 </div>
 
